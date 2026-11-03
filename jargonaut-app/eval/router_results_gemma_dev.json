@@ -1,0 +1,30 @@
+{
+  "router": "gemma",
+  "split": "dev",
+  "clarify_at": 0.25,
+  "n": 110,
+  "accuracy": 0.982,
+  "in_scope": {
+    "n": 80,
+    "correct": 0.975,
+    "wrong_topic": 0.013,
+    "said_out_of_scope": 0.013,
+    "clarify": 0.0
+  },
+  "out_of_scope": {
+    "n": 30,
+    "rejected": 1.0,
+    "near_miss_rejected": 1.0,
+    "unrelated_rejected": 1.0
+  },
+  "by_method": {
+    "gemma": {
+      "n": 79,
+      "correct": 0.987
+    },
+    "out_of_scope": {
+      "n": 31,
+      "correct": 0.968
+    }
+  }
+}

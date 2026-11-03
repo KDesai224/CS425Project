@@ -1,0 +1,25 @@
+services:
+  deberta:
+    build: .
+    image: deberta-extractor:latest
+    working_dir: /workspace
+    # This folder holds the notebook, data/ (the unzipped training data), runs/
+    # (trained models and predictions) and .cache/ (downloaded Hugging Face models).
+    volumes:
+      - .:/workspace
+      # The shared data: Data Prep.zip and BM25/bm25_top10_*.jsonl.gz
+      - ${EVIDENCE:-../../EvidenceExtraction}:/evidence:ro
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-}
+      - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+    ports:
+      # Jupyter, reachable from this machine only. 8889 so it can run next to gemma-eval.
+      - "127.0.0.1:8889:8888"
+    shm_size: "8gb"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

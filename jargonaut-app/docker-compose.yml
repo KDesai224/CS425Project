@@ -1,0 +1,38 @@
+services:
+  jargonaut-app:
+    build: .
+    image: jargonaut-app:latest
+    working_dir: /workspace
+    volumes:
+      # This folder: the code, eval/ (question set, calibration, results)
+      - .:/workspace
+      # The trained DeBERTa run: final/ and threshold.json
+      - ${DEBERTA_RUN_DIR:-../deberta-docker/runs/deberta-v3-large-squad2_all0_syn0_neg3}:/models/deberta:ro
+      # The Gemma adapter (Run 6, selected checkpoint)
+      - ${ADAPTER:-../outputs/e4b-r16-lr0.0002-e2-s42-syn/best}:/models/adapter:ro
+      # Gemma 4 E4B and the NLI model are already downloaded here, so nothing is fetched again
+      - ${GRPPROJ:-../../Grpproj}/.cache/huggingface:/hf-cache
+      # Only for scripts/ (parity checks, calibration, evaluation); the app does not read them
+      - ${DATA_PREP:-../deberta-docker/data/data_prep_extracted/data_prep}:/data/prep:ro
+      - ${EVIDENCE:-../../EvidenceExtraction}:/data/evidence:ro
+      - ${GRPPROJ:-../../Grpproj}:/grpproj:ro
+      - ${CUAD_PDF:-../../CUAD_v1}:/data/cuad_v1:ro
+    environment:
+      - HF_HOME=/hf-cache
+      - HF_HUB_OFFLINE=1
+      - HF_TOKEN=${HF_TOKEN:-}
+      - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+      # Set to 0 to start without Gemma (answers then show the original clause only)
+      - LOAD_GEMMA=${LOAD_GEMMA:-1}
+    ports:
+      # The web app at http://localhost:8765, reachable from this machine only.
+      # (8765 because another local web server already holds 8000; set APP_PORT to change it.)
+      - "127.0.0.1:${APP_PORT:-8765}:8000"
+    shm_size: "8gb"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

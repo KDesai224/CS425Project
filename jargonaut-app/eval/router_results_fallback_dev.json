@@ -1,0 +1,43 @@
+{
+  "router": "fallback",
+  "split": "dev",
+  "threshold": 0.5,
+  "margin": 0.05,
+  "n": 110,
+  "accuracy": 0.836,
+  "in_scope": {
+    "n": 80,
+    "correct": 0.775,
+    "wrong_topic": 0.025,
+    "said_out_of_scope": 0.2,
+    "clarify": 0.025
+  },
+  "out_of_scope": {
+    "n": 30,
+    "rejected": 1.0,
+    "near_miss_rejected": 1.0,
+    "unrelated_rejected": 1.0
+  },
+  "by_method": {
+    "rule": {
+      "n": 43,
+      "correct": 1.0
+    },
+    "out_of_scope": {
+      "n": 46,
+      "correct": 0.652
+    },
+    "nli": {
+      "n": 18,
+      "correct": 0.889
+    },
+    "clarify": {
+      "n": 2,
+      "correct": 1.0
+    },
+    "rule+nli": {
+      "n": 1,
+      "correct": 1.0
+    }
+  }
+}

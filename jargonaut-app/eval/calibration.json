@@ -1,0 +1,100 @@
+{
+  "a": 0.3258264042788913,
+  "b": -1.0117632116833235,
+  "fitted_on": "val",
+  "n_val": 610,
+  "label": "the best span overlaps a gold evidence span (unanswerable questions count as misses)",
+  "p_at_threshold": 0.736,
+  "val": {
+    "n": 610,
+    "brier": 0.0468,
+    "ece": 0.0271,
+    "accepted": 240,
+    "hit_rate_when_accepted": 0.946,
+    "mean_p_when_accepted": 0.931,
+    "reliability": [
+      {
+        "bin": "0.0-0.2",
+        "n": 324,
+        "predicted": 0.01,
+        "observed": 0.019
+      },
+      {
+        "bin": "0.2-0.4",
+        "n": 16,
+        "predicted": 0.289,
+        "observed": 0.375
+      },
+      {
+        "bin": "0.4-0.6",
+        "n": 20,
+        "predicted": 0.51,
+        "observed": 0.25
+      },
+      {
+        "bin": "0.6-0.8",
+        "n": 17,
+        "predicted": 0.706,
+        "observed": 0.529
+      },
+      {
+        "bin": "0.8-0.9",
+        "n": 34,
+        "predicted": 0.876,
+        "observed": 0.941
+      },
+      {
+        "bin": "0.9-1.0",
+        "n": 199,
+        "predicted": 0.946,
+        "observed": 0.955
+      }
+    ]
+  },
+  "test": {
+    "n": 1020,
+    "brier": 0.0446,
+    "ece": 0.0392,
+    "accepted": 382,
+    "hit_rate_when_accepted": 0.953,
+    "mean_p_when_accepted": 0.928,
+    "reliability": [
+      {
+        "bin": "0.0-0.2",
+        "n": 579,
+        "predicted": 0.013,
+        "observed": 0.028
+      },
+      {
+        "bin": "0.2-0.4",
+        "n": 20,
+        "predicted": 0.289,
+        "observed": 0.35
+      },
+      {
+        "bin": "0.4-0.6",
+        "n": 21,
+        "predicted": 0.515,
+        "observed": 0.286
+      },
+      {
+        "bin": "0.6-0.8",
+        "n": 32,
+        "predicted": 0.712,
+        "observed": 0.469
+      },
+      {
+        "bin": "0.8-0.9",
+        "n": 56,
+        "predicted": 0.866,
+        "observed": 0.821
+      },
+      {
+        "bin": "0.9-1.0",
+        "n": 312,
+        "predicted": 0.946,
+        "observed": 0.994
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "contracts": 102,
+  "ingestion": {
+    "pages_mean": 16.892,
+    "words_ratio_to_cuad": 0.989,
+    "headings_mean": 68.49,
+    "contracts_without_headings": 0,
+    "gold_located": 0.998,
+    "seconds_mean": 0.058
+  },
+  "retrieval_gold_in_top10": 0.901,
+  "extraction_from_pdf": {
+    "questions": 1020,
+    "answerable": 443,
+    "accepted": 380,
+    "precision": 0.974,
+    "recall": 0.835,
+    "span_hit": 0.819
+  },
+  "extraction_from_cuad_text": {
+    "questions": 1020,
+    "answerable": 443,
+    "accepted": 382,
+    "precision": 0.974,
+    "recall": 0.84,
+    "span_hit": 0.822
+  },
+  "extraction_seconds_mean": 0.184,
+  "accepted_with_section": 1.0,
+  "accepted_with_pages": 1.0,
+  "rewrites": {
+    "n": 380,
+    "all_checks_passed": 0.537,
+    "numbers_passed": 0.937,
+    "negation_passed": 0.958,
+    "negation_passed_when_negated": 0.942,
+    "nli_passed": 0.584,
+    "nli_coverage_mean": 0.741,
+    "fkgl_clause_mean": 18.915,
+    "fkgl_rewrite_mean": 8.316,
+    "length_ratio_mean": 0.832,
+    "seconds_gemma_mean": 12.083,
+    "seconds_checks_mean": 0.105,
+    "on_correct_spans": {
+      "n": 363,
+      "all_checks_passed": 0.526
+    }
+  }
+}

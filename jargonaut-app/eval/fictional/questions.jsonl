@@ -1,0 +1,60 @@
+{"doc": "doc_a", "question": "can I cancel this whenever I want even if they haven't done anything wrong?", "expected": "Termination For Convenience", "note": ""}
+{"doc": "doc_a", "question": "if I bail out early do I have to pay some kind of penalty?", "expected": "Termination For Convenience", "note": "early exit fee is part of the convenience-termination clause"}
+{"doc": "doc_a", "question": "what's the end date on this contract?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_a", "question": "which state's law applies here?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_a", "question": "how much am I paying them every month?", "expected": "none", "note": "fees"}
+{"doc": "doc_a", "question": "what's the difference between an LLC and a corporation?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_b", "question": "can we hand this license over to another company without asking them first?", "expected": "Anti-Assignment", "note": ""}
+{"doc": "doc_b", "question": "if we get bought out, does the deal carry over to the new owner?", "expected": "Anti-Assignment", "note": ""}
+{"doc": "doc_b", "question": "when does our license run out?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_b", "question": "what state's laws cover this agreement?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_b", "question": "do they have to help us when the software breaks?", "expected": "none", "note": "support and maintenance"}
+{"doc": "doc_b", "question": "how do I write an email asking for a discount?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_c", "question": "what insurance does the warehouse company need to carry?", "expected": "Insurance", "note": ""}
+{"doc": "doc_c", "question": "do I have to get my own policy for the stuff I'm keeping there?", "expected": "Insurance", "note": ""}
+{"doc": "doc_c", "question": "when does this storage deal wrap up?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_c", "question": "if we end up in a fight, whose law decides it?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_c", "question": "how much do I pay to keep each pallet there?", "expected": "none", "note": "storage fees"}
+{"doc": "doc_c", "question": "what's the difference between a pallet and a skid?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_d", "question": "once I pay, do I actually own the artwork?", "expected": "Ip Ownership Assignment", "note": ""}
+{"doc": "doc_d", "question": "who ends up with the copyright for these designs?", "expected": "Ip Ownership Assignment", "note": ""}
+{"doc": "doc_d", "question": "are the designs mine before the money goes through?", "expected": "Ip Ownership Assignment", "note": ""}
+{"doc": "doc_d", "question": "which state's law is this under?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_d", "question": "can the designer show our stuff on their website?", "expected": "none", "note": "portfolio/publicity"}
+{"doc": "doc_d", "question": "can you recommend a good accountant?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_e", "question": "is there a max on what they'd have to pay us if they screw up?", "expected": "Cap On Liability", "note": ""}
+{"doc": "doc_e", "question": "how much could I get back if their system messes up our accounts?", "expected": "Cap On Liability", "note": ""}
+{"doc": "doc_e", "question": "when does the first term finish?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_e", "question": "what's the governing law?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_e", "question": "will they keep our financial info private?", "expected": "none", "note": "confidentiality"}
+{"doc": "doc_e", "question": "how do I turn on two-factor login for my team?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_f", "question": "is it new york or delaware law that applies?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_f", "question": "if we disagree about something, which state's rules count?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_f", "question": "can I get out of this early just by telling them?", "expected": "Termination For Convenience", "note": ""}
+{"doc": "doc_f", "question": "when does the custody agreement expire?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_f", "question": "how fast do they have to send me my statements?", "expected": "none", "note": "account statements"}
+{"doc": "doc_f", "question": "what's the difference between a stock and a bond?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_g", "question": "am I the only one allowed to sell their stuff around here?", "expected": "Exclusivity", "note": ""}
+{"doc": "doc_g", "question": "is the supplier allowed to go around me and sell straight to customers in my area?", "expected": "Exclusivity", "note": ""}
+{"doc": "doc_g", "question": "what date does this deal end?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_g", "question": "which state's law controls this one?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_g", "question": "can they raise prices on me?", "expected": "none", "note": "pricing"}
+{"doc": "doc_g", "question": "how do I ship chemicals across state lines?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_h", "question": "does this renew automatically?", "expected": "Renewal Term", "note": ""}
+{"doc": "doc_h", "question": "how do I make sure it doesn't just roll over for another year?", "expected": "Renewal Term", "note": ""}
+{"doc": "doc_h", "question": "when does the first year of this end?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_h", "question": "what state law applies?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_h", "question": "what can we do if the custodian doesn't hold up their end?", "expected": "none", "note": "termination for breach"}
+{"doc": "doc_h", "question": "how do I pick a good index fund?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_i", "question": "when does this agreement actually end?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_i", "question": "until what date is this deal good for?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_i", "question": "does the contract stop at the end of 2028?", "expected": "Expiration Date", "note": ""}
+{"doc": "doc_i", "question": "which state's laws apply to us here?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_i", "question": "how long are the trays guaranteed for?", "expected": "none", "note": "warranty"}
+{"doc": "doc_i", "question": "what's a purchase order number?", "expected": "none", "note": "unrelated"}
+{"doc": "doc_j", "question": "can I start a similar business after selling mine?", "expected": "Non-Compete", "note": ""}
+{"doc": "doc_j", "question": "am I allowed to go work for a competitor in maryland?", "expected": "Non-Compete", "note": ""}
+{"doc": "doc_j", "question": "is there a non-compete in here?", "expected": "Non-Compete", "note": ""}
+{"doc": "doc_j", "question": "which state's law governs this?", "expected": "Governing Law", "note": ""}
+{"doc": "doc_j", "question": "can I tell people what I used to charge?", "expected": "none", "note": "confidentiality of pricing"}
+{"doc": "doc_j", "question": "do I owe taxes on the money from selling my business?", "expected": "none", "note": "unrelated"}

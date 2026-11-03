@@ -1,0 +1,190 @@
+ Container jargonaut-app-jargonaut-app-run-73324dc2956b Creating 
+ Container jargonaut-app-jargonaut-app-run-73324dc2956b Created 
+Loading the NLI model (checks) ...
+/usr/local/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/394 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 105/394 [00:00<00:00, 1048.46it/s]Loading weights:  61%|██████    | 239/394 [00:00<00:00, 1215.22it/s]Loading weights: 100%|██████████| 394/394 [00:00<00:00, 1767.78it/s]
+Loading DeBERTa ...
+Loading weights:   0%|          | 0/392 [00:00<?, ?it/s]Loading weights:  26%|██▌       | 100/392 [00:00<00:00, 987.20it/s]Loading weights:  51%|█████     | 199/392 [00:00<00:00, 972.88it/s]Loading weights: 100%|██████████| 392/392 [00:00<00:00, 1764.60it/s]
+Loading Gemma 4 E4B + adapter ...
+Loading weights:   0%|          | 0/2076 [00:00<?, ?it/s]Loading weights:   0%|          | 3/2076 [00:00<06:54,  5.00it/s]Loading weights:   1%|          | 15/2076 [00:00<01:21, 25.31it/s]Loading weights:   2%|▏         | 43/2076 [00:00<00:26, 76.34it/s]Loading weights:   3%|▎         | 70/2076 [00:00<00:18, 111.02it/s]Loading weights:   4%|▍         | 91/2076 [00:01<00:15, 131.76it/s]Loading weights:   6%|▌         | 127/2076 [00:01<00:11, 170.28it/s]Loading weights:   7%|▋         | 148/2076 [00:01<00:12, 159.19it/s]Loading weights:   9%|▉         | 189/2076 [00:01<00:08, 214.66it/s]Loading weights:  10%|█         | 214/2076 [00:01<00:08, 221.89it/s]Loading weights:  12%|█▏        | 251/2076 [00:01<00:07, 251.84it/s]Loading weights:  13%|█▎        | 279/2076 [00:01<00:07, 251.01it/s]Loading weights:  15%|█▌        | 313/2076 [00:01<00:06, 268.65it/s]Loading weights:  16%|█▋        | 341/2076 [00:02<00:06, 261.22it/s]Loading weights:  18%|█▊        | 375/2076 [00:02<00:06, 280.02it/s]Loading weights:  19%|█▉        | 404/2076 [00:02<00:06, 272.63it/s]Loading weights:  21%|██        | 437/2076 [00:02<00:05, 277.38it/s]Loading weights:  22%|██▏       | 466/2076 [00:02<00:05, 269.59it/s]Loading weights:  24%|██▍       | 504/2076 [00:02<00:05, 275.00it/s]Loading weights:  26%|██▌       | 539/2076 [00:02<00:05, 288.99it/s]Loading weights:  27%|██▋       | 569/2076 [00:02<00:05, 285.40it/s]Loading weights:  29%|██▉       | 601/2076 [00:02<00:05, 288.80it/s]Loading weights:  30%|███       | 630/2076 [00:03<00:05, 282.80it/s]Loading weights:  32%|███▏      | 663/2076 [00:03<00:04, 291.33it/s]Loading weights:  33%|███▎      | 693/2076 [00:03<00:04, 284.57it/s]Loading weights:  35%|███▍      | 722/2076 [00:03<00:04, 284.69it/s]Loading weights:  36%|███▌      | 752/2076 [00:03<00:04, 287.23it/s]Loading weights:  36%|███▌      | 752/2076 [00:22<00:04, 287.23it/s]Loading weights:  36%|███▋      | 755/2076 [00:32<08:41,  2.53it/s] Loading weights:  37%|███▋      | 758/2076 [00:32<08:17,  2.65it/s]Loading weights:  38%|███▊      | 779/2076 [00:33<05:43,  3.77it/s]Loading weights:  38%|███▊      | 794/2076 [00:34<04:27,  4.79it/s]Loading weights:  39%|███▉      | 805/2076 [00:34<03:30,  6.03it/s]Loading weights:  39%|███▉      | 816/2076 [00:35<02:59,  7.04it/s]Loading weights:  40%|███▉      | 824/2076 [00:35<02:26,  8.56it/s]Loading weights:  40%|████      | 832/2076 [00:36<02:18,  8.95it/s]Loading weights:  40%|████      | 839/2076 [00:36<01:53, 10.91it/s]Loading weights:  41%|████      | 845/2076 [00:37<02:02, 10.07it/s]Loading weights:  41%|████      | 854/2076 [00:37<01:29, 13.63it/s]Loading weights:  41%|████▏     | 859/2076 [00:37<01:17, 15.72it/s]Loading weights:  42%|████▏     | 864/2076 [00:38<01:36, 12.62it/s]Loading weights:  42%|████▏     | 873/2076 [00:38<01:05, 18.23it/s]Loading weights:  42%|████▏     | 878/2076 [00:38<01:15, 15.94it/s]Loading weights:  42%|████▏     | 882/2076 [00:39<01:13, 16.19it/s]Loading weights:  43%|████▎     | 890/2076 [00:39<00:51, 22.82it/s]Loading weights:  43%|████▎     | 895/2076 [00:39<01:05, 18.03it/s]Loading weights:  43%|████▎     | 899/2076 [00:39<01:06, 17.81it/s]Loading weights:  44%|████▎     | 907/2076 [00:39<00:46, 25.30it/s]Loading weights:  44%|████▍     | 912/2076 [00:40<01:06, 17.62it/s]Loading weights:  44%|████▍     | 916/2076 [00:40<01:08, 16.85it/s]Loading weights:  45%|████▍     | 924/2076 [00:40<00:48, 23.91it/s]Loading weights:  45%|████▍     | 928/2076 [00:41<00:54, 21.13it/s]Loading weights:  45%|████▍     | 932/2076 [00:41<01:18, 14.61it/s]Loading weights:  45%|████▌     | 941/2076 [00:41<00:50, 22.41it/s]Loading weights:  46%|████▌     | 945/2076 [00:42<00:56, 20.06it/s]Loading weights:  46%|████▌     | 949/2076 [00:42<01:17, 14.57it/s]Loading weights:  46%|████▌     | 956/2076 [00:42<00:54, 20.56it/s]Loading weights:  46%|████▌     | 960/2076 [00:42<00:48, 23.00it/s]Loading weights:  46%|████▋     | 964/2076 [00:43<01:18, 14.16it/s]Loading weights:  47%|████▋     | 975/2076 [00:43<00:44, 24.58it/s]Loading weights:  47%|████▋     | 980/2076 [00:43<00:55, 19.63it/s]Loading weights:  47%|████▋     | 984/2076 [00:44<00:56, 19.37it/s]Loading weights:  48%|████▊     | 993/2076 [00:44<00:38, 28.23it/s]Loading weights:  48%|████▊     | 998/2076 [00:44<01:01, 17.40it/s]Loading weights:  49%|████▊     | 1009/2076 [00:44<00:39, 27.26it/s]Loading weights:  49%|████▉     | 1015/2076 [00:45<00:58, 18.11it/s]Loading weights:  49%|████▉     | 1026/2076 [00:45<00:39, 26.58it/s]Loading weights:  50%|████▉     | 1032/2076 [00:46<00:56, 18.38it/s]Loading weights:  50%|█████     | 1043/2076 [00:46<00:38, 26.67it/s]Loading weights:  51%|█████     | 1049/2076 [00:47<00:54, 18.84it/s]Loading weights:  51%|█████     | 1058/2076 [00:47<00:40, 25.05it/s]Loading weights:  51%|█████▏    | 1064/2076 [00:47<00:43, 23.35it/s]Loading weights:  51%|█████▏    | 1069/2076 [00:48<00:52, 19.24it/s]Loading weights:  52%|█████▏    | 1078/2076 [00:48<00:37, 26.66it/s]Loading weights:  52%|█████▏    | 1083/2076 [00:48<00:56, 17.60it/s]Loading weights:  53%|█████▎    | 1094/2076 [00:48<00:36, 26.70it/s]Loading weights:  53%|█████▎    | 1100/2076 [00:49<00:52, 18.62it/s]Loading weights:  54%|█████▎    | 1111/2076 [00:49<00:35, 27.32it/s]Loading weights:  54%|█████▍    | 1118/2076 [00:50<00:50, 19.09it/s]Loading weights:  54%|█████▍    | 1126/2076 [00:50<00:38, 24.63it/s]Loading weights:  55%|█████▍    | 1132/2076 [00:50<00:39, 24.13it/s]Loading weights:  55%|█████▍    | 1137/2076 [00:51<00:48, 19.38it/s]Loading weights:  55%|█████▌    | 1145/2076 [00:51<00:35, 25.94it/s]Loading weights:  55%|█████▌    | 1150/2076 [00:51<00:47, 19.40it/s]Loading weights:  56%|█████▌    | 1154/2076 [00:51<00:48, 18.97it/s]Loading weights:  56%|█████▌    | 1160/2076 [00:51<00:38, 23.90it/s]Loading weights:  56%|█████▌    | 1164/2076 [00:52<00:35, 25.92it/s]Loading weights:  56%|█████▋    | 1168/2076 [00:52<01:02, 14.60it/s]Loading weights:  57%|█████▋    | 1177/2076 [00:52<00:38, 23.08it/s]Loading weights:  57%|█████▋    | 1182/2076 [00:53<00:58, 15.39it/s]Loading weights:  57%|█████▋    | 1191/2076 [00:53<00:38, 22.80it/s]Loading weights:  58%|█████▊    | 1196/2076 [00:54<00:55, 15.87it/s]Loading weights:  58%|█████▊    | 1205/2076 [00:54<00:37, 23.15it/s]Loading weights:  58%|█████▊    | 1211/2076 [00:54<00:51, 16.72it/s]Loading weights:  59%|█████▉    | 1222/2076 [00:55<00:40, 21.14it/s]Loading weights:  59%|█████▉    | 1226/2076 [00:55<00:49, 17.06it/s]Loading weights:  60%|█████▉    | 1236/2076 [00:56<00:40, 20.88it/s]Loading weights:  60%|█████▉    | 1240/2076 [00:56<00:48, 17.15it/s]Loading weights:  60%|██████    | 1247/2076 [00:56<00:39, 20.90it/s]Loading weights:  60%|██████    | 1250/2076 [00:56<00:42, 19.48it/s]Loading weights:  60%|██████    | 1253/2076 [00:57<01:00, 13.55it/s]Loading weights:  61%|██████    | 1264/2076 [00:57<00:41, 19.64it/s]Loading weights:  61%|██████    | 1267/2076 [00:58<00:52, 15.28it/s]Loading weights:  62%|██████▏   | 1278/2076 [00:58<00:38, 20.68it/s]Loading weights:  62%|██████▏   | 1281/2076 [00:58<00:49, 16.08it/s]Loading weights:  62%|██████▏   | 1292/2076 [00:59<00:36, 21.39it/s]Loading weights:  62%|██████▏   | 1295/2076 [00:59<00:47, 16.33it/s]Loading weights:  63%|██████▎   | 1306/2076 [00:59<00:35, 21.45it/s]Loading weights:  63%|██████▎   | 1309/2076 [01:00<00:51, 14.95it/s]Loading weights:  63%|██████▎   | 1317/2076 [01:00<00:36, 20.84it/s]Loading weights:  64%|██████▎   | 1321/2076 [01:01<00:49, 15.13it/s]Loading weights:  64%|██████▍   | 1324/2076 [01:01<00:52, 14.33it/s]Loading weights:  64%|██████▍   | 1331/2076 [01:01<00:39, 18.69it/s]Loading weights:  64%|██████▍   | 1334/2076 [01:01<00:41, 17.74it/s]Loading weights:  64%|██████▍   | 1337/2076 [01:02<00:54, 13.49it/s]Loading weights:  65%|██████▍   | 1348/2076 [01:02<00:37, 19.58it/s]Loading weights:  65%|██████▌   | 1351/2076 [01:02<00:47, 15.15it/s]Loading weights:  66%|██████▌   | 1362/2076 [01:03<00:35, 20.36it/s]Loading weights:  66%|██████▌   | 1365/2076 [01:03<00:45, 15.66it/s]Loading weights:  66%|██████▋   | 1376/2076 [01:03<00:33, 20.99it/s]Loading weights:  66%|██████▋   | 1379/2076 [01:04<00:43, 15.89it/s]Loading weights:  67%|██████▋   | 1387/2076 [01:04<00:31, 22.20it/s]Loading weights:  67%|██████▋   | 1391/2076 [01:04<00:39, 17.32it/s]Loading weights:  67%|██████▋   | 1394/2076 [01:05<00:41, 16.44it/s]Loading weights:  68%|██████▊   | 1404/2076 [01:05<00:31, 21.32it/s]Loading weights:  68%|██████▊   | 1407/2076 [01:05<00:41, 16.22it/s]Loading weights:  68%|██████▊   | 1415/2076 [01:06<00:30, 21.68it/s]Loading weights:  68%|██████▊   | 1418/2076 [01:06<00:33, 19.76it/s]Loading weights:  70%|██████▉   | 1452/2076 [01:06<00:09, 64.19it/s]Loading weights:  72%|███████▏  | 1487/2076 [01:06<00:05, 111.47it/s]Loading weights:  74%|███████▍  | 1539/2076 [01:06<00:02, 187.61it/s]Loading weights:  76%|███████▋  | 1586/2076 [01:06<00:02, 244.55it/s]Loading weights:  79%|███████▊  | 1632/2076 [01:06<00:01, 290.74it/s]Loading weights:  81%|████████  | 1678/2076 [01:06<00:01, 328.85it/s]Loading weights:  84%|████████▎ | 1734/2076 [01:06<00:00, 388.21it/s]Loading weights:  86%|████████▋ | 1791/2076 [01:07<00:00, 418.90it/s]Loading weights:  88%|████████▊ | 1837/2076 [01:07<00:00, 427.59it/s]Loading weights:  91%|█████████ | 1883/2076 [01:07<00:00, 432.60it/s]Loading weights:  93%|█████████▎| 1938/2076 [01:07<00:00, 464.52it/s]Loading weights:  96%|█████████▌| 1990/2076 [01:07<00:00, 478.72it/s]Loading weights:  98%|█████████▊| 2039/2076 [01:07<00:00, 469.03it/s]Loading weights: 100%|██████████| 2076/2076 [01:07<00:00, 30.63it/s] 
+Models ready in 130 s.
+doc_a (04_termination_for_convenience.pdf): 1p 399w 2 chunks, 9 headings, gold not found 0
+doc_b (06_anti-assignment.pdf): 1p 418w 2 chunks, 9 headings, gold not found 0
+doc_c (10_insurance.pdf): 1p 423w 2 chunks, 9 headings, gold not found 0
+doc_d (09_ip_ownership_assignment.pdf): 1p 406w 2 chunks, 9 headings, gold not found 0
+doc_e (05_cap_on_liability.pdf): 1p 412w 2 chunks, 9 headings, gold not found 0
+doc_f (01_governing_law.pdf): 1p 385w 2 chunks, 9 headings, gold not found 0
+doc_g (08_exclusivity.pdf): 1p 384w 2 chunks, 9 headings, gold not found 0
+doc_h (03_renewal_term.pdf): 1p 403w 2 chunks, 9 headings, gold not found 0
+doc_i (02_expiration_date.pdf): 1p 386w 2 chunks, 9 headings, gold not found 0
+doc_j (07_non-compete.pdf): 1p 414w 2 chunks, 9 headings, gold not found 0
+[doc_a] Termination For Convenience  ok  answer       can I cancel this whenever I want even if they haven't done anything wrong?
+[doc_a] Termination For Convenience  ok  answer       if I bail out early do I have to pay some kind of penalty?
+[doc_a] Expiration Date              ok  answer       what's the end date on this contract?
+[doc_a] Governing Law                ok  no_evidence  which state's law applies here?
+[doc_a] out_of_scope                 ok  out_of_scope how much am I paying them every month?
+[doc_a] out_of_scope                 ok  out_of_scope what's the difference between an LLC and a corporation?
+[doc_b] Anti-Assignment              ok  answer       can we hand this license over to another company without asking them first?
+[doc_b] Anti-Assignment              ok  answer       if we get bought out, does the deal carry over to the new owner?
+[doc_b] Expiration Date              ok  answer       when does our license run out?
+[doc_b] Governing Law                ok  no_evidence  what state's laws cover this agreement?
+[doc_b] out_of_scope                 ok  out_of_scope do they have to help us when the software breaks?
+[doc_b] out_of_scope                 ok  out_of_scope how do I write an email asking for a discount?
+[doc_c] Insurance                    ok  unchecked    what insurance does the warehouse company need to carry?
+[doc_c] Insurance                    ok  unchecked    do I have to get my own policy for the stuff I'm keeping there?
+[doc_c] Expiration Date              ok  answer       when does this storage deal wrap up?
+[doc_c] Governing Law                ok  no_evidence  if we end up in a fight, whose law decides it?
+[doc_c] out_of_scope                 ok  out_of_scope how much do I pay to keep each pallet there?
+[doc_c] out_of_scope                 ok  out_of_scope what's the difference between a pallet and a skid?
+[doc_d] out_of_scope                 BAD out_of_scope once I pay, do I actually own the artwork?
+[doc_d] Ip Ownership Assignment      ok  answer       who ends up with the copyright for these designs?
+[doc_d] Ip Ownership Assignment      ok  answer       are the designs mine before the money goes through?
+[doc_d] Governing Law                ok  no_evidence  which state's law is this under?
+[doc_d] out_of_scope                 ok  out_of_scope can the designer show our stuff on their website?
+[doc_d] out_of_scope                 ok  out_of_scope can you recommend a good accountant?
+[doc_e] Cap On Liability             ok  unchecked    is there a max on what they'd have to pay us if they screw up?
+[doc_e] Cap On Liability             ok  unchecked    how much could I get back if their system messes up our accounts?
+[doc_e] Expiration Date              ok  answer       when does the first term finish?
+[doc_e] Governing Law                ok  no_evidence  what's the governing law?
+[doc_e] out_of_scope                 ok  out_of_scope will they keep our financial info private?
+[doc_e] out_of_scope                 ok  out_of_scope how do I turn on two-factor login for my team?
+[doc_f] Governing Law                ok  answer       is it new york or delaware law that applies?
+[doc_f] Governing Law                ok  answer       if we disagree about something, which state's rules count?
+[doc_f] Termination For Convenience  ok  answer       can I get out of this early just by telling them?
+[doc_f] Expiration Date              ok  answer       when does the custody agreement expire?
+[doc_f] out_of_scope                 ok  out_of_scope how fast do they have to send me my statements?
+[doc_f] out_of_scope                 ok  out_of_scope what's the difference between a stock and a bond?
+[doc_g] Exclusivity                  ok  answer       am I the only one allowed to sell their stuff around here?
+[doc_g] clarify                      ok  answer       is the supplier allowed to go around me and sell straight to customers in my area?
+[doc_g] Expiration Date              ok  answer       what date does this deal end?
+[doc_g] Governing Law                ok  no_evidence  which state's law controls this one?
+[doc_g] out_of_scope                 ok  out_of_scope can they raise prices on me?
+[doc_g] out_of_scope                 ok  out_of_scope how do I ship chemicals across state lines?
+[doc_h] Renewal Term                 ok  answer       does this renew automatically?
+[doc_h] Renewal Term                 ok  answer       how do I make sure it doesn't just roll over for another year?
+[doc_h] Expiration Date              ok  answer       when does the first year of this end?
+[doc_h] Governing Law                ok  no_evidence  what state law applies?
+[doc_h] out_of_scope                 ok  out_of_scope what can we do if the custodian doesn't hold up their end?
+[doc_h] out_of_scope                 ok  out_of_scope how do I pick a good index fund?
+[doc_i] Expiration Date              ok  answer       when does this agreement actually end?
+[doc_i] Expiration Date              ok  answer       until what date is this deal good for?
+[doc_i] Expiration Date              ok  answer       does the contract stop at the end of 2028?
+[doc_i] Governing Law                ok  no_evidence  which state's laws apply to us here?
+[doc_i] Expiration Date              BAD answer       how long are the trays guaranteed for?
+[doc_i] out_of_scope                 ok  out_of_scope what's a purchase order number?
+[doc_j] Non-Compete                  ok  unchecked    can I start a similar business after selling mine?
+[doc_j] Non-Compete                  ok  unchecked    am I allowed to go work for a competitor in maryland?
+[doc_j] Non-Compete                  ok  unchecked    is there a non-compete in here?
+[doc_j] Governing Law                ok  answer       which state's law governs this?
+[doc_j] out_of_scope                 ok  out_of_scope can I tell people what I used to charge?
+[doc_j] out_of_scope                 ok  out_of_scope do I owe taxes on the money from selling my business?
+{
+  "contracts": 10,
+  "ingestion": {
+    "words_mean": 403.0,
+    "chunks": {
+      "2": 10
+    },
+    "gold_spans_not_found": 0
+  },
+  "extraction": {
+    "pairs": 100,
+    "answerable": 28,
+    "accepted": 19,
+    "true_accepts": 19,
+    "precision": 1.0,
+    "precision_ci": [
+      0.832,
+      1.0
+    ],
+    "recall": 0.679,
+    "recall_ci": [
+      0.493,
+      0.821
+    ],
+    "span_hit": 0.679,
+    "span_hit_ci": [
+      0.493,
+      0.821
+    ],
+    "em": 0.643,
+    "f1": 0.663
+  },
+  "answerability_average_precision": 0.995,
+  "target_clauses": {
+    "n": 10,
+    "accepted": 10,
+    "hit": 10
+  },
+  "incidental_clauses": {
+    "pairs": 18,
+    "answerable": 18,
+    "accepted": 9,
+    "true_accepts": 9,
+    "precision": 1.0,
+    "precision_ci": [
+      0.701,
+      1.0
+    ],
+    "recall": 0.5,
+    "recall_ci": [
+      0.29,
+      0.71
+    ],
+    "span_hit": 0.5,
+    "span_hit_ci": [
+      0.29,
+      0.71
+    ],
+    "em": 0.5,
+    "f1": 0.5
+  },
+  "false_accepts": {
+    "negatives": 72,
+    "accepted": 0,
+    "on_near_miss_sentence": 0,
+    "negatives_with_near_miss": 26
+  },
+  "agreement": {
+    "pairs": 100,
+    "positives_a": 28,
+    "positives_b": 28,
+    "presence_agreement": 1.0,
+    "cohen_kappa": 1.0,
+    "both_positive": 28,
+    "both_positive_overlapping_spans": 28,
+    "disagreements": []
+  },
+  "questions": {
+    "n": 60,
+    "in_scope": {
+      "n": 40,
+      "routed_right": 39,
+      "via_clarification": 1,
+      "right_evidence": 31
+    },
+    "out_of_scope": {
+      "n": 20,
+      "rejected": 19
+    },
+    "rewrites": {
+      "n": 31,
+      "checks_passed": 24
+    },
+    "seconds_mean": 4.94
+  }
+}
+
+category                       pos acc  P      R      hit    F1
+Governing Law                   10   2  1.00   0.20   0.20   0.20
+Expiration Date                  9   8  1.00   0.89   0.89   0.89
+Renewal Term                     1   1  1.00   1.00   1.00   1.00
+Termination For Convenience      2   2  1.00   1.00   1.00   1.00
+Cap On Liability                 1   1  1.00   1.00   1.00   1.00
+Anti-Assignment                  1   1  1.00   1.00   1.00   1.00
+Non-Compete                      1   1  1.00   1.00   1.00   1.00
+Exclusivity                      1   1  1.00   1.00   1.00   0.57
+Ip Ownership Assignment          1   1  1.00   1.00   1.00   1.00
+Insurance                        1   1  1.00   1.00   1.00   1.00
+exit 0

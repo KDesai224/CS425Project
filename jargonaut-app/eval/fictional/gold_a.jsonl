@@ -1,0 +1,100 @@
+{"doc": "doc_a", "category": "Governing Law", "spans": ["Wisconsin law governs this Agreement."], "near_misses": [], "note": ""}
+{"doc": "doc_a", "category": "Expiration Date", "spans": ["The initial term ends December 31, 2029."], "near_misses": [], "note": ""}
+{"doc": "doc_a", "category": "Renewal Term", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_a", "category": "Termination For Convenience", "spans": ["Client may terminate this Agreement for any reason, without establishing a breach, by giving Provider sixty calendar days' written notice."], "near_misses": ["Either party may terminate for a material breach that remains uncured thirty days after receipt of written notice specifying the breach."], "note": ""}
+{"doc": "doc_a", "category": "Cap On Liability", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_a", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_a", "category": "Non-Compete", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_a", "category": "Exclusivity", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_a", "category": "Ip Ownership Assignment", "spans": [], "near_misses": ["Client owns its transaction data."], "note": "ownership kept, nothing transferred"}
+{"doc": "doc_a", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_b", "category": "Governing Law", "spans": ["New York law governs this Agreement."], "near_misses": [], "note": ""}
+{"doc": "doc_b", "category": "Expiration Date", "spans": ["The term ends June 30, 2028 unless extended by signed agreement."], "near_misses": [], "note": ""}
+{"doc": "doc_b", "category": "Renewal Term", "spans": [], "near_misses": ["The term ends June 30, 2028 unless extended by signed agreement."], "note": "extension only by mutual signed agreement: not automatic or unilateral"}
+{"doc": "doc_b", "category": "Termination For Convenience", "spans": [], "near_misses": ["Either party may terminate for a material breach not cured within thirty days after written notice."], "note": ""}
+{"doc": "doc_b", "category": "Cap On Liability", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_b", "category": "Anti-Assignment", "spans": ["Neither party may assign this Agreement or transfer its rights or obligations without the other party's prior written consent, except as provided in Section 4.", "The assignee must assume the obligations in writing, and the assigning party must notify the other party within ten business days."], "near_misses": [], "note": "permitted transfers still require notice (rule 4)"}
+{"doc": "doc_b", "category": "Non-Compete", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_b", "category": "Exclusivity", "spans": [], "near_misses": ["Licensor grants Licensee a nonexclusive license to use the specified laboratory scheduling software for Licensee's internal operations in the United States."], "note": ""}
+{"doc": "doc_b", "category": "Ip Ownership Assignment", "spans": [], "near_misses": ["Licensor retains ownership of the software and its documentation."], "note": ""}
+{"doc": "doc_b", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_c", "category": "Governing Law", "spans": ["Texas law governs this Agreement."], "near_misses": [], "note": ""}
+{"doc": "doc_c", "category": "Expiration Date", "spans": ["The term runs through October 31, 2028, unless terminated earlier for a material breach not cured within thirty days after written notice."], "near_misses": [], "note": ""}
+{"doc": "doc_c", "category": "Renewal Term", "spans": [], "near_misses": ["Each party shall provide certificates of required insurance before services begin and upon each policy renewal."], "note": "insurance policy renewal, not contract renewal"}
+{"doc": "doc_c", "category": "Termination For Convenience", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_c", "category": "Cap On Liability", "spans": [], "near_misses": ["Insurance requirements do not themselves establish or limit a party's liability under this Agreement."], "note": ""}
+{"doc": "doc_c", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_c", "category": "Non-Compete", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_c", "category": "Exclusivity", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_c", "category": "Ip Ownership Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_c", "category": "Insurance", "spans": ["Throughout the term, Terminal shall maintain commercial general liability insurance with limits of at least $2,000,000 per occurrence and $4,000,000 aggregate, employer's liability insurance of at least $1,000,000 per accident, and workers' compensation coverage as required by applicable law. Terminal shall name Customer as an additional insured on its commercial general liability policy for liability arising from Terminal's services.", "Customer shall maintain property insurance covering its stored goods at full replacement value and automobile liability insurance of at least $1,000,000 per accident for vehicles it operates at the facility."], "near_misses": [], "note": ""}
+{"doc": "doc_d", "category": "Governing Law", "spans": ["New York law governs."], "near_misses": [], "note": ""}
+{"doc": "doc_d", "category": "Expiration Date", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_d", "category": "Renewal Term", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_d", "category": "Termination For Convenience", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_d", "category": "Cap On Liability", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_d", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_d", "category": "Non-Compete", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_d", "category": "Exclusivity", "spans": [], "near_misses": ["Until payment is received, Assignee has only a nonexclusive license to review the Deliverables internally; public commercial use is not permitted."], "note": ""}
+{"doc": "doc_d", "category": "Ip Ownership Assignment", "spans": ["Upon receipt of the full $18,000 payment, Assignor hereby assigns to Assignee all of Assignor's right, title and interest in the Deliverables, including copyright, rights to modify and distribute them, and rights to pursue infringement claims relating to the assigned rights."], "near_misses": ["Assignor retains ownership of its pre-existing illustration brushes, templates and layout tools (\"Background Materials\").", "That font is not assigned by this Agreement."], "note": ""}
+{"doc": "doc_d", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_e", "category": "Governing Law", "spans": ["Wisconsin law governs."], "near_misses": [], "note": ""}
+{"doc": "doc_e", "category": "Expiration Date", "spans": ["The initial term ends May 31, 2028."], "near_misses": [], "note": ""}
+{"doc": "doc_e", "category": "Renewal Term", "spans": [], "near_misses": ["Any extension must be agreed in writing."], "note": ""}
+{"doc": "doc_e", "category": "Termination For Convenience", "spans": [], "near_misses": ["Either party may terminate for a material breach not cured within thirty days after written notice."], "note": ""}
+{"doc": "doc_e", "category": "Cap On Liability", "spans": ["Subject to Section 4, Provider's total aggregate liability for all claims arising out of this Agreement shall not exceed the service fees actually paid by Client during the six months immediately preceding the first event giving rise to a claim.", "Except for those same matters, neither party shall be liable to the other for lost profits or indirect or consequential damages."], "near_misses": [], "note": "the consequential-damages exclusion limits recovery; kept as a second span"}
+{"doc": "doc_e", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_e", "category": "Non-Compete", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_e", "category": "Exclusivity", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_e", "category": "Ip Ownership Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_e", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Governing Law", "spans": ["This Agreement and disputes arising from it shall be governed by New York law, without applying conflict-of-law rules that would select another jurisdiction."], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Expiration Date", "spans": ["The initial term ends January 14, 2028."], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Renewal Term", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Termination For Convenience", "spans": ["Either party may terminate earlier on sixty days' written notice."], "near_misses": [], "note": "no cause required, notice only: an incidental TfC clause in the governing-law contract"}
+{"doc": "doc_f", "category": "Cap On Liability", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Non-Compete", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Exclusivity", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Ip Ownership Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_f", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_g", "category": "Governing Law", "spans": ["New York law governs."], "near_misses": [], "note": ""}
+{"doc": "doc_g", "category": "Expiration Date", "spans": ["The term ends August 31, 2029."], "near_misses": [], "note": ""}
+{"doc": "doc_g", "category": "Renewal Term", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_g", "category": "Termination For Convenience", "spans": [], "near_misses": ["Either party may terminate for a material breach not cured within thirty days after written notice."], "note": ""}
+{"doc": "doc_g", "category": "Cap On Liability", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_g", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_g", "category": "Non-Compete", "spans": [], "near_misses": [], "note": "arguable: Supplier may not sell directly into the territory, but that is the exclusivity grant; CUAD keeps the two apart"}
+{"doc": "doc_g", "category": "Exclusivity", "spans": ["Supplier appoints Distributor as its exclusive distributor of the Products in the Covered Market within the Territory. During the term, Supplier shall not appoint another distributor or sell directly into that market and territory, except to the reserved customer identified in Section 3."], "near_misses": ["If it falls short, Supplier may convert the appointment to nonexclusive status by giving thirty days' written notice after that period ends."], "note": ""}
+{"doc": "doc_g", "category": "Ip Ownership Assignment", "spans": [], "near_misses": ["Supplier retains its product trademarks."], "note": ""}
+{"doc": "doc_g", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_h", "category": "Governing Law", "spans": ["New York law governs."], "near_misses": [], "note": ""}
+{"doc": "doc_h", "category": "Expiration Date", "spans": ["The initial term begins April 1, 2027 and ends March 31, 2028."], "near_misses": [], "note": ""}
+{"doc": "doc_h", "category": "Renewal Term", "spans": ["Thereafter this Agreement automatically renews for successive one-year terms unless either party's written non-renewal notice is received by the other at least ninety calendar days before the current term ends."], "near_misses": [], "note": ""}
+{"doc": "doc_h", "category": "Termination For Convenience", "spans": [], "near_misses": ["There is no general right to end the current term for convenience.", "Either party may terminate for a material breach that remains uncured thirty days after written notice."], "note": ""}
+{"doc": "doc_h", "category": "Cap On Liability", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_h", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_h", "category": "Non-Compete", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_h", "category": "Exclusivity", "spans": [], "near_misses": ["Investment decisions remain exclusively with the Fund."], "note": "keyword only"}
+{"doc": "doc_h", "category": "Ip Ownership Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_h", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_i", "category": "Governing Law", "spans": ["Indiana law governs this Agreement."], "near_misses": [], "note": ""}
+{"doc": "doc_i", "category": "Expiration Date", "spans": ["The Agreement expires at 11:59 p.m. Eastern Time on December 31, 2028, unless terminated earlier under Section 5."], "near_misses": [], "note": ""}
+{"doc": "doc_i", "category": "Renewal Term", "spans": [], "near_misses": ["There is no automatic renewal.", "Continued discussions or shipment of an existing order do not extend the expiration date."], "note": ""}
+{"doc": "doc_i", "category": "Termination For Convenience", "spans": [], "near_misses": ["A party may terminate for a material breach not cured within thirty days after written notice."], "note": ""}
+{"doc": "doc_i", "category": "Cap On Liability", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_i", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_i", "category": "Non-Compete", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_i", "category": "Exclusivity", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_i", "category": "Ip Ownership Assignment", "spans": [], "near_misses": ["Buyer retains ownership of its drawings and specifications."], "note": ""}
+{"doc": "doc_i", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_j", "category": "Governing Law", "spans": ["Delaware law governs this Agreement, subject to applicable mandatory law."], "near_misses": [], "note": ""}
+{"doc": "doc_j", "category": "Expiration Date", "spans": ["The activity restrictions expire at 11:59 p.m. Eastern Time on January 31, 2029; they do not renew automatically."], "near_misses": [], "note": "the agreement's only obligations are the restrictions, so their end date is its expiration"}
+{"doc": "doc_j", "category": "Renewal Term", "spans": [], "near_misses": ["The activity restrictions expire at 11:59 p.m. Eastern Time on January 31, 2029; they do not renew automatically."], "note": ""}
+{"doc": "doc_j", "category": "Termination For Convenience", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_j", "category": "Cap On Liability", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_j", "category": "Anti-Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_j", "category": "Non-Compete", "spans": ["For eighteen months after August 1, 2027, Seller shall not own, manage, operate or provide sales or product-development services to a Competing Business within Delaware or Maryland."], "near_misses": [], "note": "the customer non-solicit in section 4 is a separate CUAD category"}
+{"doc": "doc_j", "category": "Exclusivity", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_j", "category": "Ip Ownership Assignment", "spans": [], "near_misses": [], "note": ""}
+{"doc": "doc_j", "category": "Insurance", "spans": [], "near_misses": [], "note": ""}

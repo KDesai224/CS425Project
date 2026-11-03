@@ -1,0 +1,365 @@
+{
+  "threshold": 6.25,
+  "wordings": {
+    "passive, short": "This Agreement is governed by {state} law.",
+    "active, laws of the State of": "The laws of the State of {state} govern this Agreement.",
+    "passive, laws of the State of": "This Agreement shall be governed by the laws of the State of {state}.",
+    "CUAD boilerplate": "This Agreement shall be governed by and construed in accordance with the laws of the State of {state}, without regard to its conflict of laws principles."
+  },
+  "rows": [
+    {
+      "doc": "doc_a",
+      "file": "04_termination_for_convenience.pdf",
+      "as written": {
+        "sentence": "Wisconsin law governs this Agreement.",
+        "score": 2.78,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by Wisconsin law.",
+        "score": 6.42,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of Wisconsin govern this Agreement.",
+        "score": 4.78,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of Wisconsin.",
+        "score": 9.27,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of Wisconsin, without regard to its conflict of laws principles.",
+        "score": 11.22,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_b",
+      "file": "06_anti-assignment.pdf",
+      "as written": {
+        "sentence": "New York law governs this Agreement.",
+        "score": 4.16,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by New York law.",
+        "score": 6.88,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of New York govern this Agreement.",
+        "score": 4.88,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of New York.",
+        "score": 8.53,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of laws principles.",
+        "score": 9.58,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_c",
+      "file": "10_insurance.pdf",
+      "as written": {
+        "sentence": "Texas law governs this Agreement.",
+        "score": 4.22,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by Texas law.",
+        "score": 7.48,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of Texas govern this Agreement.",
+        "score": 5.72,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of Texas.",
+        "score": 8.95,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, without regard to its conflict of laws principles.",
+        "score": 10.88,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_d",
+      "file": "09_ip_ownership_assignment.pdf",
+      "as written": {
+        "sentence": "New York law governs.",
+        "score": 3.97,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by New York law.",
+        "score": 8.0,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of New York govern this Agreement.",
+        "score": 6.47,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of New York.",
+        "score": 9.69,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of laws principles.",
+        "score": 10.78,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_e",
+      "file": "05_cap_on_liability.pdf",
+      "as written": {
+        "sentence": "Wisconsin law governs.",
+        "score": 1.38,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by Wisconsin law.",
+        "score": 7.39,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of Wisconsin govern this Agreement.",
+        "score": 5.59,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of Wisconsin.",
+        "score": 8.92,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of Wisconsin, without regard to its conflict of laws principles.",
+        "score": 10.38,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_f",
+      "file": "01_governing_law.pdf",
+      "as written": {
+        "sentence": "This Agreement and disputes arising from it shall be governed by New York law, without applying conflict-of-law rules that would select another jurisdiction.",
+        "score": 10.5,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by New York law.",
+        "score": 8.11,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of New York govern this Agreement.",
+        "score": 6.92,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of New York.",
+        "score": 9.48,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of laws principles.",
+        "score": 10.91,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_g",
+      "file": "08_exclusivity.pdf",
+      "as written": {
+        "sentence": "New York law governs.",
+        "score": 2.94,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by New York law.",
+        "score": 7.44,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of New York govern this Agreement.",
+        "score": 4.81,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of New York.",
+        "score": 8.34,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of laws principles.",
+        "score": 9.42,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_h",
+      "file": "03_renewal_term.pdf",
+      "as written": {
+        "sentence": "New York law governs.",
+        "score": 0.66,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by New York law.",
+        "score": 6.56,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of New York govern this Agreement.",
+        "score": 5.19,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of New York.",
+        "score": 8.55,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of laws principles.",
+        "score": 10.86,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_i",
+      "file": "02_expiration_date.pdf",
+      "as written": {
+        "sentence": "Indiana law governs this Agreement.",
+        "score": 3.38,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by Indiana law.",
+        "score": 7.47,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of Indiana govern this Agreement.",
+        "score": 5.53,
+        "accepted": false,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of Indiana.",
+        "score": 8.59,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of Indiana, without regard to its conflict of laws principles.",
+        "score": 9.72,
+        "accepted": true,
+        "on_sentence": true
+      }
+    },
+    {
+      "doc": "doc_j",
+      "file": "07_non-compete.pdf",
+      "as written": {
+        "sentence": "Delaware law governs this Agreement, subject to applicable mandatory law.",
+        "score": 8.0,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "passive, short": {
+        "sentence": "This Agreement is governed by Delaware law.",
+        "score": 8.42,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "active, laws of the State of": {
+        "sentence": "The laws of the State of Delaware govern this Agreement.",
+        "score": 7.03,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "passive, laws of the State of": {
+        "sentence": "This Agreement shall be governed by the laws of the State of Delaware.",
+        "score": 9.33,
+        "accepted": true,
+        "on_sentence": true
+      },
+      "CUAD boilerplate": {
+        "sentence": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles.",
+        "score": 11.03,
+        "accepted": true,
+        "on_sentence": true
+      }
+    }
+  ],
+  "accepted": {
+    "as written": 2,
+    "passive, short": 10,
+    "active, laws of the State of": 3,
+    "passive, laws of the State of": 10,
+    "CUAD boilerplate": 10
+  },
+  "on_sentence": {
+    "as written": 10,
+    "passive, short": 10,
+    "active, laws of the State of": 10,
+    "passive, laws of the State of": 10,
+    "CUAD boilerplate": 10
+  }
+}

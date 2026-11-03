@@ -1,0 +1,21 @@
+# Same pins as Grpproj/requirements.txt for the libraries the adapter was trained
+# and validated with. torch is installed separately in the Dockerfile.
+transformers==5.18.0
+peft==0.21.2
+bitsandbytes==0.50.2
+accelerate==1.15.0
+textstat==0.7.13
+# SARI comes from evaluate, which needs sacrebleu and sacremoses
+evaluate
+sacrebleu
+sacremoses
+nltk
+scipy
+matplotlib
+pandas
+numpy
+sentencepiece
+tqdm
+jupyterlab
+ipykernel
+ipywidgets

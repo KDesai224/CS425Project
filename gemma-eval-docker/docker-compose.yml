@@ -1,0 +1,30 @@
+services:
+  gemma-eval:
+    build: .
+    image: gemma-eval:latest
+    working_dir: /workspace
+    volumes:
+      # This folder: the notebook, and results/ for everything it writes
+      - .:/workspace
+      # Test and validation sets from the training project
+      - ${GRPPROJ:-../../Grpproj}/data/processed:/data:ro
+      # The trained adapter (Run 6, selected checkpoint) copied into this repo
+      - ${ADAPTER:-../outputs/e4b-r16-lr0.0002-e2-s42-syn/best}:/adapter:ro
+      # Gemma 4 E4B and the NLI model are already downloaded here (16 GB), so nothing is fetched again
+      - ${GRPPROJ:-../../Grpproj}/.cache/huggingface:/hf-cache
+    environment:
+      - HF_HOME=/hf-cache
+      - HF_TOKEN=${HF_TOKEN:-}
+      - EVAL_SPLIT=${EVAL_SPLIT:-val}
+      - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+    ports:
+      # Jupyter, reachable from this machine only
+      - "127.0.0.1:8888:8888"
+    shm_size: "8gb"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

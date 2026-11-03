@@ -1,0 +1,4 @@
+# Cached model scores (scripts/eval_router.py rebuilds them)
+eval/router_cache_*.json
+__pycache__/
+.pytest_cache/

@@ -1,0 +1,16 @@
+# Model weights and checkpoints stay local (GitHub rejects files over 100 MB)
+outputs/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+
+# Downloaded models and Python/Jupyter caches
+.cache/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/

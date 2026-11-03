@@ -1,0 +1,220 @@
+{"id": "q001", "question": "which jurisdiction applies?", "label": "Governing Law", "also_acceptable": [], "split": "dev"}
+{"id": "q002", "question": "governing law?", "label": "Governing Law", "also_acceptable": [], "split": "test"}
+{"id": "q003", "question": "If I ever need to take them to court, which state's courts would I have to go to?", "label": "Governing Law", "also_acceptable": [], "split": "dev"}
+{"id": "q004", "question": "Can I sue them in my home state, or does the contract say it has to be somewhere else?", "label": "Governing Law", "also_acceptable": [], "split": "test"}
+{"id": "q005", "question": "Which country's laws apply to this agreement?", "label": "Governing Law", "also_acceptable": [], "split": "dev"}
+{"id": "q006", "question": "Is this contract under English law or Singapore law?", "label": "Governing Law", "also_acceptable": [], "split": "test"}
+{"id": "q007", "question": "We're based in Ontario and the supplier is in Michigan. If there's ever an argument over what a clause means, whose rules decide it?", "label": "Governing Law", "also_acceptable": [], "split": "dev"}
+{"id": "q008", "question": "My company is in Texas and theirs is in New York. If we end up in a dispute, does Texas or New York decide how this contract gets interpreted?", "label": "Governing Law", "also_acceptable": [], "split": "test"}
+{"id": "q009", "question": "ok so my lawyer asked me to check something before we sign. she wants to know what legal system this agreement falls under because apparently it changes how the indemnity section gets read?? can you find that", "label": "Governing Law", "also_acceptable": [], "split": "dev"}
+{"id": "q010", "question": "sorry if this is a dumb question but I keep seeing 'the laws of the State of New York' type wording in other contracts and can't find it in this one. does this contract say which place's laws it follows?", "label": "Governing Law", "also_acceptable": [], "split": "test"}
+{"id": "q011", "question": "What is the choice of law provision in this agreement?", "label": "Governing Law", "also_acceptable": [], "split": "dev"}
+{"id": "q012", "question": "Does the contract specify a forum or submit the parties to the exclusive jurisdiction of particular courts?", "label": "Governing Law", "also_acceptable": [], "split": "test"}
+{"id": "q013", "question": "what countrys rules does this deal go by??", "label": "Governing Law", "also_acceptable": [], "split": "dev"}
+{"id": "q014", "question": "wich state law applies to this contarct", "label": "Governing Law", "also_acceptable": [], "split": "test"}
+{"id": "q015", "question": "If we end up in a legal fight, where would it be heard?", "label": "Governing Law", "also_acceptable": [], "split": "dev"}
+{"id": "q016", "question": "Which courts would handle a dispute over this agreement?", "label": "Governing Law", "also_acceptable": [], "split": "test"}
+{"id": "q017", "question": "expiration date?", "label": "Expiration Date", "also_acceptable": [], "split": "dev"}
+{"id": "q018", "question": "end date of the contract", "label": "Expiration Date", "also_acceptable": [], "split": "test"}
+{"id": "q019", "question": "How long am I locked into this contract?", "label": "Expiration Date", "also_acceptable": ["Renewal Term"], "split": "dev"}
+{"id": "q020", "question": "When does my commitment under this agreement run out?", "label": "Expiration Date", "also_acceptable": [], "split": "test"}
+{"id": "q021", "question": "When does their obligation to supply us end? What's the last day of the term?", "label": "Expiration Date", "also_acceptable": [], "split": "dev"}
+{"id": "q022", "question": "Until what date are they bound by this agreement?", "label": "Expiration Date", "also_acceptable": [], "split": "test"}
+{"id": "q023", "question": "We're planning next year's budget. Will this contract still be active in March 2027, or does it end before then?", "label": "Expiration Date", "also_acceptable": [], "split": "dev"}
+{"id": "q024", "question": "I want to switch providers once this deal is done. What date should I be planning around?", "label": "Expiration Date", "also_acceptable": [], "split": "test"}
+{"id": "q025", "question": "so we signed this thing a while back and honestly nobody remembers how long it was supposed to run for. my boss is asking when the original term is actually up, can you tell me", "label": "Expiration Date", "also_acceptable": [], "split": "dev"}
+{"id": "q026", "question": "My manager wants a list of all our vendor contracts and when each one expires. Can you tell me when this one expires so I can put it in the spreadsheet?", "label": "Expiration Date", "also_acceptable": [], "split": "test"}
+{"id": "q027", "question": "What is the termination date of the initial term?", "label": "Expiration Date", "also_acceptable": [], "split": "dev"}
+{"id": "q028", "question": "On what date does the Initial Term expire?", "label": "Expiration Date", "also_acceptable": [], "split": "test"}
+{"id": "q029", "question": "when does this agrement expire", "label": "Expiration Date", "also_acceptable": [], "split": "dev"}
+{"id": "q030", "question": "whens the contract over", "label": "Expiration Date", "also_acceptable": [], "split": "test"}
+{"id": "q031", "question": "Is this agreement still valid or has it already run out?", "label": "Expiration Date", "also_acceptable": [], "split": "dev"}
+{"id": "q032", "question": "How long does this contract run for in total?", "label": "Expiration Date", "also_acceptable": ["Renewal Term"], "split": "test"}
+{"id": "q033", "question": "does it roll over automatically?", "label": "Renewal Term", "also_acceptable": [], "split": "dev"}
+{"id": "q034", "question": "auto renewal?", "label": "Renewal Term", "also_acceptable": [], "split": "test"}
+{"id": "q035", "question": "If I don't do anything when the first term ends, will I automatically be signed up for another year?", "label": "Renewal Term", "also_acceptable": [], "split": "dev"}
+{"id": "q036", "question": "Can I extend this for another term just by giving them notice?", "label": "Renewal Term", "also_acceptable": [], "split": "test"}
+{"id": "q037", "question": "Can they extend the contract on their own without asking us?", "label": "Renewal Term", "also_acceptable": [], "split": "dev"}
+{"id": "q038", "question": "Is the supplier allowed to keep the agreement going for extra years just by sending us a letter?", "label": "Renewal Term", "also_acceptable": [], "split": "test"}
+{"id": "q039", "question": "We forgot to cancel last year and it looks like the contract just kept going. Does it continue automatically after the initial period?", "label": "Renewal Term", "also_acceptable": [], "split": "dev"}
+{"id": "q040", "question": "What happens when the initial term is over? Does it just end, or does it keep going?", "label": "Renewal Term", "also_acceptable": ["Expiration Date"], "split": "test"}
+{"id": "q041", "question": "ugh I've been burned before by subscriptions that quietly renew themselves, so before I sign can you check whether this one renews on its own and how long each extra period lasts", "label": "Renewal Term", "also_acceptable": [], "split": "dev"}
+{"id": "q042", "question": "our finance team got an invoice for a whole new year of service and nobody remembers agreeing to that. is there something in here that makes the contract keep going year after year unless someone cancels in time?", "label": "Renewal Term", "also_acceptable": [], "split": "test"}
+{"id": "q043", "question": "Does the agreement contain an evergreen clause?", "label": "Renewal Term", "also_acceptable": [], "split": "dev"}
+{"id": "q044", "question": "What are the renewal terms following expiry of the Initial Term?", "label": "Renewal Term", "also_acceptable": [], "split": "test"}
+{"id": "q045", "question": "does this auto renw every year or nah", "label": "Renewal Term", "also_acceptable": [], "split": "dev"}
+{"id": "q046", "question": "how long r the renewal periods", "label": "Renewal Term", "also_acceptable": [], "split": "test"}
+{"id": "q047", "question": "How much notice do I need to give to stop it from auto-renewing?", "label": "Renewal Term", "also_acceptable": [], "split": "dev"}
+{"id": "q048", "question": "What's the deadline to tell them we don't want another year?", "label": "Renewal Term", "also_acceptable": [], "split": "test"}
+{"id": "q049", "question": "termination for convenience?", "label": "Termination For Convenience", "also_acceptable": [], "split": "dev"}
+{"id": "q050", "question": "early exit options?", "label": "Termination For Convenience", "also_acceptable": [], "split": "test"}
+{"id": "q051", "question": "Can I cancel this contract whenever I want, without having to give a reason?", "label": "Termination For Convenience", "also_acceptable": [], "split": "dev"}
+{"id": "q052", "question": "Am I allowed to back out early if we just don't need their services anymore?", "label": "Termination For Convenience", "also_acceptable": [], "split": "test"}
+{"id": "q053", "question": "Can they drop us as a client for no reason, just by giving notice?", "label": "Termination For Convenience", "also_acceptable": [], "split": "dev"}
+{"id": "q054", "question": "Is the distributor able to terminate the agreement at any time without cause?", "label": "Termination For Convenience", "also_acceptable": [], "split": "test"}
+{"id": "q055", "question": "Our startup might pivot in six months. If that happens, can we get out of this agreement even though they haven't done anything wrong?", "label": "Termination For Convenience", "also_acceptable": [], "split": "dev"}
+{"id": "q056", "question": "We found a cheaper vendor. Can we just end things with the current one early, and how much notice would we owe them?", "label": "Termination For Convenience", "also_acceptable": [], "split": "test"}
+{"id": "q057", "question": "so the thing is we signed a 3 year deal but the relationship is fine, we just don't want it anymore because our priorities changed. is there anything that lets either side just walk away with some notice, or are we stuck till the end?", "label": "Termination For Convenience", "also_acceptable": [], "split": "dev"}
+{"id": "q058", "question": "I'm not accusing them of breaching anything, I just want to know if I can end the agreement on like 30 or 60 days notice without having to prove they did something wrong", "label": "Termination For Convenience", "also_acceptable": [], "split": "test"}
+{"id": "q059", "question": "Does either party have a right to terminate without cause upon prior written notice?", "label": "Termination For Convenience", "also_acceptable": [], "split": "dev"}
+{"id": "q060", "question": "Is there a unilateral termination right exercisable without cause?", "label": "Termination For Convenience", "also_acceptable": [], "split": "test"}
+{"id": "q061", "question": "can i terminte this anytime", "label": "Termination For Convenience", "also_acceptable": [], "split": "dev"}
+{"id": "q062", "question": "how do i cancel this contarct early if nothing's actually wrong", "label": "Termination For Convenience", "also_acceptable": [], "split": "test"}
+{"id": "q063", "question": "How much notice do I have to give if I just want to end the contract?", "label": "Termination For Convenience", "also_acceptable": ["Renewal Term"], "split": "dev"}
+{"id": "q064", "question": "Am I stuck for the full three years, or is there a way to leave early?", "label": "Termination For Convenience", "also_acceptable": [], "split": "test"}
+{"id": "q065", "question": "liability cap?", "label": "Cap On Liability", "also_acceptable": [], "split": "dev"}
+{"id": "q066", "question": "max damages under this contract?", "label": "Cap On Liability", "also_acceptable": [], "split": "test"}
+{"id": "q067", "question": "If I mess up a delivery, what's the most they could make me pay?", "label": "Cap On Liability", "also_acceptable": [], "split": "dev"}
+{"id": "q068", "question": "What's the maximum amount I could be on the hook for if I break the contract?", "label": "Cap On Liability", "also_acceptable": [], "split": "test"}
+{"id": "q069", "question": "If their software crashes and we lose a ton of money, can we get all of it back from them or is there a limit?", "label": "Cap On Liability", "also_acceptable": [], "split": "dev"}
+{"id": "q070", "question": "Is their responsibility for damages limited to what we've paid them?", "label": "Cap On Liability", "also_acceptable": [], "split": "test"}
+{"id": "q071", "question": "Say the contractor's mistake costs us $2 million. Would they be on the hook for the whole amount, or does the contract limit what we can recover?", "label": "Cap On Liability", "also_acceptable": [], "split": "dev"}
+{"id": "q072", "question": "Our shipment arrived damaged and we lost a big customer because of it. How much can we actually claim back from the supplier under this agreement?", "label": "Cap On Liability", "also_acceptable": [], "split": "test"}
+{"id": "q073", "question": "I'm a freelancer and this client contract is huge compared to my fee. I'm scared that if something goes wrong they could come after me for way more than I'm earning. Is there anything in here that limits how much I'd have to pay them?", "label": "Cap On Liability", "also_acceptable": [], "split": "dev"}
+{"id": "q074", "question": "my lawyer mentioned making sure there's a ceiling on what we owe if things go wrong, like capped at the fees paid in the last 12 months or something. does this contract have anything like that?", "label": "Cap On Liability", "also_acceptable": [], "split": "test"}
+{"id": "q075", "question": "Is there a limitation of liability clause, and what is the aggregate cap?", "label": "Cap On Liability", "also_acceptable": [], "split": "dev"}
+{"id": "q076", "question": "Does the agreement exclude or limit either party's liability for breach?", "label": "Cap On Liability", "also_acceptable": [], "split": "test"}
+{"id": "q077", "question": "how much r we liable for if stuff goes wrong", "label": "Cap On Liability", "also_acceptable": [], "split": "dev"}
+{"id": "q078", "question": "is there a limit on how much they can sue me for", "label": "Cap On Liability", "also_acceptable": [], "split": "test"}
+{"id": "q079", "question": "How long do I have to bring a claim against them after something goes wrong?", "label": "Cap On Liability", "also_acceptable": [], "split": "dev"}
+{"id": "q080", "question": "Is there a deadline for making a claim if they breach the contract?", "label": "Cap On Liability", "also_acceptable": [], "split": "test"}
+{"id": "q081", "question": "assignment clause?", "label": "Anti-Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q082", "question": "can this contract be transferred?", "label": "Anti-Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q083", "question": "If I sell my company, does this deal go with it?", "label": "Anti-Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q084", "question": "Can I hand this agreement over to my business partner's company?", "label": "Anti-Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q085", "question": "Can they pass this contract on to another company without even telling us?", "label": "Anti-Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q086", "question": "Is the vendor allowed to assign the agreement to a third party without our consent?", "label": "Anti-Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q087", "question": "We're restructuring and want to move all our contracts into a new subsidiary. Do we need the other side's permission to move this one over?", "label": "Anti-Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q088", "question": "I'm retiring and my nephew is taking over the shop. Can this supply contract just be moved into his name?", "label": "Anti-Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q089", "question": "so there's a rumor our vendor is going to offload a bunch of its customer contracts to some other outfit we've never heard of. are they allowed to do that with ours or would they need to ask us first?", "label": "Anti-Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q090", "question": "we're merging with another company next quarter and legal asked me to check whether any of our contracts need the other party's consent before they can be assigned to the merged entity. can you check this one?", "label": "Anti-Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q091", "question": "Does the agreement prohibit assignment or delegation without prior written consent?", "label": "Anti-Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q092", "question": "Are the rights and obligations under this agreement transferable to an affiliate or successor?", "label": "Anti-Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q093", "question": "can i give this contract to someone else to take over", "label": "Anti-Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q094", "question": "do they need my ok to assing the contract", "label": "Anti-Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q095", "question": "Do I need to notify them if I transfer this agreement to someone else?", "label": "Anti-Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q096", "question": "If the other side gets sold to a bigger company, can the buyer just inherit this contract?", "label": "Anti-Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q097", "question": "non-compete clause?", "label": "Non-Compete", "also_acceptable": [], "split": "dev"}
+{"id": "q098", "question": "any restrictions on working for rivals?", "label": "Non-Compete", "also_acceptable": [], "split": "test"}
+{"id": "q099", "question": "After this contract ends, can I start my own business doing the same thing?", "label": "Non-Compete", "also_acceptable": [], "split": "dev"}
+{"id": "q100", "question": "Am I allowed to open my own similar shop near one of their locations?", "label": "Non-Compete", "also_acceptable": [], "split": "test"}
+{"id": "q101", "question": "Can the developer build a rival product for one of our competitors?", "label": "Non-Compete", "also_acceptable": ["Exclusivity"], "split": "dev"}
+{"id": "q102", "question": "Are they restricted from going into business against us in our region?", "label": "Non-Compete", "also_acceptable": [], "split": "test"}
+{"id": "q103", "question": "I'm a consultant wrapping up with this client next month. A company that does exactly what they do has offered me a role. Does anything in this agreement stop me from taking it straight away?", "label": "Non-Compete", "also_acceptable": [], "split": "dev"}
+{"id": "q104", "question": "We sell coffee machines in Asia under this deal. Are we barred from selling our own brand of machines in Europe for a few years after it ends?", "label": "Non-Compete", "also_acceptable": [], "split": "test"}
+{"id": "q105", "question": "so I've been doing contract work for this agency and I'm thinking of going solo and pitching to the same kind of clients, but I vaguely remember signing something about not doing that. does this agreement stop me from setting up shop in the same line of business?", "label": "Non-Compete", "also_acceptable": [], "split": "dev"}
+{"id": "q106", "question": "honestly I just want to know if there's anything in here limiting which industries or markets I can work in, both while the contract is running and after, because I have a side project that's kind of in the same space as theirs", "label": "Non-Compete", "also_acceptable": [], "split": "test"}
+{"id": "q107", "question": "Does the agreement contain a covenant not to compete, and what are its duration and geographic scope?", "label": "Non-Compete", "also_acceptable": [], "split": "dev"}
+{"id": "q108", "question": "Is either party restricted from engaging in a competing business during the term?", "label": "Non-Compete", "also_acceptable": [], "split": "test"}
+{"id": "q109", "question": "am i blocked from doing simlar work in the same city", "label": "Non-Compete", "also_acceptable": [], "split": "dev"}
+{"id": "q110", "question": "can i work for there competitor after this", "label": "Non-Compete", "also_acceptable": [], "split": "test"}
+{"id": "q111", "question": "During the agreement, can I sell my own product that goes head to head with theirs?", "label": "Non-Compete", "also_acceptable": [], "split": "dev"}
+{"id": "q112", "question": "Am I allowed to provide the same services to other companies in their industry?", "label": "Non-Compete", "also_acceptable": ["Exclusivity"], "split": "test"}
+{"id": "q113", "question": "exclusivity?", "label": "Exclusivity", "also_acceptable": [], "split": "dev"}
+{"id": "q114", "question": "sole supplier requirement?", "label": "Exclusivity", "also_acceptable": [], "split": "test"}
+{"id": "q115", "question": "Can I buy the same parts from other suppliers too, or only from them?", "label": "Exclusivity", "also_acceptable": [], "split": "dev"}
+{"id": "q116", "question": "Is this an exclusive arrangement, or can I work with other agencies at the same time?", "label": "Exclusivity", "also_acceptable": [], "split": "test"}
+{"id": "q117", "question": "Can they sign up other distributors in my territory?", "label": "Exclusivity", "also_acceptable": [], "split": "dev"}
+{"id": "q118", "question": "Are they allowed to license the same technology to other companies?", "label": "Exclusivity", "also_acceptable": [], "split": "test"}
+{"id": "q119", "question": "We're a reseller for their software in Germany. If another reseller pops up selling the same product in Berlin, is that allowed under our deal?", "label": "Exclusivity", "also_acceptable": [], "split": "dev"}
+{"id": "q120", "question": "Our restaurant chain gets its coffee beans from this roaster. Do we have to buy every bean we need from them, or can we try a different roaster at one location?", "label": "Exclusivity", "also_acceptable": [], "split": "test"}
+{"id": "q121", "question": "we've been using this vendor for our packaging for a while and a competitor of theirs just offered us a much better price, but I have a feeling we promised to only use this vendor. can you check if we're tied to them for all our packaging needs?", "label": "Exclusivity", "also_acceptable": [], "split": "dev"}
+{"id": "q122", "question": "so I'm a photographer and this agency signed me, and I'm wondering if they're the only ones I'm allowed to take bookings through or if I can still take jobs from other agencies and direct clients on the side", "label": "Exclusivity", "also_acceptable": [], "split": "test"}
+{"id": "q123", "question": "Does the agreement grant exclusive distribution rights, and if so in which territory?", "label": "Exclusivity", "also_acceptable": [], "split": "dev"}
+{"id": "q124", "question": "Is there an exclusive dealing or requirements obligation on the buyer?", "label": "Exclusivity", "also_acceptable": [], "split": "test"}
+{"id": "q125", "question": "are we exculsive with them or can we shop around", "label": "Exclusivity", "also_acceptable": [], "split": "dev"}
+{"id": "q126", "question": "r we locked into only using this vendor", "label": "Exclusivity", "also_acceptable": [], "split": "test"}
+{"id": "q127", "question": "Can I sell other brands' products alongside theirs in my store?", "label": "Exclusivity", "also_acceptable": ["Non-Compete"], "split": "dev"}
+{"id": "q128", "question": "Is the manufacturer allowed to sell directly to customers in my area, or only through me?", "label": "Exclusivity", "also_acceptable": ["Non-Compete"], "split": "test"}
+{"id": "q129", "question": "IP ownership?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q130", "question": "who owns the deliverables?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q131", "question": "If I design a logo for them under this contract, is it mine or theirs?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q132", "question": "Can I reuse the code I wrote for this client on other projects, or does it belong to them now?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q133", "question": "Do they get the rights to any inventions I come up with while working on their project?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q134", "question": "Does the company automatically own everything the contractor creates?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q135", "question": "I'm a freelance writer. If I write blog posts for them under this agreement, can I later publish them in my own book?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q136", "question": "Our engineers are going to build a new feature for the client's platform. Who ends up holding the patent if it turns out to be patentable?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q137", "question": "so the agency built our whole website and app under this contract, and now we want to move to a different developer, but I'm worried the agency still has rights to the code and designs. does this agreement say the stuff they built becomes ours?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q138", "question": "I've been doing illustrations for this game studio for months and I just realized I have no idea whether I still hold the copyright to my artwork or whether signing this handed it all over to them, can you check?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q139", "question": "Does the agreement provide for a present assignment of intellectual property rights in the work product to the client?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q140", "question": "Are the deliverables works made for hire, with all IP vesting in the customer?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q141", "question": "who owns teh stuff i make for them", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q142", "question": "do i have to sign over my patents to them??", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q143", "question": "Do I have to assign anything I invent to them?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "dev"}
+{"id": "q144", "question": "If they improve on our technology, who gets the rights to the improvements?", "label": "Ip Ownership Assignment", "also_acceptable": [], "split": "test"}
+{"id": "q145", "question": "coverage I need to carry?", "label": "Insurance", "also_acceptable": [], "split": "dev"}
+{"id": "q146", "question": "insurance requirements?", "label": "Insurance", "also_acceptable": [], "split": "test"}
+{"id": "q147", "question": "Do I need to have liability coverage in place before I start work?", "label": "Insurance", "also_acceptable": [], "split": "dev"}
+{"id": "q148", "question": "Am I required to add them to my policy as an additional insured?", "label": "Insurance", "also_acceptable": [], "split": "test"}
+{"id": "q149", "question": "Do they have to carry workers' comp for their staff while they're on our site?", "label": "Insurance", "also_acceptable": [], "split": "dev"}
+{"id": "q150", "question": "Does the contractor need to keep any kind of coverage in place while doing the job?", "label": "Insurance", "also_acceptable": [], "split": "test"}
+{"id": "q151", "question": "We're hiring this company to renovate our office. If one of their workers gets hurt or they damage the building, are they required to have a policy that covers it?", "label": "Insurance", "also_acceptable": [], "split": "dev"}
+{"id": "q152", "question": "The client just asked me for a certificate showing I'm covered for at least $1 million. Does this contract actually require that?", "label": "Insurance", "also_acceptable": [], "split": "test"}
+{"id": "q153", "question": "I run a small catering business and this venue contract is pretty long. I just want to know if I'm supposed to buy some kind of policy before the event, like public liability or whatever, and how much it needs to be for", "label": "Insurance", "also_acceptable": [], "split": "dev"}
+{"id": "q154", "question": "our broker asked me to send over whatever the contract says about the insurance we're supposed to keep, like types, limits, who needs to be named on it. can you pull that out?", "label": "Insurance", "also_acceptable": [], "split": "test"}
+{"id": "q155", "question": "What minimum commercial general liability limits must the vendor maintain, and must we be named as an additional insured?", "label": "Insurance", "also_acceptable": [], "split": "dev"}
+{"id": "q156", "question": "Is either party obligated to maintain professional indemnity or errors and omissions cover?", "label": "Insurance", "also_acceptable": [], "split": "test"}
+{"id": "q157", "question": "do i need insurence for this", "label": "Insurance", "also_acceptable": [], "split": "dev"}
+{"id": "q158", "question": "do they gotta have coverage or nah", "label": "Insurance", "also_acceptable": [], "split": "test"}
+{"id": "q159", "question": "If my policy lapses halfway through the contract, am I in breach?", "label": "Insurance", "also_acceptable": [], "split": "dev"}
+{"id": "q160", "question": "Who has to carry product liability cover under this deal?", "label": "Insurance", "also_acceptable": [], "split": "test"}
+{"id": "q161", "question": "How many days do I have to pay their invoices?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q162", "question": "when do we actually have to pay them, upfront or monthly?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q163", "question": "Can they raise the price on us halfway through the contract?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q164", "question": "Does the contract require them to keep their pricing competitive with the market, or can they charge whatever they want?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q165", "question": "we're a small business and cash flow is tight some months, so what happens if I pay an invoice a couple of weeks late? do they charge interest or some kind of late fee?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q166", "question": "Is there a set amount we have to pay them for every day the project runs late?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q167", "question": "liquidated damages for missed delivery dates?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q168", "question": "audit rights?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q169", "question": "Am I allowed to show this contract to my accountant, or is it confidential?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q170", "question": "How long do I have to keep their business information secret?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q171", "question": "Who exactly are the parties to this agreement?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q172", "question": "which company am I actually signing with, the parent or the subsidiary?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q173", "question": "When does this agreement take effect?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q174", "question": "What date was this contract signed?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q175", "question": "when does the service actually start", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q176", "question": "How long is the warranty on the equipment?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q177", "question": "What do they promise about the quality of the goods they deliver?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q178", "question": "Does the contract say how they have to protect our customers' personal data?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q179", "question": "If someone sues them because of something in my product, do I have to cover their legal costs?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q180", "question": "who has to indemnify who if a third party brings a claim?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q181", "question": "Before either of us can sue the other, do we have to try mediation or negotiation first?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q182", "question": "Is there an arbitration clause, and how many arbitrators would hear a dispute?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q183", "question": "Where do I send official notices to them?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q184", "question": "can I give notice by email or does it have to be sent by post?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q185", "question": "Can they come in and go through our books?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q186", "question": "If they give another customer a better price, do we get that price too?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q187", "question": "the contractor has missed three deadlines in a row and the work they do deliver is sloppy. if this keeps up, can I end the contract?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q188", "question": "How long do they get to fix a breach before I'm allowed to terminate?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q189", "question": "Can they cancel on us if we go bankrupt?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q190", "question": "what happens if a flood or pandemic stops them from delivring?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q191", "question": "Do I have to order a minimum quantity every year?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q192", "question": "is there a minimum spend commitment", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q193", "question": "If the supplier gets bought out by one of our rivals, can we get out of the deal?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q194", "question": "Can they change the terms of the contract without my consent?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q195", "question": "Am I allowed to hire one of their engineers after the project wraps up?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q196", "question": "can they poach my staff while we're working together?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q197", "question": "If a court throws out one clause, does the rest of the contract still hold up?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q198", "question": "Are we allowed to use their logo and brand name in our marketing?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q199", "question": "Can you give me a quick summary of what this contract says?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q200", "question": "What happens to our data when the contract is over? Do they have to delete it?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q201", "question": "hey, how's it going?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q202", "question": "thanks, that's all I needed!", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q203", "question": "What's the capital of Australia?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q204", "question": "how many tablespoons are in a cup", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q205", "question": "Write a Python function that checks whether a string is a palindrome.", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q206", "question": "why does my react app show a blank white page after I deploy it", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q207", "question": "Can you draft an NDA for my startup?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q208", "question": "write me a simple rental agreement for renting out my spare room", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q209", "question": "My landlord is suing me for unpaid rent. What should I do?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q210", "question": "should i sue my old employer for unfair dismissal? they fired me with no warning", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q211", "question": "tell me a joke", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q212", "question": "What's the weather going to be like in Singapore tomorrow?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q213", "question": "Can you recommend a good laptop for law school, under $1000?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q214", "question": "whats a good recipe for banana bread", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q215", "question": "What's the difference between a solicitor and a barrister?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q216", "question": "how do I file my taxes as a freelancer", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q217", "question": "Translate 'please sign on the last page' into Spanish.", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q218", "question": "who won the world cup in 2022", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}
+{"id": "q219", "question": "what can you do?", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "dev"}
+{"id": "q220", "question": "explain how neural networks work in simple terms", "label": "OUT_OF_SCOPE", "also_acceptable": [], "split": "test"}

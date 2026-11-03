@@ -1,0 +1,17 @@
+# torch is installed separately in the Dockerfile.
+# transformers is pinned to the same 5.x release as the Gemma image; the notebook
+# itself only asks for >=4.44.
+transformers==5.18.0
+accelerate==1.15.0
+datasets
+# needed to build the fast DeBERTa-v3 tokenizer
+sentencepiece
+tiktoken
+protobuf
+scikit-learn
+pandas
+numpy
+tqdm
+jupyterlab
+ipykernel
+ipywidgets

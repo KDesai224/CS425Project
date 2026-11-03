@@ -1,0 +1,2346 @@
+[
+ {
+  "contract_id": "cuad_002",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Governing law",
+  "rewrite": "The Joint Venturers say they made this Agreement under the laws of the Commonwealth of Pennsylvania. The terms of this Agreement are built and read under those laws. The laws of another place may still control in some cases.",
+  "clause": "14. Construction. The Joint Venturers declare that in entering into this Agreement, they have contracted with reference to the laws of the Commonwealth of Pennsylvania, and the construction and interpretation of the terms and provisions of this Agreement shall be interpreted and construed under the laws of the Commonwealth of Pennsylvania, except in such cases and to such extent as the laws of another jurisdiction shall necessarily control.",
+  "span": " The Joint Venturers declare that in entering into this Agreement, they have contracted with reference to the laws of the Commonwealth of Pennsylvania, and the construction and interpretation of the terms and provisions of this Agreement shall be interpreted and construed under the laws of the Commonwealth of Pennsylvania, except in such cases and to such extent as the laws of another jurisdiction shall necessarily control.",
+  "highlight": [
+   18,
+   444
+  ],
+  "section": [
+   "14. Construction"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 8.25,
+   "threshold": 6.25,
+   "probability": 0.8424145820854175
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": false,
+    "kept": 0.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.9970703125,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.4987039566040039
+   },
+   "fkgl": {
+    "source": 31.753529411764706,
+    "rewrite": 6.423589743589744
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 11.669328451156616,
+   "checks": 1.1835639476776123
+  }
+ },
+ {
+  "contract_id": "cuad_002",
+  "category": "Expiration Date",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "When the contract ends",
+  "rewrite": "The Joint Venture starts on March 1, 2003. It runs until February 28, 2004. It can run longer if the Joint Venturers agree in writing. They must agree at least 30 days before the scheduled end.",
+  "clause": "8. Term of Joint Venture. The Joint Venture shall commence on the 1st of March, 2003, and shall be effective until February 28, 2004 unless extended by written agreement of the Joint Venturers not less than thirty (30) days prior to scheduled termination.",
+  "span": " The Joint Venture shall commence on the 1st of March, 2003, and shall be effective until February 28, 2004 unless extended by written agreement of the Joint Venturers not less than thirty (30) days prior to scheduled termination.",
+  "highlight": [
+   26,
+   255
+  ],
+  "section": [
+   "8. Term of Joint Venture"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 12.672,
+   "threshold": 6.25,
+   "probability": 0.9575913290735502
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": false,
+    "kept": 0.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.989990234375,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.6648228963216146
+   },
+   "fkgl": {
+    "source": 10.906627906976748,
+    "rewrite": 3.9811111111111153
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 6.377404689788818,
+   "checks": 0.24730539321899414
+  }
+ },
+ {
+  "contract_id": "cuad_010",
+  "category": "Cap On Liability",
+  "hit": true,
+  "kind": "answer",
+  "message": "The Company, the Association and Capital Resources agree that contribution under this Section 10 would not be fair if it were decided by pro rata allocation or any other method that does not take into account the fair points in this Section 10. The amount paid or payable by an indemnified party for the losses, claims, damages or liabilities in this Section 10 is deemed to include any legal or other expenses reasonably incurred by that party. This covers expenses for investigating or defending any such action, proceeding or claim. Capital Resources is not liable for any loss, liability, claim, damage or expense. It is not required to contribute any amount that, in total, is more than the amount paid to Capital Resources under this Agreement. This does not include reimbursable expenses. This limit on Capital Resources' liability is essential to Capital Resources. Capital Resources relied on it and would not have signed this Agreement if the parties had not agreed to it. No person found guilty of any fraudulent misrepresentation under Section 11(f) of the 1933 Act is entitled to contribution from anyone not found guilty of it. The Company and the Association must meet their duties under this Section 10 and Section 9. These duties are in addition to any other liability they may have.",
+  "topic": "Limits on liability",
+  "rewrite": "The Company, the Association and Capital Resources agree that contribution under this Section 10 would not be fair if it were decided by pro rata allocation or any other method that does not take into account the fair points in this Section 10. The amount paid or payable by an indemnified party for the losses, claims, damages or liabilities in this Section 10 is deemed to include any legal or other expenses reasonably incurred by that party. This covers expenses for investigating or defending any such action, proceeding or claim. Capital Resources is not liable for any loss, liability, claim, damage or expense. It is not required to contribute any amount that, in total, is more than the amount paid to Capital Resources under this Agreement. This does not include reimbursable expenses. This limit on Capital Resources' liability is essential to Capital Resources. Capital Resources relied on it and would not have signed this Agreement if the parties had not agreed to it. No person found guilty of any fraudulent misrepresentation under Section 11(f) of the 1933 Act is entitled to contribution from anyone not found guilty of it. The Company and the Association must meet their duties under this Section 10 and Section 9. These duties are in addition to any other liability they may have.",
+  "clause": "The Company, the Association and Capital Resources agree that it would not be just and equitable if contribution pursuant to this Section 10 were determined by pro rata allocation or by any other method of allocation which does not take account of the equitable considerations referred to above in this Section 10. The amount paid or payable by an indemnified party as a result of the losses, claims, damages or liabilities (or action, proceedings or claims in respect thereof) referred to above in this Section 10 shall be deemed to include any legal or other expenses reasonably incurred by such indemnified party in connection with investigating or defending any such action, proceeding or claim. It is expressly agreed that Capital Resources shall not be liable for any loss, liability, claim, damage or expense or be required to contribute any amount which in the aggregate exceeds the amount paid (excluding reimbursable expenses) to Capital Resources under this Agreement. It is understood that the above-stated limitation on Capital Resources' liability is essential to Capital Resources and that Capital Resources relied upon such limitation and would not have entered into this Agreement if such limitation had not been agreed to by the parties to this Agreement. No person found guilty of any fraudulent misrepresentation (within the meaning of Section 11(f) of the 1933 Act) shall be entitled to contribution from any person who was not found guilty of such fraudulent misrepresentation. The obligations of the Company and the Association under this Section 10 and under Section 9 shall be in addition to any liability which the Company and the Association may otherwise have.",
+  "span": " It is expressly agreed that Capital Resources shall not be liable for any loss, liability, claim, damage or expense or be required to contribute any amount which in the aggregate exceeds the amount paid (excluding reimbursable expenses) to Capital Resources under this Agreement.",
+  "highlight": [
+   700,
+   979
+  ],
+  "section": [
+   "SECTION 10. Contribution"
+  ],
+  "pages": [
+   19
+  ],
+  "confidence": {
+   "score": 10.938,
+   "threshold": 6.25,
+   "probability": 0.9277052857967877
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9242942116477273,
+    "nli_contradicted": 0.09090909090909091,
+    "nli_coverage": 0.9401041666666666
+   },
+   "fkgl": {
+    "source": 23.724444444444448,
+    "rewrite": 12.76723083368245
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 30.280908823013306,
+   "checks": 0.2206423282623291
+  }
+ },
+ {
+  "contract_id": "cuad_011",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "answer",
+  "message": "The laws of the State of South Dakota govern this Agreement. Any dispute, controversy or claim between the parties about this Agreement, or its breach, end or validity, will be settled by mutual agreement. This does not limit the parties' ability to seek temporary or interim injunctive relief. They can do so if there is a breach or a threatened or impending breach of the confidentiality provisions. If a dispute cannot be settled by mutual agreement, each party agrees that any action or suit about this Agreement must be brought only in the federal and state courts in Minneapolis, MN. Each party also agrees that the courts in Minneapolis, MN, and any appellate court from them, have only jurisdiction. Each party also agrees that all claims in such an action may be heard and decided in those courts. Each party also agrees that the defense of an inconvenient forum is waived to the fullest extent they can. A final judgment in any such action is conclusive. It may be enforced in other places by suit on the judgment or in any other way the law allows.",
+  "topic": "Governing law",
+  "rewrite": "The laws of the State of South Dakota govern this Agreement. Any dispute, controversy or claim between the parties about this Agreement, or its breach, end or validity, will be settled by mutual agreement. This does not limit the parties' ability to seek temporary or interim injunctive relief. They can do so if there is a breach or a threatened or impending breach of the confidentiality provisions. If a dispute cannot be settled by mutual agreement, each party agrees that any action or suit about this Agreement must be brought only in the federal and state courts in Minneapolis, MN. Each party also agrees that the courts in Minneapolis, MN, and any appellate court from them, have only jurisdiction. Each party also agrees that all claims in such an action may be heard and decided in those courts. Each party also agrees that the defense of an inconvenient forum is waived to the fullest extent they can. A final judgment in any such action is conclusive. It may be enforced in other places by suit on the judgment or in any other way the law allows.",
+  "clause": "21.4 This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota.\n21.5 Any dispute, controversy or claim between the parties arising out of, or in connection with, this Agreement, or the breach, termination or validity thereof will be resolved by mutual agreement of the parties, provided that this shall not limit the ability of the parties to seek temporary or interim injunctive relief in the event of any breach or threatened or impending breach of the confidentiality provisions of this Agreement. If any dispute, controversy, or claim arising out of or relating to this Agreement, or the breach, termination or validity thereof is unable to be resolved by mutual agreement of the parties, each of the parties hereby (i) agrees that any action, suit or proceeding with respect to this Agreement against it or its properties or revenues must be brought exclusively in the federal and state courts siting in Minneapolis, MN, and (ii) irrevocably submits to the exclusive jurisdiction of any such court and any appellate court from any order or judgment thereof in any such action, suit or proceeding. The parties hereby irrevocably agree that all claims in respect of such action, suit or proceeding may be heard and determined in such courts. The parties hereby irrevocably waive, to the fullest extent they may effectively do so, the defense of an inconvenient forum to the maintenance of such action, suit or proceeding. The parties agree that a final judgment in any such action, suit, or proceeding will be conclusive and may be enforced in other jurisdictions by suit on the judgment or in any other manner provided by law.",
+  "span": " This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota.",
+  "highlight": [
+   5,
+   112
+  ],
+  "section": [
+   "21. MISCELLANEOUS"
+  ],
+  "pages": [
+   13
+  ],
+  "confidence": {
+   "score": 11.578,
+   "threshold": 6.25,
+   "probability": 0.9405145640468512
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.997021484375,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.807891845703125
+   },
+   "fkgl": {
+    "source": 22.501428571428573,
+    "rewrite": 10.50593548387097
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 23.43027925491333,
+   "checks": 0.1961045265197754
+  }
+ },
+ {
+  "contract_id": "cuad_011",
+  "category": "Expiration Date",
+  "hit": true,
+  "kind": "answer",
+  "message": "This Agreement lasts for 60 months from the Effective Date. This is the Initial Term. After the Initial Term, the term may be extended by 5 more years. This needs a written agreement by both parties, as an amendment to this Agreement. If Distributor wants to extend the term past the Initial Term, it must tell Airspan in writing at least 6 months before the Initial Term ends. Nothing here means either party must renew or extend this Agreement. Even so, this Agreement may end before its stated term.",
+  "topic": "When the contract ends",
+  "rewrite": "This Agreement lasts for 60 months from the Effective Date. This is the Initial Term. After the Initial Term, the term may be extended by 5 more years. This needs a written agreement by both parties, as an amendment to this Agreement. If Distributor wants to extend the term past the Initial Term, it must tell Airspan in writing at least 6 months before the Initial Term ends. Nothing here means either party must renew or extend this Agreement. Even so, this Agreement may end before its stated term.",
+  "clause": "13.1 This Agreement shall remain in effect for sixty (60) months from the Effective Date (the \"Initial Term\"). After the Initial Term, the term of the Agreement may be extended by a further period of five (5) years by mutual written agreement by the parties in the form of an amendment to this Agreement. If Distributor wishes to extend the term of the Agreement beyond the Initial Term, it must notify Airspan in writing at least six (6) months prior to then end of the Initial Term. However, nothing contained herein shall be interpreted as requiring either party to renew or extend this Agreement. Notwithstanding the provisions of this section or of any other provisions of this Agreement, this Agreement may be terminated prior to the expiration of its stated term as set forth below.",
+  "span": " This Agreement shall remain in effect for sixty (60) months from the Effective Date (the \"Initial Term\").",
+  "highlight": [
+   5,
+   110
+  ],
+  "section": [
+   "13. TERM AND TERMINATION"
+  ],
+  "pages": [
+   9
+  ],
+  "confidence": {
+   "score": 13.469,
+   "threshold": 6.25,
+   "probability": 0.9669687204722432
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9973493303571429,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.99384765625
+   },
+   "fkgl": {
+    "source": 14.169629629629632,
+    "rewrite": 6.604526484751204
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 11.839497566223145,
+   "checks": 0.09613513946533203
+  }
+ },
+ {
+  "contract_id": "cuad_011",
+  "category": "Cap On Liability",
+  "hit": true,
+  "kind": "answer",
+  "message": "If orders for Equipment and Software are more than Airspan's available inventory, Airspan will allocate its available inventory. It will make deliveries in a way Airspan thinks is fair. Airspan decides this alone. It is not liable for the way it allocates or carries out the allocation. Airspan is not liable for any direct, indirect, consequential or special losses or damages. This includes loss of income or profit and loss of data. This covers losses suffered by the Distributor or any other person. It covers losses from failure to deliver or any delay or error in delivery of Equipment or Software for any reason.",
+  "topic": "Limits on liability",
+  "rewrite": "If orders for Equipment and Software are more than Airspan's available inventory, Airspan will allocate its available inventory. It will make deliveries in a way Airspan thinks is fair. Airspan decides this alone. It is not liable for the way it allocates or carries out the allocation. Airspan is not liable for any direct, indirect, consequential or special losses or damages. This includes loss of income or profit and loss of data. This covers losses suffered by the Distributor or any other person. It covers losses from failure to deliver or any delay or error in delivery of Equipment or Software for any reason.",
+  "clause": "8.8 Should orders for Equipment and Software exceed Airspan's available inventory, Airspan will allocate its available inventory and make deliveries on a basis that Airspan deems equitable, in its sole discretion, and without liability to Distributor on account of the method of allocation chosen or its implementation. In any event, Airspan shall not be liable for any direct, indirect, consequential, or special losses or damages (including, but not limited to, loss of income or profit and loss of data) that may be suffered by the Distributor or by any other person for failure to deliver or for any delay or error in delivery of Equipment or Software for any reason whatsoever.",
+  "span": " In any event, Airspan shall not be liable for any direct, indirect, consequential, or special losses or damages (including, but not limited to, loss of income or profit and loss of data) that may be suffered by the Distributor or by any other person for failure to deliver or for any delay or error in delivery of Equipment or Software for any reason whatsoever.",
+  "highlight": [
+   320,
+   682
+  ],
+  "section": [
+   "8. DELIVERY, TITLE AND RISK OF LOSS"
+  ],
+  "pages": [
+   6
+  ],
+  "confidence": {
+   "score": 12.078,
+   "threshold": 6.25,
+   "probability": 0.9490012419820517
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.8410673141479492,
+    "nli_contradicted": 0.125,
+    "nli_coverage": 0.99462890625
+   },
+   "fkgl": {
+    "source": 27.635180180180182,
+    "rewrite": 9.56269230769231
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 13.254510641098022,
+   "checks": 0.08149862289428711
+  }
+ },
+ {
+  "contract_id": "cuad_011",
+  "category": "Anti-Assignment",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Transferring the contract to someone else",
+  "rewrite": "Neither party may assign this Agreement or subcontract its duties to another party. It needs the other party's prior, written consent. That consent must be signed by a duly authorized officer. If the assignment is to a subsidiary or affiliate organization, the consent will not be unreasonably withheld.",
+  "clause": "21.3 Neither party may assign this Agreement or subcontract its obligations under this Agreement to another party without the other party's prior, written consent executed by a duly authorized officer. The parties agree that if said assignment is to a subsidiary or affiliate organization, said consent to assignment will not be unreasonably withheld.",
+  "span": " Neither party may assign this Agreement or subcontract its obligations under this Agreement to another party without the other party's prior, written consent executed by a duly authorized officer.",
+  "highlight": [
+   5,
+   201
+  ],
+  "section": [
+   "21. MISCELLANEOUS"
+  ],
+  "pages": [
+   13
+  ],
+  "confidence": {
+   "score": 13.797,
+   "threshold": 6.25,
+   "probability": 0.9702181836419835
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.93994140625,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.625732421875
+   },
+   "fkgl": {
+    "source": 18.345000000000002,
+    "rewrite": 10.96916666666667
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 6.550746917724609,
+   "checks": 0.07165169715881348
+  }
+ },
+ {
+  "contract_id": "cuad_011",
+  "category": "Non-Compete",
+  "hit": true,
+  "kind": "answer",
+  "message": "Distributor will use its best efforts to maintain and support the Airspan Products in the Territory. It will give the attention, time and effort reasonably needed to fully develop the available market potential. During the term of this Agreement, and for 3 months after it ends, Distributor will not represent a manufacturer or supplier of products similar in design or performance to the Airspan Products. It will not represent any such product that competes with them. This covers Distributor and any organization or entity it controls or directs. Distributor will not market or promote the sale of such products. Distributor will give Airspan 30 days' prior, written notice of each new potential representation role it considers. It will not take such a role without Airspan's prior, written consent. Airspan will not unreasonably withhold that consent. Airspan will never consent to Distributor's consultation for or representation of a manufacturer or supplier that competes with Airspan, directly or indirectly.",
+  "topic": "Restrictions on competing",
+  "rewrite": "Distributor will use its best efforts to maintain and support the Airspan Products in the Territory. It will give the attention, time and effort reasonably needed to fully develop the available market potential. During the term of this Agreement, and for 3 months after it ends, Distributor will not represent a manufacturer or supplier of products similar in design or performance to the Airspan Products. It will not represent any such product that competes with them. This covers Distributor and any organization or entity it controls or directs. Distributor will not market or promote the sale of such products. Distributor will give Airspan 30 days' prior, written notice of each new potential representation role it considers. It will not take such a role without Airspan's prior, written consent. Airspan will not unreasonably withhold that consent. Airspan will never consent to Distributor's consultation for or representation of a manufacturer or supplier that competes with Airspan, directly or indirectly.",
+  "clause": "1.3 Distributor will use its best efforts to maintain and support the Airspan Products within the Territory by devoting such attention, time, and effort as may be reasonably necessary to fully develop the available market potential. During the term of this Agreement, and for a period of three (3) months following the expiration or termination of this Agreement, Distributor agrees that neither it nor any organization or entity controlled or directed by it will, without Airspan's prior, written consent, represent a manufacturer or supplier of products similar in design or performance to or which are of such a nature as to be competitive with any products contained in the Airspan Products, nor will Distributor market or otherwise promote the sale of such products. Distributor will give Airspan thirty (30) days' prior, written notice of each new potential representation role being considered by Distributor, and Distributor will not undertake such representation without Airspan's prior, written consent, such consent not to be unreasonably withheld. Except as provided above, in no event will Airspan consent to Distributor's consultation for or representation of a manufacturer or supplier, which is directly or indirectly, a competitor of Airspan.",
+  "span": " During the term of this Agreement, and for a period of three (3) months following the expiration or termination of this Agreement, Distributor agrees that neither it nor any organization or entity controlled or directed by it will, without Airspan's prior, written consent, represent a manufacturer or supplier of products similar in design or performance to or which are of such a nature as to be competitive with any products contained in the Airspan Products, nor will Distributor market or otherwise promote the sale of such products.",
+  "highlight": [
+   233,
+   771
+  ],
+  "section": [
+   "1. APPOINTMENT"
+  ],
+  "pages": [
+   1
+  ],
+  "confidence": {
+   "score": 11.922,
+   "threshold": 6.25,
+   "probability": 0.9464802040254167
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.994287109375,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.78582763671875
+   },
+   "fkgl": {
+    "source": 24.947708333333328,
+    "rewrite": 11.352108280254779
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 20.964845180511475,
+   "checks": 0.1920020580291748
+  }
+ },
+ {
+  "contract_id": "cuad_014",
+  "category": "Termination For Convenience",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Ending the contract without a reason",
+  "rewrite": "Neither party can end this Agreement at any time if no default exists or is continuing under it or under the Lease. To do so, it must give the other party 30 days written notice. This does not end any Equipment leased under it.",
+  "clause": "(a) So long as no default exists and is continuing hereunder or under the Lease, either party may terminate this Agreement at any time upon ____________ (______30________) days written notice to the other party; provided however that such termination shall not act as a termination of any Equipment leased hereunder.",
+  "span": " So long as no default exists and is continuing hereunder or under the Lease, either party may terminate this Agreement at any time upon ____________ (______30________) days written notice to the other party; provided however that such termination shall not act as a termination of any Equipment leased hereunder.",
+  "highlight": [
+   4,
+   316
+  ],
+  "section": [
+   "ARTICLE III TERMINATION",
+   "Section 3.01 Termination"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 12.969,
+   "threshold": 6.25,
+   "probability": 0.9613502302644831
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.6641335487365723,
+    "nli_contradicted": 0.3333333333333333,
+    "nli_coverage": 0.0018339157104492188
+   },
+   "fkgl": {
+    "source": 23.970000000000002,
+    "rewrite": 7.293636363636363
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 5.7950286865234375,
+   "checks": 0.15189123153686523
+  }
+ },
+ {
+  "contract_id": "cuad_017",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "answer",
+  "message": "The laws of the State of California govern this Agreement. Conflict of law rules do not apply. The party that wins any case to enforce this Agreement may recover the reasonable fees and costs of its counsel. It may also recover all other costs of that case.",
+  "topic": "Governing law",
+  "rewrite": "The laws of the State of California govern this Agreement. Conflict of law rules do not apply. The party that wins any case to enforce this Agreement may recover the reasonable fees and costs of its counsel. It may also recover all other costs of that case.",
+  "clause": "(c) Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of California without regard to conflict of law principles.\n(d) Attorneys' Fees. The prevailing party in any proceeding brought to enforce any provision of this Agreement shall be entitled to recover the reasonable fees and costs of its counsel, plus all other costs of such proceeding.",
+  "span": " This Agreement shall be governed by and construed in accordance with the laws of the State of California without regard to conflict of law principles.",
+  "highlight": [
+   19,
+   169
+  ],
+  "section": [
+   "24. Miscellaneous Provisions"
+  ],
+  "pages": [
+   7
+  ],
+  "confidence": {
+   "score": 10.547,
+   "threshold": 6.25,
+   "probability": 0.9186905538063526
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.997314453125,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.9534505208333334
+   },
+   "fkgl": {
+    "source": 9.990576923076926,
+    "rewrite": 6.566968085106382
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 6.013946294784546,
+   "checks": 0.06937456130981445
+  }
+ },
+ {
+  "contract_id": "cuad_017",
+  "category": "Expiration Date",
+  "hit": true,
+  "kind": "answer",
+  "message": "The license starts on August 1, 1995. It runs until January 30, 2000. It can end sooner as the next sentence says. It can also end as this Agreement says. But if Kmart store management chooses not to carry KI eyewear before the first license year ends on January 30, 1997, then either party can end this Agreement on that date.",
+  "topic": "When the contract ends",
+  "rewrite": "The license starts on August 1, 1995. It runs until January 30, 2000. It can end sooner as the next sentence says. It can also end as this Agreement says. But if Kmart store management chooses not to carry KI eyewear before the first license year ends on January 30, 1997, then either party can end this Agreement on that date.",
+  "clause": "(c) Term. The term of the license hereby granted shall commence August 1, 1995 and continue until January 30, 2000, unless sooner terminated in the manner provided in the immediately succeeding sentence or as otherwise provided in this Agreement. Notwithstanding the foregoing, if the management of Kmart stores elects not to carry KI eyewear prior to the end of the first license year (January 30, 1997), then either party shall have the right to terminate this Agreement as of such date.",
+  "span": " The term of the license hereby granted shall commence August 1, 1995 and continue until January 30, 2000, unless sooner terminated in the manner provided in the immediately succeeding sentence or as otherwise provided in this Agreement.",
+  "highlight": [
+   10,
+   246
+  ],
+  "section": [
+   "2. Grant of License"
+  ],
+  "pages": [
+   1
+  ],
+  "confidence": {
+   "score": 12.938,
+   "threshold": 6.25,
+   "probability": 0.960970123166661
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.94599609375,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.8040364583333334
+   },
+   "fkgl": {
+    "source": 19.871666666666666,
+    "rewrite": 5.997508196721313
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 9.457740545272827,
+   "checks": 0.05111956596374512
+  }
+ },
+ {
+  "contract_id": "cuad_017",
+  "category": "Anti-Assignment",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Transferring the contract to someone else",
+  "rewrite": "This Agreement and all rights and duties under it are personal to Diplomat. Diplomat cannot assign, mortgage, sublicense or otherwise encumber them without the written consent of KI, Inc. KI, Inc. may assign its rights under this Agreement. But it must give Diplomat written notice of that assignment.",
+  "clause": "This Agreement and all rights and duties hereunder are personal to Diplomat and shall not, without the written consent of KI, Inc., be assigned, mortgaged, sublicensed or otherwise encumbered by Diplomat or by operation of law.\nKI, Inc. may assign its rights hereunder, but shall furnish written notice of such assignment to Diplomat.",
+  "span": "\nThis Agreement and all rights and duties hereunder are personal to Diplomat and shall not, without the written consent of KI, Inc., be assigned, mortgaged, sublicensed or otherwise encumbered by Diplomat or by operation of law.",
+  "highlight": [
+   0,
+   227
+  ],
+  "section": [
+   "21. No Assignment or Sublicense by Diplomat"
+  ],
+  "pages": [
+   7
+  ],
+  "confidence": {
+   "score": 13.344,
+   "threshold": 6.25,
+   "probability": 0.9656428159424605
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.963134765625,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.6632080078125
+   },
+   "fkgl": {
+    "source": 10.892452830188681,
+    "rewrite": 8.756666666666668
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 6.762211561203003,
+   "checks": 0.07112574577331543
+  }
+ },
+ {
+  "contract_id": "cuad_017",
+  "category": "Exclusivity",
+  "hit": true,
+  "kind": "answer",
+  "message": "The license is exclusive for the products in subparagraphs 2.(a)(1) and (2) of this Agreement. It is not exclusive for all other products covered by this Agreement. Nothing in this Agreement stops KI, Inc. from granting other licenses for the use of KI's name or likeness. Nothing stops KI, Inc. from using KI's name and likeness in any way. But KI, Inc. agrees that it will grant no other licenses for the territory this license covers. This is for the use of KI's name and likeness in connection with the sale of the products in subparagraphs 2.(a)(1) and (2) of this Agreement. This holds during the term of this Agreement.",
+  "topic": "Exclusive dealing",
+  "rewrite": "The license is exclusive for the products in subparagraphs 2.(a)(1) and (2) of this Agreement. It is not exclusive for all other products covered by this Agreement. Nothing in this Agreement stops KI, Inc. from granting other licenses for the use of KI's name or likeness. Nothing stops KI, Inc. from using KI's name and likeness in any way. But KI, Inc. agrees that it will grant no other licenses for the territory this license covers. This is for the use of KI's name and likeness in connection with the sale of the products in subparagraphs 2.(a)(1) and (2) of this Agreement. This holds during the term of this Agreement.",
+  "clause": "The license hereby granted shall be exclusive as to the products described in subparagraphs 2.(a)(1) and (2) of this Agreement, but nonexclusive as to all other products covered by this Agreement. Nothing in this Agreement shall be construed to prevent KI, Inc. from granting any other licenses for the use of KI's name or likeness, or from utilizing KI's name and likeness in any manner whatsoever, except that KI, Inc. agrees that except as provided herein it will grant no other licenses for the territory to which this license extends for the use of KI's name and likeness in connection with the sale of the products described in subparagraphs 2.(a)(1) and (2) of this Agreement effective during the term of this Agreement.",
+  "span": "\nThe license hereby granted shall be exclusive as to the products described in subparagraphs 2.(a)(1) and (2) of this Agreement, but nonexclusive as to all other products covered by this Agreement.",
+  "highlight": [
+   0,
+   196
+  ],
+  "section": [
+   "4. Exclusivity"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 12.125,
+   "threshold": 6.25,
+   "probability": 0.9497353796023437
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9942103794642857,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.998046875
+   },
+   "fkgl": {
+    "source": 10.62032786885246,
+    "rewrite": 4.826818181818183
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 15.877069473266602,
+   "checks": 0.09839487075805664
+  }
+ },
+ {
+  "contract_id": "cuad_017",
+  "category": "Insurance",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Insurance requirements",
+  "rewrite": "Diplomat will cover KI, Inc. and KI for any claims, suits, loss and damage. This includes attorneys' fees and costs. It will also defend them against them. This covers any alleged unauthorized use of any patent, process, idea, method or device by Diplomat. This covers use in connection with the products covered by this Agreement. It also covers any alleged defects in those products. It also covers any other alleged action by Diplomat. Diplomat will get product liability insurance from a recognized insurance company. It will pay for it. The company must be qualified to do business in the State of California. The insurance must give enough protection for KI, Inc., KI and Diplomat. It must cover any claims, suits, loss or damage from any alleged defects in the products. The amount must be at least $ . Diplomat will give KI, Inc. a fully paid certificate of insurance. It must name KI, Inc. and KI as an insured party. Diplomat must get KI, Inc.'s prior approval of it. This must happen before any product is distributed or sold. It must also happen within 30 days after the date first written above. Any proposed change in the certificates of insurance must be approved by KI, Inc. first. Diplomat will give KI, Inc. a copy of the current certificate of insurance. KI, Inc. also includes the officers, directors, agents and employees of the KI, Inc. or any of its subsidiaries or affiliates.",
+  "clause": "Diplomat hereby indemnifies KI, Inc. and KI, undertakes to defend KI, Inc. and KI against, and hold KI, Inc. and KI harmless from, any claims, suits, loss and damage (including attorneys' fees and costs) arising out of (a) any allegedly unauthorized use of any patent, process, idea, method, or device by Diplomat in connection with the products covered by this Agreement, (b) any alleged defects in the products covered by this Agreement, and (c) any other alleged action by Diplomat. Diplomat agrees that it will obtain, at its own expense, product liability insurance from a recognized insurance company which is qualified to do business in the State of California providing adequate protection (at least in the amount of $ ) for KI, Inc., KI and Diplomat against any claims, suits, loss or damage arising out of any alleged defects in the products. As proof of such insurance, a fully paid certificate of insurance naming KI, Inc. and KI as an insured party will be submitted to KI, Inc. by Diplomat for KI, Inc.'s prior approval before any product is distributed or sold, and at the latest within thirty (30) days after the date first written above. Any proposed change in certificates of insurance shall be submitted to KI, Inc. for its prior approval. KI, Inc. shall be entitled to a copy of the then prevailing certificate of insurance, which shall be furnished KI, Inc. by Diplomat. As used in the first 2 sentences of this paragraph 6, \"KI, Inc.\" shall also include the officers, directors, agents, and employees of the KI, Inc., or any of its subsidiaries or affiliates.",
+  "span": " Diplomat agrees that it will obtain, at its own expense, product liability insurance from a recognized insurance company which is qualified to do business in the State of California providing adequate protection (at least in the amount of $ ) for KI, Inc., KI and Diplomat against any claims, suits, loss or damage arising out of any alleged defects in the products.",
+  "highlight": [
+   486,
+   852
+  ],
+  "section": [
+   "8. Indemnification by Licensee and Product Liability Insurance"
+  ],
+  "pages": [
+   3
+  ],
+  "confidence": {
+   "score": 13.031,
+   "threshold": 6.25,
+   "probability": 0.9620998116941749
+  },
+  "checks": {
+   "numbers": {
+    "passed": false,
+    "recall": 0.5,
+    "precision": 1.0,
+    "missing": [
+     "2"
+    ],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.99365234375,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.8996988932291666
+   },
+   "fkgl": {
+    "source": 10.363817883895134,
+    "rewrite": 6.846041542139872
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 33.7501585483551,
+   "checks": 0.3673396110534668
+  }
+ },
+ {
+  "contract_id": "cuad_030",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Governing law",
+  "rewrite": "The Laws of England govern this agreement. This includes English common and statutory Law. The Manufacturer owns the intellectual Property for the products in schedule A. It also owns the book ‘How to Achieve Super Health beyond 2000 – Advanced Edition’.",
+  "clause": "10. GOVERNING LAW\nThis agreement shall be governed by the Laws of England (English common and statutory Law).\n11. INTELLECTUAL PROPERTY\nThe Manufacturer is the owner of the intellectual Property pertaining to the products listed in schedule A of this agreement as well as to the book ‘How to Achieve Super Health beyond 2000 – Advanced Edition’",
+  "span": "\nThis agreement shall be governed by the Laws of England (English common and statutory Law).",
+  "highlight": [
+   18,
+   109
+  ],
+  "section": [
+   "10. GOVERNING LAW"
+  ],
+  "pages": [
+   7
+  ],
+  "confidence": {
+   "score": 9.625,
+   "threshold": 6.25,
+   "probability": 0.8932441913172816
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.9647216796875,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.6810709635416666
+   },
+   "fkgl": {
+    "source": 15.769285714285719,
+    "rewrite": 8.665000000000003
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 6.049654483795166,
+   "checks": 0.07030582427978516
+  }
+ },
+ {
+  "contract_id": "cuad_030",
+  "category": "Expiration Date",
+  "hit": true,
+  "kind": "answer",
+  "message": "This agreement lasts for 10 years. At the end of each 10 year term, it renews by itself. Each renewal term is also for 10 years. Either party must give 6 months notice if it wants to end the agreement for any reason other than breach of this agreement.",
+  "topic": "When the contract ends",
+  "rewrite": "This agreement lasts for 10 years. At the end of each 10 year term, it renews by itself. Each renewal term is also for 10 years. Either party must give 6 months notice if it wants to end the agreement for any reason other than breach of this agreement.",
+  "clause": "1.2 Term\nThis agreement is for a term of ten (10) years.\n1.3 Renewal\nThis agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten (10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than breach of this agreement.",
+  "span": "\nThis agreement is for a term of ten (10) years.",
+  "highlight": [
+   9,
+   56
+  ],
+  "section": [
+   "1. TERMS OF AGREEMENT",
+   "1.2 Term"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 10.891,
+   "threshold": 6.25,
+   "probability": 0.9266742305819435
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9990234375,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.78509521484375
+   },
+   "fkgl": {
+    "source": 10.823478260869567,
+    "rewrite": 5.081377551020406
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 7.441075801849365,
+   "checks": 0.08093786239624023
+  }
+ },
+ {
+  "contract_id": "cuad_030",
+  "category": "Renewal Term",
+  "hit": true,
+  "kind": "answer",
+  "message": "This agreement renews by itself at the end of every 10 year term. Each renewal term is also for 10 years. Either party must give 6 months notice to end relations. This applies for any reason other than breach of this agreement.",
+  "topic": "Renewal",
+  "rewrite": "This agreement renews by itself at the end of every 10 year term. Each renewal term is also for 10 years. Either party must give 6 months notice to end relations. This applies for any reason other than breach of this agreement.",
+  "clause": "This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten (10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than breach of this agreement.",
+  "span": "\nThis agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten (10) year term.",
+  "highlight": [
+   0,
+   153
+  ],
+  "section": [
+   "1. TERMS OF AGREEMENT",
+   "1.3 Renewal"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 12.047,
+   "threshold": 6.25,
+   "probability": 0.9485061921093662
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.997802734375,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.99951171875
+   },
+   "fkgl": {
+    "source": 13.156818181818185,
+    "rewrite": 5.92404761904762
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 5.780799388885498,
+   "checks": 0.04386281967163086
+  }
+ },
+ {
+  "contract_id": "cuad_030",
+  "category": "Anti-Assignment",
+  "hit": true,
+  "kind": "answer",
+  "message": "The Manufacturer may not transfer or assign any of its rights or duties under this agreement without the Customer's prior written consent. The Customer may not freely transfer or assign its rights or duties under this agreement without the Manufacturer's prior written consent. Subject to this, this agreement binds and benefits the parties, their successors and assignees.",
+  "topic": "Transferring the contract to someone else",
+  "rewrite": "The Manufacturer may not transfer or assign any of its rights or duties under this agreement without the Customer's prior written consent. The Customer may not freely transfer or assign its rights or duties under this agreement without the Manufacturer's prior written consent. Subject to this, this agreement binds and benefits the parties, their successors and assignees.",
+  "clause": "The Manufacturer may not transfer or assign any of its rights or obligations under this agreement without the prior written consent of the Customer. The Customer may not freely transfer or assign its rights or obligations under this agreement without the prior written consent of the Manufacturer. Subject to the foregoing, this agreement will be binding upon and inure to the benefit of the parties hereto, their successors and assignees.",
+  "span": "\nThe Manufacturer may not transfer or assign any of its rights or obligations under this agreement without the prior written consent of the Customer.",
+  "highlight": [
+   0,
+   148
+  ],
+  "section": [
+   "14. MISCELLANEOUS PROVISIONS",
+   "14.6 Assignment"
+  ],
+  "pages": [
+   9
+  ],
+  "confidence": {
+   "score": 14.805,
+   "threshold": 6.25,
+   "probability": 0.9783739823839211
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9931640625,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.9793294270833334
+   },
+   "fkgl": {
+    "source": 14.244285714285713,
+    "rewrite": 12.521754385964911
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 7.658936023712158,
+   "checks": 0.07087111473083496
+  }
+ },
+ {
+  "contract_id": "cuad_030",
+  "category": "Exclusivity",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Exclusive dealing",
+  "rewrite": "The Manufacturer gives the Customer exclusive rights for 10 years from the date of signing this agreement. After that, the rights last forever if the Customer meets the minimum annual purchase requirement in Schedule B.",
+  "clause": "13.2 The Manufacturer grants exclusive rights to the Customer for the term of ten (10) years from the date of the signing of this agreement and for an indefinite period upon the customer fulfilling the minimum annual purchase requirement as listed in Schedule B. of this agreement.",
+  "span": " The Manufacturer grants exclusive rights to the Customer for the term of ten (10) years from the date of the signing of this agreement and for an indefinite period upon the customer fulfilling the minimum annual purchase requirement as listed in Schedule B. of this agreement.",
+  "highlight": [
+   5,
+   281
+  ],
+  "section": [
+   "13. APPOINTMENT AND GRANT OF LICENSE",
+   "13.2"
+  ],
+  "pages": [
+   8
+  ],
+  "confidence": {
+   "score": 11.984,
+   "threshold": 6.25,
+   "probability": 0.9475024291698877
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.91162109375,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.294921875
+   },
+   "fkgl": {
+    "source": 13.409042553191494,
+    "rewrite": 11.126428571428573
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 4.368185997009277,
+   "checks": 0.06831741333007812
+  }
+ },
+ {
+  "contract_id": "cuad_030",
+  "category": "Ip Ownership Assignment",
+  "hit": true,
+  "kind": "answer",
+  "message": "The Manufacturer has named the Customer the copyright holder of the book How to achieve Super Health beyond 2000 – Advanced Edition. The book is in English and Chinese. Frank D.P. Ellis and Dr Michael Tait M.D. wrote it. This naming is valid only if the Customer meets and keeps meeting the terms of this agreement. The Customer will tell the Manufacturer before printing runs. It will give the quantity of books in each run. The Customer will pay the Manufacturer AUS $1.00 per book before printing.",
+  "topic": "Who owns intellectual property",
+  "rewrite": "The Manufacturer has named the Customer the copyright holder of the book How to achieve Super Health beyond 2000 – Advanced Edition. The book is in English and Chinese. Frank D.P. Ellis and Dr Michael Tait M.D. wrote it. This naming is valid only if the Customer meets and keeps meeting the terms of this agreement. The Customer will tell the Manufacturer before printing runs. It will give the quantity of books in each run. The Customer will pay the Manufacturer AUS $1.00 per book before printing.",
+  "clause": "14.10 HOW TO ACHIEVE SUPER HEALTH BEYOND 2000 – ADVANCED EDITION BOOK The Manufacturer has appointed the Customer the copyright holder of both the English and the Chinese version of the book How to achieve Super Health beyond 2000 – Advanced Edition, authored by Frank D.P. Ellis and Dr. Michael Tait M.D. This appointment shall be deemed valid provided the Customer fulfils and maintains the criteria of this agreement. The Customer will provide the Manufacturer with prior notification of printing runs of the book and the quantity of books to be printed in each run. The Customer will compensate the Manufacturer the amount of AUS $1.00 per book prior to printing.",
+  "span": " The Manufacturer has appointed the Customer the copyright holder of both the English and the Chinese version of the book How to achieve Super Health beyond 2000 – Advanced Edition, authored by Frank D.P. Ellis and Dr. Michael Tait M.D.",
+  "highlight": [
+   70,
+   305
+  ],
+  "section": [
+   "14. MISCELLANEOUS PROVISIONS",
+   "14.8 New Products Designed, Formulated and Supplied by the Manufacturer"
+  ],
+  "pages": [
+   10
+  ],
+  "confidence": {
+   "score": 9.312,
+   "threshold": 6.25,
+   "probability": 0.8831387694814848
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9988839285714286,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.764801025390625
+   },
+   "fkgl": {
+    "source": 9.860838794233288,
+    "rewrite": 6.576918604651162
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 11.567936182022095,
+   "checks": 0.08202171325683594
+  }
+ },
+ {
+  "contract_id": "cuad_030",
+  "category": "Insurance",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Insurance requirements",
+  "rewrite": "The Customer must keep product liability insurance at all times during the term of this agreement. It must cover all products the Manufacturer sells to the Customer. The policy must name the Manufacturer as Additional Insured.",
+  "clause": "6.2 The Customer shall at all times during the term of this agreement maintain product liability insurance, covering all products sold by the Manufacturer to the Customer and which policy shall name the Manufacturer as Additional Insured.\n7. BREACH / TERMINATION",
+  "span": " The Customer shall at all times during the term of this agreement maintain product liability insurance, covering all products sold by the Manufacturer to the Customer and which policy shall name the Manufacturer as Additional Insured.",
+  "highlight": [
+   4,
+   238
+  ],
+  "section": [
+   "6. INDEMNITY / INSURANCE",
+   "6.2"
+  ],
+  "pages": [
+   6
+  ],
+  "confidence": {
+   "score": 13.625,
+   "threshold": 6.25,
+   "probability": 0.968556713559237
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.9747721354166666,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.44921875
+   },
+   "fkgl": {
+    "source": 22.135,
+    "rewrite": 10.723333333333333
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 4.560730695724487,
+   "checks": 0.0650637149810791
+  }
+ },
+ {
+  "contract_id": "cuad_038",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Governing law",
+  "rewrite": "The laws of the State of Delaware govern this Agreement. Its conflicts of law principles do not apply. Each party agrees to the exclusive jurisdiction of any state or federal court in Wilmington, Delaware. This covers any action or proceeding about this Agreement. Each party agrees that all claims in that action may be heard and decided in any such court. Each party agrees not to bring any action about this Agreement in any other court. Each party gives up any defense of inconvenient forum. This covers any action brought in such a court. Each party also gives up any bond, surety or other security that might be needed from any other party. A final judgment in any such action will be conclusive. It may be enforced by suit on the judgment or in any other way the law allows.",
+  "clause": "6.1 Governing Law. This Agreement shall be governed by and interpreted in accordance with the laws of the State of Delaware without regard to its conflicts of law principles.\n6.2 Jurisdiction and Venue. Each of the parties: (a) submits to the exclusive jurisdiction of any state or federal court sitting in Wilmington, Delaware for any action or proceeding arising out of, or relating to, this Agreement; (b) agrees that all claims in respect of the action or proceeding may be heard and determined in any such court; and (c) agrees not to bring any action or proceeding arising out of, or relating to, this Agreement in any other court. Each of the parties hereto waives any defense of inconvenient forum to the maintenance of any action or proceeding so brought and waives any bond, surety or other security that might be required of any other party with respect thereto. Each party agrees that a final judgment in any action or proceeding so brought will be conclusive and may be enforced by suit on the judgment or in any other manner provided by law or at equity.",
+  "span": " This Agreement shall be governed by and interpreted in accordance with the laws of the State of Delaware without regard to its conflicts of law principles.",
+  "highlight": [
+   19,
+   174
+  ],
+  "section": [
+   "6. MISCELLANEOUS",
+   "6.1 Governing Law"
+  ],
+  "pages": [
+   4
+  ],
+  "confidence": {
+   "score": 10.906,
+   "threshold": 6.25,
+   "probability": 0.927019411455089
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.9991566051136364,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.6793528965541294
+   },
+   "fkgl": {
+    "source": 15.532258064516128,
+    "rewrite": 7.916493506493509
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 17.37499690055847,
+   "checks": 0.18477439880371094
+  }
+ },
+ {
+  "contract_id": "cuad_038",
+  "category": "Expiration Date",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "When the contract ends",
+  "rewrite": "The Term starts on the Effective Date. It continues for the time periods in Schedules 1 and 2. It can end sooner under this Agreement. Licensor and Licensee can end this Agreement by written notice to the other party. This applies if the other party is in material breach of any of its duties. It also applies if the other party fails to fix the breach within 120 days after the non-breaching party gives notice.",
+  "clause": "4.1 Term. The Term of this Agreement will commence on the Effective Date and shall continue for the time periods set forth in Schedules 1 and 2 unless sooner terminated in accordance with the terms of this Agreement.\n4.2 Termination for Breach. Licensor and Licensee will be entitled to terminate this Agreement by written notice to the other party in the event the other party is in material breach of any of its obligations hereunder and shall fail to remedy any such default within one hundred twenty (120) days after notice thereof by the non-breaching party.",
+  "span": " The Term of this Agreement will commence on the Effective Date and shall continue for the time periods set forth in Schedules 1 and 2 unless sooner terminated in accordance with the terms of this Agreement.",
+  "highlight": [
+   10,
+   216
+  ],
+  "section": [
+   "4. TERM AND TERMINATION",
+   "4.1 Term"
+  ],
+  "pages": [
+   3
+  ],
+  "confidence": {
+   "score": 10.281,
+   "threshold": 6.25,
+   "probability": 0.9119868637521854
+  },
+  "checks": {
+   "numbers": {
+    "passed": false,
+    "recall": 0.5,
+    "precision": 1.0,
+    "missing": [
+     "20"
+    ],
+    "added": []
+   },
+   "negation": {
+    "passed": false,
+    "kept": 0.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.8505655924479166,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.5280647277832031
+   },
+   "fkgl": {
+    "source": 16.18791666666667,
+    "rewrite": 7.221
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 10.13000750541687,
+   "checks": 0.07752490043640137
+  }
+ },
+ {
+  "contract_id": "cuad_038",
+  "category": "Anti-Assignment",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Transferring the contract to someone else",
+  "rewrite": "Licensee cannot assign this Agreement without Licensor's consent. Licensor must not unreasonably withhold consent. But no consent is needed if there is a Change of Control of Licensee. This is so long as the resulting, surviving or transferee Person takes on all of Licensee's duties. This must be by operation of Law or by an agreement that the Licensor reasonably approves. Also, the licenses cannot be transferred or sublicensed to Affiliates of that Person. This is unless those Affiliates were Affiliates of Licensee before the Change of Control.",
+  "clause": "6.10 Assignment. This Agreement may not be assigned by Licensee without the consent of Licensor which consent shall not be unreasonably withheld. Notwithstanding the foregoing, no such consent of Licensor is required under this Agreement in the event of a Change of Control of Licensee so long as: (a) the resulting, surviving or transferee Person assumes all the obligations of the Licensee by operation of Law or pursuant to an agreement in form and substance reasonably satisfactory to the Licensor; and (b) the licenses granted herein shall not be transferrable or sublicensable to Affiliates of such Person unless such Affiliates were Affiliates of Licensee prior to such Change of Control.",
+  "span": " This Agreement may not be assigned by Licensee without the consent of Licensor which consent shall not be unreasonably withheld.",
+  "highlight": [
+   17,
+   145
+  ],
+  "section": [
+   "6. MISCELLANEOUS",
+   "6.10 Assignment"
+  ],
+  "pages": [
+   6
+  ],
+  "confidence": {
+   "score": 14.828,
+   "threshold": 6.25,
+   "probability": 0.9785349702938836
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.9948381696428571,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.666833241780599
+   },
+   "fkgl": {
+    "source": 27.099999999999998,
+    "rewrite": 9.828766233766235
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 13.625236749649048,
+   "checks": 0.07837247848510742
+  }
+ },
+ {
+  "contract_id": "cuad_046",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Governing law",
+  "rewrite": "The laws of the State of Delaware govern this Agreement. They also decide how it is read and enforced. This is true even if other laws would apply.",
+  "clause": "Section 10.9 Governing Law. This Agreement shall be governed by, and construed and enforced in accordance with, the substantive laws of the State of Delaware, without regard to any conflicts of law provisions thereof that would result in the application of the laws of any other jurisdiction.",
+  "span": " This Agreement shall be governed by, and construed and enforced in accordance with, the substantive laws of the State of Delaware, without regard to any conflicts of law provisions thereof that would result in the application of the laws of any other jurisdiction.",
+  "highlight": [
+   28,
+   292
+  ],
+  "section": [
+   "ARTICLE X MISCELLANEOUS",
+   "Section 10.9 Governing Law"
+  ],
+  "pages": [
+   28
+  ],
+  "confidence": {
+   "score": 10.906,
+   "threshold": 6.25,
+   "probability": 0.927019411455089
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": false,
+    "kept": 0.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.6605033874511719,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.3946824073791504
+   },
+   "fkgl": {
+    "source": 12.906914893617024,
+    "rewrite": 4.4857142857142875
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 3.6111202239990234,
+   "checks": 0.0454249382019043
+  }
+ },
+ {
+  "contract_id": "cuad_046",
+  "category": "Anti-Assignment",
+  "hit": true,
+  "kind": "answer",
+  "message": "This Agreement gives no rights or remedies to any Person other than the Parties. The Affiliates of the Parties are intended to be third party beneficiaries. This Agreement does not give rights to any Person other than the Parties. This is true except as Section 5.10 expressly states. This Agreement benefits the Parties and binds them. It also binds their successors and permitted assigns. Neither Party may assign this Agreement. The other Party must first agree in writing.",
+  "topic": "Transferring the contract to someone else",
+  "rewrite": "This Agreement gives no rights or remedies to any Person other than the Parties. The Affiliates of the Parties are intended to be third party beneficiaries. This Agreement does not give rights to any Person other than the Parties. This is true except as Section 5.10 expressly states. This Agreement benefits the Parties and binds them. It also binds their successors and permitted assigns. Neither Party may assign this Agreement. The other Party must first agree in writing.",
+  "clause": "Section 10.3 Binding Effect; Third-Party Beneficiaries; Assignment. Except as expressly set forth in Section 5.10 and except for the Affiliates of the Parties, which are intended to be third party beneficiaries hereunder, this Agreement does not and is not intended to confer any rights or remedies upon any Person other than the Parties. This Agreement shall inure to the benefit of and be binding upon the Parties and their respective successors and permitted assigns. This Agreement may not be assigned by either Party, except with the prior written consent of the other Party.",
+  "span": " This Agreement may not be assigned by either Party, except with the prior written consent of the other Party.",
+  "highlight": [
+   471,
+   580
+  ],
+  "section": [
+   "ARTICLE X MISCELLANEOUS",
+   "Section 10.2 Entire Agreement"
+  ],
+  "pages": [
+   27
+  ],
+  "confidence": {
+   "score": 14.672,
+   "threshold": 6.25,
+   "probability": 0.9774391748643079
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.8735604286193848,
+    "nli_contradicted": 0.125,
+    "nli_coverage": 0.7488245964050293
+   },
+   "fkgl": {
+    "source": 12.34572043010753,
+    "rewrite": 7.1541025641025655
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 9.239280700683594,
+   "checks": 0.08400464057922363
+  }
+ },
+ {
+  "contract_id": "cuad_058",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "answer",
+  "message": "The laws of the Commonwealth of Massachusetts govern this Agreement and all related business deals. This means the internal laws of any other place do not apply. The courts of or in the Commonwealth of Massachusetts have nonexclusive power over any disputes. Either party may serve the other with any action or proceeding in those courts. Service is done by registered mail, return receipt requested, at the address given here.",
+  "topic": "Governing law",
+  "rewrite": "The laws of the Commonwealth of Massachusetts govern this Agreement and all related business deals. This means the internal laws of any other place do not apply. The courts of or in the Commonwealth of Massachusetts have nonexclusive power over any disputes. Either party may serve the other with any action or proceeding in those courts. Service is done by registered mail, return receipt requested, at the address given here.",
+  "clause": "5.6. Governing Law; Jurisdiction. This Agreement and all related business transactions will be governed by the laws of the Commonwealth of Massachusetts (without reference to principles of conflicts or choice of law which would cause the application of the internal laws of any other jurisdiction). The courts of or in the Commonwealth of Massachusetts will have nonexclusive jurisdiction over any disputes hereunder. Service of any action or proceeding in any such courts by either party may be made upon the other by registered mail, return receipt requested, at its address given herein.",
+  "span": " This Agreement and all related business transactions will be governed by the laws of the Commonwealth of Massachusetts (without reference to principles of conflicts or choice of law which would cause the application of the internal laws of any other jurisdiction).",
+  "highlight": [
+   34,
+   298
+  ],
+  "section": [
+   "5. MISCELLANEOUS",
+   "5.3. Waivers"
+  ],
+  "pages": [
+   7
+  ],
+  "confidence": {
+   "score": 10.453,
+   "threshold": 6.25,
+   "probability": 0.9163794268738157
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.99775390625,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.728057861328125
+   },
+   "fkgl": {
+    "source": 14.030000000000005,
+    "rewrite": 9.087142857142858
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 9.008486986160278,
+   "checks": 0.06302833557128906
+  }
+ },
+ {
+  "contract_id": "cuad_058",
+  "category": "Expiration Date",
+  "hit": true,
+  "kind": "answer",
+  "message": "This Agreement starts on the date first written above. It stays in effect until it is ended under Paragraph 4.2.",
+  "topic": "When the contract ends",
+  "rewrite": "This Agreement starts on the date first written above. It stays in effect until it is ended under Paragraph 4.2.",
+  "clause": "4. TERM AND TERMINATION.\n4.1. Term. This Agreement will become effective as of the date first written above and will continue in effect thereafter until terminated pursuant to Paragraph 4.2 below.\n4.2. Termination. This Agreement may be terminated as follows:",
+  "span": " This Agreement will become effective as of the date first written above and will continue in effect thereafter until terminated pursuant to Paragraph 4.2 below.",
+  "highlight": [
+   36,
+   196
+  ],
+  "section": [
+   "4. TERM AND TERMINATION",
+   "4.1. Term"
+  ],
+  "pages": [
+   5
+  ],
+  "confidence": {
+   "score": 12.156,
+   "threshold": 6.25,
+   "probability": 0.9502192325457585
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9951171875,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.9228515625
+   },
+   "fkgl": {
+    "source": 11.145,
+    "rewrite": 6.010000000000002
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 3.1069672107696533,
+   "checks": 0.06721925735473633
+  }
+ },
+ {
+  "contract_id": "cuad_058",
+  "category": "Termination For Convenience",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Ending the contract without a reason",
+  "rewrite": "Either party may end this Agreement without cause. It can do so at any time after January 31, 1999. It must give the other party at least 90 days written notice. If the parties fail to agree on a Business Plan for any Contract Year, this Agreement may be ended. This is after they have made good faith efforts. The Business Plan must be agreed on before that year starts. For the Business Plan for the Contract Year ending October 31, 1999, it must be agreed on at least 30 days before that date. Or on a date both agree on after the Agent Launch Date. Either party may end this Agreement then. It must give the other party at least 30 days written notice.",
+  "clause": "(c) Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, upon giving at least ninety (90) days prior written notice of such termination to the other party.\n(d) If after exercise of good faith efforts, the parties fail to timely agree upon a Business Plan for any Contract Year before the start of such year (with respect to the Business Plan for Contract Year ending October 31, 1999, at least thirty (30) days or on a mutually agreed upon date after the Agent Launch Date), this Agreement may be terminated by either party upon giving at least thirty (30) days prior written notice of such termination to the other party.",
+  "span": " Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, upon giving at least ninety (90) days prior written notice of such termination to the other party.",
+  "highlight": [
+   4,
+   221
+  ],
+  "section": [
+   "4. TERM AND TERMINATION",
+   "4.2. Termination"
+  ],
+  "pages": [
+   6
+  ],
+  "confidence": {
+   "score": 14.961,
+   "threshold": 6.25,
+   "probability": 0.9794253292831835
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.9201171875,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.55328369140625
+   },
+   "fkgl": {
+    "source": 26.493333333333336,
+    "rewrite": 5.333000000000002
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 18.15388059616089,
+   "checks": 0.12654805183410645
+  }
+ },
+ {
+  "contract_id": "cuad_058",
+  "category": "Cap On Liability",
+  "hit": true,
+  "kind": "answer",
+  "message": "When shipped to the Customer, the Products will be merchantable and of generally commercially salable quality. They will also have at least 12 months of shelf life left. The Company also promises that the Products were made, labeled and packaged. When the Company had them, they were handled, stored and shipped under all federal, state and local laws. The Customer's only remedy for a breach of these warranties is replacement. Any Product that does not meet these standards will be replaced at the delivery point, freight prepaid. The Company is never liable for incidental or consequential damages. All claims by the Customer and/or Agent under this Paragraph 2.6 must be submitted under the Company's published bulletins. The Company may change those bulletins from time to time and give them to the Agent.",
+  "topic": "Limits on liability",
+  "rewrite": "When shipped to the Customer, the Products will be merchantable and of generally commercially salable quality. They will also have at least 12 months of shelf life left. The Company also promises that the Products were made, labeled and packaged. When the Company had them, they were handled, stored and shipped under all federal, state and local laws. The Customer's only remedy for a breach of these warranties is replacement. Any Product that does not meet these standards will be replaced at the delivery point, freight prepaid. The Company is never liable for incidental or consequential damages. All claims by the Customer and/or Agent under this Paragraph 2.6 must be submitted under the Company's published bulletins. The Company may change those bulletins from time to time and give them to the Agent.",
+  "clause": "Customer hereunder, at the time of shipment to the Customer, (a) will be merchantable and of generally commercially salable quality; and (b) will have a then remaining shelf life of at least twelve (12) months. The Company further warrants that the Products have been manufactured, labeled and packaged, and when in the Company's possession or under its control, have been handled, stored and shipped, in compliance with all applicable federal, state and local laws. The Customer's exclusive remedy for a breach of any of the foregoing warranties will be the replacement, at the delivery point thereof, freight prepaid, of any Product furnished hereunder that fails to meet the foregoing standards. In no event will the Company be liable for incidental or consequential damages. All claims by the Customer and/or Agent under this Paragraph 2.6 must be submitted in accordance with the Company's published bulletins concerning such claims, as such bulletins may be amended by the Company from time to time and furnished to the Agent.",
+  "span": " The Customer's exclusive remedy for a breach of any of the foregoing warranties will be the replacement, at the delivery point thereof, freight prepaid, of any Product furnished hereunder that fails to meet the foregoing standards.",
+  "highlight": [
+   467,
+   698
+  ],
+  "section": [
+   "2. PRODUCTS PURCHASE AND SALE",
+   "2.6. Warranty"
+  ],
+  "pages": [
+   4
+  ],
+  "confidence": {
+   "score": 11.078,
+   "threshold": 6.25,
+   "probability": 0.9307187237509272
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9919704861111112,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.9767578125
+   },
+   "fkgl": {
+    "source": 14.801666666666666,
+    "rewrite": 8.509515151515153
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 18.2927565574646,
+   "checks": 0.14389657974243164
+  }
+ },
+ {
+  "contract_id": "cuad_058",
+  "category": "Anti-Assignment",
+  "hit": true,
+  "kind": "answer",
+  "message": "Neither party will assign or transfer any of its rights or duties under this Agreement without the other party's express prior written consent. Any waiver by either party of any rights from a breach of any covenant or condition of this Agreement must be in writing. It will not be seen as a continuing waiver of other breaches of the same kind. It will not be seen as a continuing waiver of other covenants or conditions of this Agreement.",
+  "topic": "Transferring the contract to someone else",
+  "rewrite": "Neither party will assign or transfer any of its rights or duties under this Agreement without the other party's express prior written consent. Any waiver by either party of any rights from a breach of any covenant or condition of this Agreement must be in writing. It will not be seen as a continuing waiver of other breaches of the same kind. It will not be seen as a continuing waiver of other covenants or conditions of this Agreement.",
+  "clause": "Neither party will not assign or otherwise transfer any of its rights or obligations under this Agreement without the express prior written consent of the other party.\n5.3. Waivers. Any waiver by either party of any rights arising from a breach of any covenants or conditions of this Agreement must be in writing and will not be construed as a continuing waiver of other breaches of the same nature or other covenants or conditions of this Agreement.",
+  "span": "\nNeither party will not assign or otherwise transfer any of its rights or obligations under this Agreement without the express prior written consent of the other party.",
+  "highlight": [
+   0,
+   167
+  ],
+  "section": [
+   "5. MISCELLANEOUS",
+   "5.2. Assignment"
+  ],
+  "pages": [
+   6
+  ],
+  "confidence": {
+   "score": 13.672,
+   "threshold": 6.25,
+   "probability": 0.9690185362634975
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9962158203125,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.98486328125
+   },
+   "fkgl": {
+    "source": 19.040584415584423,
+    "rewrite": 10.78338607594937
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 9.464380979537964,
+   "checks": 0.04584765434265137
+  }
+ },
+ {
+  "contract_id": "cuad_058",
+  "category": "Insurance",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "Insurance requirements",
+  "rewrite": "The Company and the Agent will each keep insurance with reputable insurers. They will pay for it themselves. The insurance must be in the form and amounts that are usual for established companies in the same or similar businesses. It must always include commercial general liability and umbrella liability insurance. This covers property damage, bodily injury and personal injury. The amount must be at least $5,000,000 combined single amount per occurrence and in the aggregate. Each of the Agent's liability insurance policies must name the Company as an additional insured, as its interest may appear. Each must give the Company at least 30 days written notice of any cancellation, modification or amendment of the policy. Each of the Company's product liability insurance policies must name the Agent as an additional insured, as its interest may appear. Each must give the Agent at least 30 days written notice of any cancellation, modification, or amendment of this policy. Each party will give the other a Certificate of Insurance or other documentation reasonably satisfactory to the other. This shows they follow this Paragraph 3.3.",
+  "clause": "3.3. Insurance. The Company and the Agent will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Five Million Dollars ($5,000,000) combined single amount per occurrence and in the aggregate. Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy. Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy. Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3.",
+  "span": " Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy. Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3.",
+  "highlight": [
+   913,
+   1382
+  ],
+  "section": [
+   "3. COVENANTS",
+   "3.3. Insurance"
+  ],
+  "pages": [
+   4
+  ],
+  "confidence": {
+   "score": 12.531,
+   "threshold": 6.25,
+   "probability": 0.9556910886962955
+  },
+  "checks": {
+   "numbers": {
+    "passed": false,
+    "recall": 0.6666666666666666,
+    "precision": 1.0,
+    "missing": [
+     "5"
+    ],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9975992838541666,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.93525390625
+   },
+   "fkgl": {
+    "source": 28.08666666666667,
+    "rewrite": 11.871505524861881
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 25.48811626434326,
+   "checks": 0.18389368057250977
+  }
+ },
+ {
+  "contract_id": "cuad_067",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "answer",
+  "message": "The laws of the state of New York govern all questions about the validity, meaning, performance and enforcement of this Agreement. Any dispute or claim about this Agreement that the parties have not settled through informal mediation will be settled by arbitration. The arbitration follows the Commercial Arbitration Rules of the American Arbitration Association then in effect, as changed below. The arbitration will be held in New York state. A single arbitrator will conduct it, chosen by the parties. The parties will act in a commercially reasonable way. They will choose and hold the arbitration within 45 days. They will use minimal discovery efforts and expense. The arbitrator will decide the cost if needed. The agreement to arbitrate can be enforced under current New York law. The arbitrator's award is binding and enforceable by any party to the arbitration. A court with proper subject matter jurisdiction in New York will make judgment on it.",
+  "topic": "Governing law",
+  "rewrite": "The laws of the state of New York govern all questions about the validity, meaning, performance and enforcement of this Agreement. Any dispute or claim about this Agreement that the parties have not settled through informal mediation will be settled by arbitration. The arbitration follows the Commercial Arbitration Rules of the American Arbitration Association then in effect, as changed below. The arbitration will be held in New York state. A single arbitrator will conduct it, chosen by the parties. The parties will act in a commercially reasonable way. They will choose and hold the arbitration within 45 days. They will use minimal discovery efforts and expense. The arbitrator will decide the cost if needed. The agreement to arbitrate can be enforced under current New York law. The arbitrator's award is binding and enforceable by any party to the arbitration. A court with proper subject matter jurisdiction in New York will make judgment on it.",
+  "clause": "All questions regarding the validity, interpretation, performance and enforcement of the provisions of this Agreement shall be governed by the laws of the state of New York. Any controversy or claim arising out of, relating to or in connection with this Agreement that has not been resolved through the informal mediation of the parties shall be resolved through arbitration pursuant to the Commercial Arbitration Rules of the American Arbitration Association then in effect, as modified by the terms set forth below: (a) the arbitration shall be conducted in New York state; (b) the arbitration shall be conducted by a single arbitrator selected by the parties; (c) the parties shall act in a commercially reasonable manner and speedily select and then conduct the arbitration within 45 days with the expenditure of minimal discovery efforts and expense which shall be determined, if necessary, by the arbitrator. The agreement to arbitrate shall be specifically enforceable under prevailing New York law. Any award rendered by the arbitrator shall be binding and enforceable by any party to the arbitration and judgment shall be rendered upon it in a court of competent subject matter jurisdiction located in New York.",
+  "span": "\nAll questions regarding the validity, interpretation, performance and enforcement of the provisions of this Agreement shall be governed by the laws of the state of New York.",
+  "highlight": [
+   0,
+   173
+  ],
+  "section": [
+   "11 CONTROLLING LAW AND ARBITRATION"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 10.344,
+   "threshold": 6.25,
+   "probability": 0.913607774349379
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.8398722012837728,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.951416015625
+   },
+   "fkgl": {
+    "source": 24.44304404145078,
+    "rewrite": 9.64357142857143
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 19.56769633293152,
+   "checks": 0.1666419506072998
+  }
+ },
+ {
+  "contract_id": "cuad_067",
+  "category": "Expiration Date",
+  "hit": true,
+  "kind": "answer",
+  "message": "This agreement lasts 5 years from the date of this document. It renews by itself each year after that. It does not renew if either party gives the other written notice. The notice must say it does not want to renew. It must be given at least 90 days before the current term ends.",
+  "topic": "When the contract ends",
+  "rewrite": "This agreement lasts 5 years from the date of this document. It renews by itself each year after that. It does not renew if either party gives the other written notice. The notice must say it does not want to renew. It must be given at least 90 days before the current term ends.",
+  "clause": "This agreement shall be for a term of five years from the date of this document. This agreement shall renew automatically each year thereafter, unless either party serves written notice of its intention not to renew, on the other at least 90 days prior to the expiration of the then current term of this agreement.",
+  "span": "\nThis agreement shall be for a term of five years from the date of this document.",
+  "highlight": [
+   0,
+   80
+  ],
+  "section": [
+   "1 TERM"
+  ],
+  "pages": [
+   1
+  ],
+  "confidence": {
+   "score": 11.594,
+   "threshold": 6.25,
+   "probability": 0.9407987539527758
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.7955687522888184,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.998779296875
+   },
+   "fkgl": {
+    "source": 13.156818181818185,
+    "rewrite": 4.355333333333334
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 7.050798177719116,
+   "checks": 0.05535721778869629
+  }
+ },
+ {
+  "contract_id": "cuad_067",
+  "category": "Renewal Term",
+  "hit": true,
+  "kind": "answer",
+  "message": "This agreement lasts 5 years from the date of this document. It renews by itself each year after that. It does not renew if either party gives the other written notice. The notice must say it does not want to renew. It must be given at least 90 days before the current term ends.",
+  "topic": "Renewal",
+  "rewrite": "This agreement lasts 5 years from the date of this document. It renews by itself each year after that. It does not renew if either party gives the other written notice. The notice must say it does not want to renew. It must be given at least 90 days before the current term ends.",
+  "clause": "This agreement shall be for a term of five years from the date of this document. This agreement shall renew automatically each year thereafter, unless either party serves written notice of its intention not to renew, on the other at least 90 days prior to the expiration of the then current term of this agreement.",
+  "span": " This agreement shall renew automatically each year thereafter, unless either party serves written notice of its intention not to renew, on the other at least 90 days prior to the expiration of the then current term of this agreement.",
+  "highlight": [
+   81,
+   314
+  ],
+  "section": [
+   "1 TERM"
+  ],
+  "pages": [
+   1
+  ],
+  "confidence": {
+   "score": 12.047,
+   "threshold": 6.25,
+   "probability": 0.9485061921093662
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.7955687522888184,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.998779296875
+   },
+   "fkgl": {
+    "source": 13.156818181818185,
+    "rewrite": 4.355333333333334
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 7.945383787155151,
+   "checks": 0.07268881797790527
+  }
+ },
+ {
+  "contract_id": "cuad_067",
+  "category": "Anti-Assignment",
+  "hit": true,
+  "kind": "answer",
+  "message": "This Agreement binds the parties and their successors and assigns. But no rights or duties under it can be assigned or transferred. This includes Licensee's Subscriber accounts. Neither party can assign or transfer them, in whole or in part, to any person, firm or corporation. It needs the other party's prior written consent. That consent must not be unreasonably withheld or delayed.",
+  "topic": "Transferring the contract to someone else",
+  "rewrite": "This Agreement binds the parties and their successors and assigns. But no rights or duties under it can be assigned or transferred. This includes Licensee's Subscriber accounts. Neither party can assign or transfer them, in whole or in part, to any person, firm or corporation. It needs the other party's prior written consent. That consent must not be unreasonably withheld or delayed.",
+  "clause": "This Agreement shall be binding upon the parties and their respective successors and assigns; provided, however, that no rights or obligations hereunder, including but not limited to Licensee's Subscriber accounts, shall be assigned or transferred, in whole or in part, by either of the parties hereto to any person, firm or corporation without prior written consent by the other party, which consent shall not be unreasonably withheld or delayed.",
+  "span": "\nThis Agreement shall be binding upon the parties and their respective successors and assigns; provided, however, that no rights or obligations hereunder, including but not limited to Licensee's Subscriber accounts, shall be assigned or transferred, in whole or in part, by either of the parties hereto to any person, firm or corporation without prior written consent by the other party, which consent shall not be unreasonably withheld or delayed.",
+  "highlight": [
+   0,
+   447
+  ],
+  "section": [
+   "8 ASSIGNMENT"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 13.172,
+   "threshold": 6.25,
+   "probability": 0.963735635573001
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9868977864583334,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.9970703125
+   },
+   "fkgl": {
+    "source": 31.670724637681165,
+    "rewrite": 7.091612903225808
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 8.46643590927124,
+   "checks": 0.05220985412597656
+  }
+ },
+ {
+  "contract_id": "cuad_075",
+  "category": "Governing Law",
+  "hit": true,
+  "kind": "answer",
+  "message": "The laws of the State of Connecticut govern this Agreement. Nothing in this Agreement creates an employer/employee relationship between Auriemma and Berkshire. So there is no tax withholding from any payments due Auriemma. Auriemma is responsible for all income and other tax payments it needs to make. Nothing in this Agreement makes the parties legal representatives, partners or joint ventures. Neither Party can bind the other in any way except as this Agreement says. This paragraph continues after this Agreement ends.",
+  "topic": "Governing law",
+  "rewrite": "The laws of the State of Connecticut govern this Agreement. Nothing in this Agreement creates an employer/employee relationship between Auriemma and Berkshire. So there is no tax withholding from any payments due Auriemma. Auriemma is responsible for all income and other tax payments it needs to make. Nothing in this Agreement makes the parties legal representatives, partners or joint ventures. Neither Party can bind the other in any way except as this Agreement says. This paragraph continues after this Agreement ends.",
+  "clause": "17. GOVERNING LAW.\nThis Agreement shall be governed by and construed in accordance with the laws of the State of Connecticut.\n18. RELATIONSHIP BETWEEN THE PARTIES.\nNothing contained in this Agreement shall be construed as establishing an employer/employee relationship between Auriemma and Berkshire. Accordingly, there shall be no withholding for tax purposes from any payments due Auriemma hereunder and Auriemma shall be responsible for any and all income and other tax payments required by Auriemma. Nothing contained in this Agreement shall be construed to place the parties in the relationship of legal representatives, partners or joint ventures. Neither Party shall have any power to bind the other in any manner whatsoever, other than as otherwise stated in this Agreement. This paragraph shall survive termination of this Agreement.",
+  "span": "\nThis Agreement shall be governed by and construed in accordance with the laws of the State of Connecticut.",
+  "highlight": [
+   19,
+   125
+  ],
+  "section": [
+   "17. GOVERNING LAW"
+  ],
+  "pages": [
+   8
+  ],
+  "confidence": {
+   "score": 9.578,
+   "threshold": 6.25,
+   "probability": 0.8917789908676268
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.9990931919642857,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.7529144287109375
+   },
+   "fkgl": {
+    "source": 12.66996625421822,
+    "rewrite": 9.463597883597885
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 11.747948169708252,
+   "checks": 0.11832332611083984
+  }
+ },
+ {
+  "contract_id": "cuad_075",
+  "category": "Anti-Assignment",
+  "hit": true,
+  "kind": "answer",
+  "message": "This Agreement binds Auriemma and his successors and permitted assigns. Nothing here stops Auriemma from assigning the monetary benefits of this Agreement. He cannot assign the obligations. Berkshire may not assign this Agreement, in whole or in part, without Auriemma's written consent. If Berkshire reorganizes, merges, consolidates or sells all or substantially all of its assets, any attempt to assign this Agreement other than as allowed above is null and void.",
+  "topic": "Transferring the contract to someone else",
+  "rewrite": "This Agreement binds Auriemma and his successors and permitted assigns. Nothing here stops Auriemma from assigning the monetary benefits of this Agreement. He cannot assign the obligations. Berkshire may not assign this Agreement, in whole or in part, without Auriemma's written consent. If Berkshire reorganizes, merges, consolidates or sells all or substantially all of its assets, any attempt to assign this Agreement other than as allowed above is null and void.",
+  "clause": "This Agreement shall bind and inure to the benefit of Auriemma and his successors and permitted assigns. Nothing herein shall prevent Auriemma from assigning the monetary benefits (but not the obligations) of this Agreement, as he may so desire. Berkshire may not assign this Agreement, in whole or in part, without Auriemma’s written consent. In the case of reorganization, merger, consolidation, or sale of all or substantially all of its assets, any attempt to assign this Agreement other than as permitted above will be null and void.",
+  "span": " Berkshire may not assign this Agreement, in whole or in part, without Auriemma’s written consent.",
+  "highlight": [
+   246,
+   343
+  ],
+  "section": [
+   "22. ASSIGNMENT"
+  ],
+  "pages": [
+   9
+  ],
+  "confidence": {
+   "score": 13.297,
+   "threshold": 6.25,
+   "probability": 0.9651324839598986
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": 1.0
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.997265625,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.998291015625
+   },
+   "fkgl": {
+    "source": 13.237327586206899,
+    "rewrite": 11.05504225352113
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 10.46798586845398,
+   "checks": 0.07206845283508301
+  }
+ },
+ {
+  "contract_id": "cuad_075",
+  "category": "Exclusivity",
+  "hit": true,
+  "kind": "answer",
+  "message": "Auriemma gives Berkshire the exclusive right and license (the License Rights) to use the Auriemma Identification. This lasts during the Contract Period and throughout the Contract Territory. It is only for advertising and promoting Berkshire and the Financial Services.",
+  "topic": "Exclusive dealing",
+  "rewrite": "Auriemma gives Berkshire the exclusive right and license (the License Rights) to use the Auriemma Identification. This lasts during the Contract Period and throughout the Contract Territory. It is only for advertising and promoting Berkshire and the Financial Services.",
+  "clause": "b) Auriemma grants to Berkshire the exclusive right and license (the “License Rights”) to use the Auriemma Identification during the Contract Period and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial Services;",
+  "span": " Auriemma grants to Berkshire the exclusive right and license (the “License Rights”) to use the Auriemma Identification during the Contract Period and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial Services;",
+  "highlight": [
+   3,
+   285
+  ],
+  "section": [
+   "2. ENDORSEMENT AND GRANT OF RIGHTS. During the Contract Period"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 9.797,
+   "threshold": 6.25,
+   "probability": 0.898468024793671
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": null,
+    "precision": null,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": true,
+    "kept": null
+   },
+   "nli": {
+    "passed": true,
+    "threshold": 0.7,
+    "nli_supported": 0.97314453125,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.97509765625
+   },
+   "fkgl": {
+    "source": 22.560975609756095,
+    "rewrite": 11.567179487179487
+   },
+   "passed": true
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 5.931232213973999,
+   "checks": 0.07038068771362305
+  }
+ },
+ {
+  "contract_id": "cuad_076",
+  "category": "Expiration Date",
+  "hit": true,
+  "kind": "unchecked",
+  "message": "The plain-English version did not pass the meaning checks, so here is the original clause instead. Read it carefully, or ask a lawyer.",
+  "topic": "When the contract ends",
+  "rewrite": "This Agreement starts on the Effective Date. It lasts for 1 year, called the Term. It ends sooner if it is ended under this Agreement. The Parties may extend the Term for another year. They must do this by signing a written addendum to the Agreement.",
+  "clause": "2. TERM. Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period of one (1) year (“Term”). provided however, that the Parties may extend the Term for an additional year period by entering into an written addendum of the Agreement extending such term.",
+  "span": " Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period of one (1) year (“Term”). provided however, that the Parties may extend the Term for an additional year period by entering into an written addendum of the Agreement extending such term.",
+  "highlight": [
+   9,
+   326
+  ],
+  "section": [
+   "2. TERM"
+  ],
+  "pages": [
+   2
+  ],
+  "confidence": {
+   "score": 11.125,
+   "threshold": 6.25,
+   "probability": 0.9316970999662408
+  },
+  "checks": {
+   "numbers": {
+    "passed": true,
+    "recall": 1.0,
+    "precision": 1.0,
+    "missing": [],
+    "added": []
+   },
+   "negation": {
+    "passed": false,
+    "kept": 0.0
+   },
+   "nli": {
+    "passed": false,
+    "threshold": 0.7,
+    "nli_supported": 0.9951171875,
+    "nli_contradicted": 0.0,
+    "nli_coverage": 0.53302001953125
+   },
+   "fkgl": {
+    "source": 15.228018867924533,
+    "rewrite": 4.671913043478263
+   },
+   "passed": false
+  },
+  "retrieved": null,
+  "route": null,
+  "options": null,
+  "timings": {
+   "gemma": 6.228479623794556,
+   "checks": 0.07217240333557129
+  }
+ }
+]

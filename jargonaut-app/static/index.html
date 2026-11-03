@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jargonaut</title>
+<style>
+  :root {
+    --bg: #f6f5f1; --panel: #ffffff; --ink: #1d1f24; --muted: #5d6270; --line: #e2e0d8;
+    --accent: #2f5d8a; --accent-ink: #ffffff; --accent-soft: #e6eef6;
+    --ok: #2e7d4f; --ok-soft: #e5f3ea; --warn: #9a5b00; --warn-soft: #fdf1dc; --bad: #b3261e; --bad-soft: #fbe6e4;
+    --mark: #fff0a8; --quote: #faf9f6; --shadow: 0 1px 2px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15171b; --panel: #1e2126; --ink: #e8e8ea; --muted: #a2a7b3; --line: #30343c;
+      --accent: #7fb0e0; --accent-ink: #0f1720; --accent-soft: #233243;
+      --ok: #6cc391; --ok-soft: #1d2f25; --warn: #f0b45a; --warn-soft: #33281a; --bad: #f28b82; --bad-soft: #3a2220;
+      --mark: #5b4b12; --quote: #191b20; --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { display: flex; align-items: center; gap: 12px; padding: 14px 24px; border-bottom: 1px solid var(--line);
+           background: var(--panel); }
+  header h1 { margin: 0; font-size: 19px; letter-spacing: .2px; }
+  header .tag { color: var(--muted); font-size: 14px; }
+  .pill { margin-left: auto; font-size: 13px; padding: 3px 10px; border-radius: 99px; background: var(--warn-soft); color: var(--warn); }
+  .pill.ready { background: var(--ok-soft); color: var(--ok); }
+  .pill.failed { background: var(--bad-soft); color: var(--bad); }
+  main { display: grid; grid-template-columns: 330px 1fr; gap: 20px; padding: 20px 24px; max-width: 1280px; margin: 0 auto;
+         height: calc(100vh - 58px); }
+  aside { overflow-y: auto; display: flex; flex-direction: column; gap: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; box-shadow: var(--shadow); }
+  .card h2 { margin: 0 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); }
+  .drop { border: 1.5px dashed var(--line); border-radius: 10px; padding: 18px; text-align: center; cursor: pointer; color: var(--muted); }
+  .drop.over, .drop:hover { border-color: var(--accent); color: var(--ink); }
+  .drop strong { color: var(--accent); }
+  .meta { font-size: 14px; } .meta div { display: flex; justify-content: space-between; gap: 8px; }
+  .meta .name { font-weight: 600; word-break: break-all; margin-bottom: 4px; display: block; }
+  .warn-line { color: var(--warn); font-size: 13px; margin-top: 6px; }
+  .topics { display: flex; flex-wrap: wrap; gap: 6px; }
+  button.chip { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 99px; padding: 4px 11px;
+                font: inherit; font-size: 13px; cursor: pointer; }
+  button.chip:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  details.outline summary { cursor: pointer; font-size: 14px; }
+  .outline ol { margin: 8px 0 0; padding-left: 0; list-style: none; font-size: 13px; max-height: 260px; overflow-y: auto; }
+  .outline li { padding: 2px 0; color: var(--muted); }
+  .note { font-size: 12.5px; color: var(--muted); }
+  section.chat { display: flex; flex-direction: column; min-height: 0; background: var(--panel); border: 1px solid var(--line);
+                 border-radius: 10px; box-shadow: var(--shadow); }
+  #log { flex: 1; overflow-y: auto; padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+  .empty { margin: auto; text-align: center; color: var(--muted); max-width: 420px; }
+  .me { align-self: flex-end; background: var(--accent); color: var(--accent-ink); padding: 8px 13px; border-radius: 14px 14px 4px 14px;
+        max-width: 75%; white-space: pre-wrap; }
+  .bot { align-self: stretch; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; max-width: 920px; }
+  .bot.thinking { color: var(--muted); font-style: italic; }
+  .row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .badge { font-size: 12.5px; font-weight: 600; padding: 2px 9px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); }
+  .conf { margin-left: auto; font-size: 12.5px; color: var(--muted); }
+  .conf b { color: var(--ink); }
+  .label { font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); margin: 12px 0 4px; }
+  .rewrite { white-space: pre-wrap; font-size: 15.5px; }
+  blockquote { margin: 0; padding: 10px 14px; background: var(--quote); border-left: 3px solid var(--line); border-radius: 4px;
+               white-space: pre-wrap; font-family: Georgia, "Times New Roman", serif; font-size: 14.5px; }
+  mark { background: var(--mark); color: inherit; padding: 0 1px; border-radius: 2px; }
+  .cite { font-size: 13px; color: var(--muted); margin-top: 6px; }
+  .checks { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .check { font-size: 12.5px; padding: 2px 9px; border-radius: 99px; }
+  .check.ok { background: var(--ok-soft); color: var(--ok); } .check.bad { background: var(--bad-soft); color: var(--bad); }
+  .alert { background: var(--warn-soft); color: var(--warn); border-radius: 8px; padding: 9px 12px; margin-top: 10px; font-size: 14px; }
+  .none { font-size: 16px; font-weight: 600; margin-top: 8px; }
+  details.more { margin-top: 10px; font-size: 13px; color: var(--muted); }
+  details.more summary { cursor: pointer; }
+  details.more table { border-collapse: collapse; margin-top: 6px; width: 100%; }
+  details.more td, details.more th { border-bottom: 1px solid var(--line); padding: 3px 6px; text-align: left; font-weight: normal; }
+  .failed-rewrite { white-space: pre-wrap; color: var(--ink); border-left: 3px solid var(--bad); padding-left: 10px; margin-top: 6px; }
+  .error { color: var(--bad); }
+  form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--line); }
+  input[type=text] { flex: 1; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px;
+                     background: var(--bg); color: var(--ink); }
+  input[type=text]:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  button.send { font: inherit; padding: 0 18px; border: 0; border-radius: 8px; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  @media (max-width: 860px) {
+    main { grid-template-columns: 1fr; height: auto; padding: 16px; }
+    section.chat { height: 80vh; }
+    header { padding: 12px 16px; } header .tag { display: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Jargonaut</h1>
+  <span class="tag">Plain-English answers, grounded in your contract</span>
+  <span id="status" class="pill">Loading models…</span>
+</header>
+<main>
+  <aside>
+    <div class="card">
+      <h2>Contract</h2>
+      <label class="drop" id="drop">
+        <input type="file" id="file" accept=".pdf,.docx,.txt" hidden>
+        <div><strong>Upload a contract</strong> or drop it here</div>
+        <div class="note">PDF with selectable text, DOCX or TXT</div>
+      </label>
+      <div id="meta" class="meta" hidden></div>
+    </div>
+    <div class="card">
+      <h2>Topics I can explain</h2>
+      <div id="topics" class="topics"></div>
+    </div>
+    <div class="card" id="outline-card" hidden>
+      <details class="outline"><summary id="outline-summary">Sections found</summary><ol id="outline"></ol></details>
+    </div>
+    <p class="note">Jargonaut explains what a contract says. It is not legal advice.
+      Answers come from one clause at a time; always read the original clause it shows you.</p>
+  </aside>
+  <section class="chat">
+    <div id="log"><div class="empty" id="empty">Upload a contract, then ask a question such as
+      “Can I cancel this early?” or “Which law applies?”, or pick a topic on the left.</div></div>
+    <form id="ask">
+      <input type="text" id="q" placeholder="Ask about the contract…" autocomplete="off" disabled>
+      <button class="send" id="send" disabled>Ask</button>
+    </form>
+  </section>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const state = { docId: null, ready: false, busy: false, topics: [] };
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function el(tag, cls, html) { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+
+function refreshControls() {
+  const on = state.docId && state.ready && !state.busy;
+  $("q").disabled = !on; $("send").disabled = !on;
+  document.querySelectorAll("button.chip").forEach((b) => (b.disabled = !on));
+}
+
+async function pollHealth() {
+  try {
+    const h = await (await fetch("/api/health")).json();
+    const pill = $("status");
+    if (h.ready) {
+      state.ready = true; pill.className = "pill ready";
+      pill.textContent = h.gemma ? "Ready" : "Ready (no Gemma: clauses only)";
+    } else if (h.error) {
+      pill.className = "pill failed"; pill.textContent = "Model loading failed"; pill.title = h.error;
+    } else {
+      pill.textContent = h.status && h.status !== "starting" ? h.status : "Loading models…";
+      setTimeout(pollHealth, 2000);
+    }
+  } catch { setTimeout(pollHealth, 3000); }
+  refreshControls();
+}
+
+async function loadTopics() {
+  state.topics = await (await fetch("/api/topics")).json();
+  const box = $("topics");
+  for (const t of state.topics) {
+    const b = el("button", "chip", esc(t.topic)); b.type = "button"; b.disabled = true;
+    b.onclick = () => askCategory(t.category, t.topic);
+    box.appendChild(b);
+  }
+}
+
+async function upload(file) {
+  const meta = $("meta");
+  meta.hidden = false; meta.innerHTML = `<span class="name">${esc(file.name)}</span>Reading…`;
+  const form = new FormData(); form.append("file", file);
+  const r = await fetch("/api/documents", { method: "POST", body: form });
+  const d = await r.json();
+  if (!r.ok) { meta.innerHTML = `<span class="name">${esc(file.name)}</span><span class="error">${esc(d.detail)}</span>`; return; }
+  state.docId = d.doc_id;
+  meta.innerHTML = `<span class="name">${esc(d.name)}</span>
+    <div><span>Pages</span><span>${d.pages ?? "not available"}</span></div>
+    <div><span>Words</span><span>${d.words.toLocaleString()}</span></div>
+    <div><span>Passages indexed</span><span>${d.chunks}</span></div>
+    <div><span>Section headings found</span><span>${d.headings}</span></div>
+    ${d.warnings.map((w) => `<div class="warn-line">${esc(w)}</div>`).join("")}`;
+  const ol = $("outline"); ol.innerHTML = "";
+  for (const h of d.outline) {
+    const li = el("li", null, esc(h.text) + (h.page ? ` <span class="note">p. ${h.page}</span>` : ""));
+    li.style.paddingLeft = `${(Math.min(h.level, 4) - 1) * 12}px`; ol.appendChild(li);
+  }
+  $("outline-card").hidden = !d.outline.length;
+  $("outline-summary").textContent = `Sections found (${d.headings})`;
+  $("log").innerHTML = "";
+  addBot(el("div", "note", `Loaded <b>${esc(d.name)}</b>. Ask a question, or pick a topic.`));
+  refreshControls(); $("q").focus();
+}
+
+function addMe(text) { $("log").appendChild(el("div", "me", esc(text))); scroll(); }
+function addBot(node) { const b = el("div", "bot"); b.appendChild(node); $("log").appendChild(b); scroll(); return b; }
+function scroll() { const log = $("log"); log.scrollTop = log.scrollHeight; }
+
+function confidenceText(c) {
+  if (!c || c.score == null) return "";
+  if (c.probability != null) {
+    const p = c.probability, level = p >= 0.8 ? "High" : p >= 0.5 ? "Medium" : "Low";
+    return `<b>${level} confidence</b> · ${Math.round(p * 100)}% <span title="DeBERTa score ${c.score} (threshold ${c.threshold})">ⓘ</span>`;
+  }
+  return `Confidence score <b>${c.score.toFixed(2)}</b> (threshold ${c.threshold})`;
+}
+
+function clauseHtml(a) {
+  const c = a.clause || "";
+  if (!a.highlight) return esc(c);
+  const [s, e] = a.highlight;
+  return esc(c.slice(0, s)) + "<mark>" + esc(c.slice(s, e)) + "</mark>" + esc(c.slice(e));
+}
+
+function citeText(a) {
+  const parts = [];
+  if (a.section && a.section.length) parts.push(a.section.slice(-2).join(" › "));
+  if (a.pages && a.pages.length) parts.push(a.pages.length > 1 ? `pages ${a.pages[0]}–${a.pages[a.pages.length - 1]}` : `page ${a.pages[0]}`);
+  return parts.length ? parts.map(esc).join(" · ") : "Section and page not available";
+}
+
+function checkChips(ch) {
+  if (!ch || !ch.numbers) return "";
+  const n = ch.numbers, g = ch.negation, nli = ch.nli;
+  const numText = n.passed ? "Numbers kept"
+    : "Numbers changed" + (n.missing && n.missing.length ? ` (missing ${n.missing.join(", ")})` : "")
+      + (n.added && n.added.length ? ` (added ${n.added.join(", ")})` : "");
+  const negText = g.kept == null ? "No negations to keep" : g.passed ? "Negations kept" : "A negation was dropped";
+  const cov = nli.nli_coverage == null ? "n/a" : nli.nli_coverage.toFixed(2);
+  const nliText = (nli.passed ? "Meaning covered" : "Meaning may be incomplete") + ` (NLI ${cov}, needs ${nli.threshold})`;
+  return `<div class="checks">${[[n.passed, numText], [g.passed, negText], [nli.passed, nliText]]
+    .map(([ok, t]) => `<span class="check ${ok ? "ok" : "bad"}">${ok ? "✓" : "✗"} ${esc(t)}</span>`).join("")}</div>`;
+}
+
+function detailsHtml(a) {
+  const rows = (a.retrieved || []).map((r) =>
+    `<tr><td>${r.rank}</td><td>${esc(r.chunk_id.split("_").pop())}</td><td>${r.bm25.toFixed(2)}</td><td>${r.pages ? r.pages.join("–") : ""}</td></tr>`).join("");
+  const t = a.timings || {};
+  const times = Object.entries(t).map(([k, v]) => `${k} ${v.toFixed(2)} s`).join(" · ");
+  const route = a.route ? `Routing: ${esc(a.route.method)}${a.route.rule_hits && a.route.rule_hits.length ? " (rules: " + esc(a.route.rule_hits.join(", ")) + ")" : ""}` : "";
+  const fk = a.checks && a.checks.fkgl ? `Reading grade: clause ${a.checks.fkgl.source?.toFixed(1)} → rewrite ${a.checks.fkgl.rewrite?.toFixed(1)}` : "";
+  const score = a.confidence && a.confidence.score != null ? `DeBERTa score ${a.confidence.score} (threshold ${a.confidence.threshold})` : "";
+  return `<details class="more"><summary>How this answer was found</summary>
+    <div>${[route, score, fk, times].filter(Boolean).join("<br>")}</div>
+    ${rows ? `<table><tr><th>BM25 rank</th><th>Passage</th><th>Score</th><th>Pages</th></tr>${rows}</table>` : ""}</details>`;
+}
+
+function topicChips(options) {
+  const box = el("div", "topics"); box.style.marginTop = "10px";
+  for (const o of options || []) {
+    const b = el("button", "chip", esc(o.topic)); b.type = "button";
+    b.onclick = () => askCategory(o.category, o.topic); box.appendChild(b);
+  }
+  return box;
+}
+
+function render(a) {
+  const node = el("div");
+  const head = `<div class="row">${a.topic ? `<span class="badge">${esc(a.topic)}</span>` : ""}<span class="conf">${confidenceText(a.confidence)}</span></div>`;
+  if (a.kind === "answer") {
+    node.innerHTML = `${head}<div class="label">In plain English</div><div class="rewrite">${esc(a.rewrite)}</div>
+      <div class="label">From the contract</div><blockquote>${clauseHtml(a)}</blockquote>
+      <div class="cite">${citeText(a)}</div>${checkChips(a.checks)}${detailsHtml(a)}`;
+  } else if (a.kind === "unchecked") {
+    node.innerHTML = `${head}<div class="alert">⚠ ${esc(a.message)}</div>
+      <div class="label">From the contract</div><blockquote>${clauseHtml(a)}</blockquote>
+      <div class="cite">${citeText(a)}</div>${checkChips(a.checks)}
+      ${a.rewrite ? `<details class="more"><summary>Show the rewrite that failed the checks</summary><div class="failed-rewrite">${esc(a.rewrite)}</div></details>` : ""}
+      ${detailsHtml(a)}`;
+  } else if (a.kind === "no_evidence") {
+    node.innerHTML = `${head}<div class="none">${esc(a.message)}</div>
+      <div class="note">The evidence extractor did not find a passage it is confident answers this.</div>${detailsHtml(a)}`;
+  } else {
+    node.innerHTML = `<div>${esc(a.message)}</div>`;
+    if (a.kind === "clarify") {
+      const box = el("div", "topics"); box.style.marginTop = "10px";
+      a.options.forEach((o, i) => { const b = el("button", "chip", `${i + 1}. ${esc(o.topic)}`); b.type = "button";
+        b.onclick = () => askCategory(o.category, o.topic); box.appendChild(b); });
+      node.appendChild(box);
+    } else if (a.options) node.appendChild(topicChips(a.options));
+  }
+  return node;
+}
+
+async function send(body, shown) {
+  if (state.busy) return;
+  state.busy = true; refreshControls(); addMe(shown);
+  const wait = addBot(el("div", null, "Reading the contract…")); wait.classList.add("thinking");
+  try {
+    const r = await fetch(`/api/documents/${state.docId}/ask`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+    const d = await r.json();
+    wait.remove();
+    if (!r.ok) addBot(el("div", "error", esc(d.detail || "Something went wrong.")));
+    else addBot(render(d));
+  } catch (e) { wait.remove(); addBot(el("div", "error", "The server did not answer. Is it still running?")); }
+  state.busy = false; refreshControls(); $("q").focus();
+}
+function askCategory(category, topic) { send({ category }, topic); }
+
+$("ask").onsubmit = (e) => { e.preventDefault(); const q = $("q").value.trim(); if (!q) return; $("q").value = ""; send({ question: q }, q); };
+$("file").onchange = (e) => e.target.files[0] && upload(e.target.files[0]);
+const drop = $("drop");
+drop.ondragover = (e) => { e.preventDefault(); drop.classList.add("over"); };
+drop.ondragleave = () => drop.classList.remove("over");
+drop.ondrop = (e) => { e.preventDefault(); drop.classList.remove("over"); if (e.dataTransfer.files[0]) upload(e.dataTransfer.files[0]); };
+
+loadTopics().then(refreshControls); pollHealth();
+</script>
+</body>
+</html>

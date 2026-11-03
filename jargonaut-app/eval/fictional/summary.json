@@ -1,0 +1,328 @@
+{
+  "contracts": 10,
+  "ingestion": {
+    "words_mean": 403.0,
+    "chunks": {
+      "2": 10
+    },
+    "gold_spans_not_found": 0
+  },
+  "extraction": {
+    "pairs": 100,
+    "answerable": 28,
+    "accepted": 19,
+    "true_accepts": 19,
+    "precision": 1.0,
+    "precision_ci": [
+      0.832,
+      1.0
+    ],
+    "recall": 0.679,
+    "recall_ci": [
+      0.493,
+      0.821
+    ],
+    "span_hit": 0.679,
+    "span_hit_ci": [
+      0.493,
+      0.821
+    ],
+    "em": 0.643,
+    "f1": 0.663
+  },
+  "answerability_average_precision": 0.995,
+  "target_clauses": {
+    "n": 10,
+    "accepted": 10,
+    "hit": 10
+  },
+  "incidental_clauses": {
+    "pairs": 18,
+    "answerable": 18,
+    "accepted": 9,
+    "true_accepts": 9,
+    "precision": 1.0,
+    "precision_ci": [
+      0.701,
+      1.0
+    ],
+    "recall": 0.5,
+    "recall_ci": [
+      0.29,
+      0.71
+    ],
+    "span_hit": 0.5,
+    "span_hit_ci": [
+      0.29,
+      0.71
+    ],
+    "em": 0.5,
+    "f1": 0.5
+  },
+  "false_accepts": {
+    "negatives": 72,
+    "accepted": 0,
+    "on_near_miss_sentence": 0,
+    "negatives_with_near_miss": 26
+  },
+  "by_category": {
+    "Governing Law": {
+      "pairs": 10,
+      "answerable": 10,
+      "accepted": 2,
+      "true_accepts": 2,
+      "precision": 1.0,
+      "precision_ci": [
+        0.342,
+        1.0
+      ],
+      "recall": 0.2,
+      "recall_ci": [
+        0.057,
+        0.51
+      ],
+      "span_hit": 0.2,
+      "span_hit_ci": [
+        0.057,
+        0.51
+      ],
+      "em": 0.2,
+      "f1": 0.2
+    },
+    "Expiration Date": {
+      "pairs": 10,
+      "answerable": 9,
+      "accepted": 8,
+      "true_accepts": 8,
+      "precision": 1.0,
+      "precision_ci": [
+        0.676,
+        1.0
+      ],
+      "recall": 0.889,
+      "recall_ci": [
+        0.565,
+        0.98
+      ],
+      "span_hit": 0.889,
+      "span_hit_ci": [
+        0.565,
+        0.98
+      ],
+      "em": 0.889,
+      "f1": 0.889
+    },
+    "Renewal Term": {
+      "pairs": 10,
+      "answerable": 1,
+      "accepted": 1,
+      "true_accepts": 1,
+      "precision": 1.0,
+      "precision_ci": [
+        0.207,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.207,
+        1.0
+      ],
+      "span_hit": 1.0,
+      "span_hit_ci": [
+        0.207,
+        1.0
+      ],
+      "em": 1.0,
+      "f1": 1.0
+    },
+    "Termination For Convenience": {
+      "pairs": 10,
+      "answerable": 2,
+      "accepted": 2,
+      "true_accepts": 2,
+      "precision": 1.0,
+      "precision_ci": [
+        0.342,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.342,
+        1.0
+      ],
+      "span_hit": 1.0,
+      "span_hit_ci": [
+        0.342,
+        1.0
+      ],
+      "em": 1.0,
+      "f1": 1.0
+    },
+    "Cap On Liability": {
+      "pairs": 10,
+      "answerable": 1,
+      "accepted": 1,
+      "true_accepts": 1,
+      "precision": 1.0,
+      "precision_ci": [
+        0.207,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.207,
+        1.0
+      ],
+      "span_hit": 1.0,
+      "span_hit_ci": [
+        0.207,
+        1.0
+      ],
+      "em": 1.0,
+      "f1": 1.0
+    },
+    "Anti-Assignment": {
+      "pairs": 10,
+      "answerable": 1,
+      "accepted": 1,
+      "true_accepts": 1,
+      "precision": 1.0,
+      "precision_ci": [
+        0.207,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.207,
+        1.0
+      ],
+      "span_hit": 1.0,
+      "span_hit_ci": [
+        0.207,
+        1.0
+      ],
+      "em": 1.0,
+      "f1": 1.0
+    },
+    "Non-Compete": {
+      "pairs": 10,
+      "answerable": 1,
+      "accepted": 1,
+      "true_accepts": 1,
+      "precision": 1.0,
+      "precision_ci": [
+        0.207,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.207,
+        1.0
+      ],
+      "span_hit": 1.0,
+      "span_hit_ci": [
+        0.207,
+        1.0
+      ],
+      "em": 1.0,
+      "f1": 1.0
+    },
+    "Exclusivity": {
+      "pairs": 10,
+      "answerable": 1,
+      "accepted": 1,
+      "true_accepts": 1,
+      "precision": 1.0,
+      "precision_ci": [
+        0.207,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.207,
+        1.0
+      ],
+      "span_hit": 1.0,
+      "span_hit_ci": [
+        0.207,
+        1.0
+      ],
+      "em": 0.0,
+      "f1": 0.567
+    },
+    "Ip Ownership Assignment": {
+      "pairs": 10,
+      "answerable": 1,
+      "accepted": 1,
+      "true_accepts": 1,
+      "precision": 1.0,
+      "precision_ci": [
+        0.207,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.207,
+        1.0
+      ],
+      "span_hit": 1.0,
+      "span_hit_ci": [
+        0.207,
+        1.0
+      ],
+      "em": 1.0,
+      "f1": 1.0
+    },
+    "Insurance": {
+      "pairs": 10,
+      "answerable": 1,
+      "accepted": 1,
+      "true_accepts": 1,
+      "precision": 1.0,
+      "precision_ci": [
+        0.207,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.207,
+        1.0
+      ],
+      "span_hit": 1.0,
+      "span_hit_ci": [
+        0.207,
+        1.0
+      ],
+      "em": 1.0,
+      "f1": 1.0
+    }
+  },
+  "agreement": {
+    "pairs": 100,
+    "positives_a": 28,
+    "positives_b": 28,
+    "presence_agreement": 1.0,
+    "cohen_kappa": 1.0,
+    "both_positive": 28,
+    "both_positive_overlapping_spans": 28,
+    "disagreements": []
+  },
+  "questions": {
+    "n": 60,
+    "in_scope": {
+      "n": 40,
+      "routed_right": 39,
+      "via_clarification": 1,
+      "right_evidence": 31
+    },
+    "out_of_scope": {
+      "n": 20,
+      "rejected": 19
+    },
+    "rewrites": {
+      "n": 31,
+      "checks_passed": 24
+    },
+    "seconds_mean": 4.94
+  }
+}

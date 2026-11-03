@@ -1,0 +1,4 @@
+# Shared-Drive data, model weights and the Hugging Face cache stay local
+data/
+runs/
+.cache/
