@@ -1,59 +1,20 @@
-# Jargonaut
+# Jargonaut project
 
-**Evidence-Grounded Contract Simplification**  
-CS425 Project | Group G1T5
+CS425 Group G1T5 project: an evidence-grounded contract question answering and simplification prototype.
 
-## Overview
+## Project folders
 
-Jargonaut is a proposed task-oriented chatbot that helps users understand contracts and agreements. Users will upload a contract and ask questions about its contents. The chatbot will retrieve relevant evidence and explain it in plain English, alongside the original passage and source reference.
+- `jargonaut-app/` — application, tests, and saved evaluation outputs. See its README for the system workflow and runtime requirements.
+- `deberta-docker/` — DeBERTa training notebook and Docker setup.
+- `gemma-eval-docker/` — Gemma evaluation notebook and Docker setup.
+- `docs/proposal/`, `docs/guidelines/`, `docs/report/`, `docs/presentation/`, `docs/evaluation/` — project source documents and review.
+- `docs/test-data/` — fictional contract test set archive.
+- `final-prep.md`, `final-report.md`, `final-presentation.md` — detailed finalization checklist and document edit briefs.
 
-The initial scope covers selected topics in English commercial contracts.
+## Reproducibility note
 
-**Research question:** Does combining evidence extraction with a separately trained simplification component improve understandability while preserving contractual meaning?
+The full application requires model weights, Hugging Face caches, and shared dataset directories that are not included in this checkout. Docker is configured for offline model loading. Review `jargonaut-app/README.md`, `deberta-docker/README.md`, and `gemma-eval-docker/README.md` for expected mounts and commands before attempting a full run.
 
-## Planned Approach
+## Current scope
 
-1. **Document processing and retrieval:** Split contracts into overlapping, clause-based passages while preserving headings and page references. Use BM25 to retrieve the top 10 candidate passages.
-2. **Evidence extraction:** Fine-tune DeBERTa-v3-large to identify relevant answer spans. Use an answerability threshold to return an insufficient-evidence response when support is inadequate. RoBERTa-base will serve as the baseline.
-3. **Plain-English simplification:** Fine-tune Gemma using LoRA/QLoRA to simplify extracted evidence while preserving obligations, conditions, exceptions, and other contractual details.
-
-## Datasets
-
-| Dataset | Planned use |
-| --- | --- |
-| CUAD | Train evidence extraction using annotated contract clauses, with plain-language Q&A augmentation and negative examples. |
-| ContractNLI | Extend evidence extraction to confidentiality-related concepts. |
-| SimpLegal-Pref | Train simplification using checked Basic-level legal-text-to-plain-English pairs. |
-
-## Evaluation
-
-- **Retrieval:** Recall@k.
-- **Evidence extraction:** Exact Match, F1, and answer precision/recall.
-- **Simplification:** Flesch–Kincaid, SARI, and faithfulness checks.
-
-## Repository Structure
-
-```text
-CS425Project/
-├── Notebooks/                 # Reserved for project notebooks
-├── ProjectProposal_G1T5.pdf    # Project proposal
-└── README.md
-```
-
-## Project Status
-
-The repository currently contains the project proposal and an empty notebook directory. Implementation, dependencies, and setup instructions will be added as development progresses.
-
-## Team
-
-| Members | Responsibilities |
-| --- | --- |
-| Kiara, Ridheema | BM25 retrieval and evaluation; DeBERTa training and evaluation |
-| Ian, Shernice | Gemma simplification training and evaluation |
-| Theo | Data preparation, augmentation, and frontend |
-
-All members will contribute to error analysis, testing, and end-to-end integration.
-
-## Proposal
-
-See [ProjectProposal_G1T5.pdf](ProjectProposal_G1T5.pdf) for the full project plan.
+The deployed pipeline routes questions among ten CUAD topics, retrieves passages with BM25, extracts a candidate span with DeBERTa, and attempts a Gemma rewrite with heuristic checks. See `docs/evaluation/REVIEW_FINDINGS.md` for verified metric definitions, current limitations, and corrections identified during review.
