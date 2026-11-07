@@ -10,6 +10,13 @@ Use this slide-by-slide edit brief for the 19-slide PDF draft. There was no edit
 - Label every result with dataset, split, sample size, and denominator. Keep the 20-clause validation, 102-contract CUAD test, 110-question routing test, and fictional demonstration separate.
 - Show 8.3 FKGL as generated rewrite score before gating, not final displayed answer quality. The approximate mean for displayed outputs is 13.33 when original clauses replace withheld rewrites.
 - No safety guarantee: state that the checker caught the shown reversed-right example and that flagged rewrites default to the source clause; users may inspect the failed rewrite.
+- Describe the dialogue feature consistently with the report: topic clarification, active-topic tracking, and returning another accepted passage on “anything else?”. Do not say the dialogue manager was absent or imply general conversational memory.
+- Correct the model settings slide if it includes training details: the supplied DeBERTa notebook says train batch 8 with gradient accumulation 4 (effective 32), inference batch 16, and learning rate 1e-5. Verify deployed-run logs/config before presenting these as actual run settings.
+- Do not show invented reproduction commands. The current app is FastAPI and requires external model/data/cache mounts with offline loading; use verified commands from the repository READMEs or leave run steps off the slide.
+- If discussing fictional labels or human review, name the actual process and tools. Do not imply human annotation unless confirmed.
+- State the cap example drops “Subject to Section 4,” which may refer to exceptions; do not claim that all conditions were preserved.
+- Keep the full-app routing count explicit: 38/40 directly routed correctly; 39/40 after one clarification was resolved using the expected topic.
+- If the Run 6 controlled validation is discussed, call it SimpleGAL validation on 20 clauses, not a test result. State that Run 6 has no reported result on the separate 40-clause held-out set.
 - Add citations/source notes on the final reference slide, including datasets, model cards and metric sources actually used.
 
 ## Slide-by-slide edits
@@ -41,10 +48,11 @@ Use this slide-by-slide edit brief for the 19-slide PDF draft. There was no edit
 - The seven-stage diagram is broadly accurate. Clarify route selects a category; BM25 and DeBERTa use that category’s fixed CUAD question.
 - State that the answer includes original passage, section/page and confidence, and that low DeBERTa scores abstain.
 - Add a small qualifier that clause expansion adds nearby text but does not fetch referenced definitions.
+- Describe the implemented dialogue accurately: clarification between close topics, active topic, and another accepted passage for “anything else?”. This feature exists, but does not resolve arbitrary contextual follow-ups.
 
 ### 6. Models and settings
 
-- Remove TODO. Show known settings only: DeBERTa 3 epochs, lr 1e-5, seed 42, max length 512/stride 128, 3 hard negatives, no synthetic extractor QA; Gemma E4B + Run 6 LoRA rank 16/lr 2e-4/886 pairs; BM25 top 10; NLI threshold 0.7. Verify training config before including remaining values.
+- Remove TODO. The supplied DeBERTa notebook specifies 3 epochs, train batch 8 with accumulation 4 (effective 32), inference batch 16, lr 1e-5, seed 42, max length 512/stride 128, 3 hard negatives, no synthetic extractor QA. Verify the deployed run config/log before presenting them as actual run settings. Gemma E4B + Run 6 LoRA rank 16/lr 2e-4/886 pairs; BM25 top 10; NLI threshold 0.7. Verify training config before including remaining values.
 - Explain proposal deviation in one sentence: 31B QLoRA was planned with E4B fallback; the app uses E4B LoRA. Give the actual resource reason only when confirmed.
 - Say RoBERTa baseline was not run if verified. Do not imply a comparison.
 
@@ -52,11 +60,13 @@ Use this slide-by-slide edit brief for the 19-slide PDF draft. There was no edit
 
 - Keep contribution claims tied to measurable work: integrated upload-to-answer pipeline, page/heading traceability, router/clarification, calibration, abstention, checks, and evaluation.
 - Distinguish new integration from reused components; current code has six parity checks against team outputs.
+- Confirm actual names and responsibilities with teammates. Do not retain unverified contribution claims from the draft.
 
 ### 8. CUAD evidence results
 
 - Replace current headline or accompanying text so 97.4% is explicitly answerability precision. Add accepted-span overlap precision 95.5% (363/380), answerability recall 83.5% (370/443), span-hit recall 81.9% (363/443), and retrieval top-10 90.1% of answerable questions.
 - Define “accepted”, “answerability”, and “span hit” in a legible footnote or spoken explanation.
+- The 97.4% precision is answerability precision (370/380). Accepted-span overlap precision is 95.5% (363/380); do not use the precision number without its metric name.
 
 ### 9. Category results
 
@@ -99,18 +109,22 @@ Use this slide-by-slide edit brief for the 19-slide PDF draft. There was no edit
 - Replace the TODO with all key counts: 19/19 accepted answers on evidence-bearing pairs (100% answerability precision, 19/28 recall); 0/72 false accepts; 10/10 target clauses hit.
 - Add 95% Wilson interval for precision (83–100%) and recall (49–82%) or state intervals in speaker notes.
 - Caveat: 10 invented contracts, two chunks each, top-10 retrieval; demonstrates extraction/abstention on designed cases and does not establish real-world generalization or retrieval quality.
+- Say labels were generated and cross-verified using the confirmed actual workflow. If provenance is still being confirmed, do not call them human labels or imply independent human validation.
 
 ### 16. Error analysis
 
 - Keep what worked and what did not, and add clear evidence counts: 8/10 fictional Governing Law clauses missed under active “law governs” wording; near-perfect rate on CUAD-style wording; short clauses pass NLI threshold less often (44% under 80 words vs 88% at 150–300 words).
 - Avoid treating the fictional wording diagnostic as a large benchmark. Show it as an illustrative error analysis.
 - Mention the routing errors if space allows.
+- Clarify “8 of 10”: eight of the ten Governing Law cases were missed; these were eight of nine total extraction misses.
+- If showing the cap example, mention the omitted “Subject to Section 4” cross-reference and possible exception impact.
 
 ### 17. Limitations and next steps
 
 - Keep small sample sizes, validation-only Run 6, calibration and checker limitations.
 - Add no RoBERTa baseline, incomplete reproducibility assets, missing referenced-definition retrieval, and generator/annotation provenance.
 - Order next steps by impact: verify provenance/course policy; package assets/run instructions; human review with a defined rubric; improve quantity/party/exception checks; test natural-language query handling; add the baseline if feasible.
+- If the RoBERTa baseline has not been run by presentation time, label it as planned but incomplete. Do not imply a DeBERTa-vs-RoBERTa comparison.
 
 ### 18. Demo
 
@@ -130,3 +144,4 @@ Use this slide-by-slide edit brief for the 19-slide PDF draft. There was no edit
 - Slide 11 latency TODO must not remain.
 - Keep decimal values intact and readable; align slide metrics with the final report tables.
 - Rehearse against the 25-minute maximum and prepare responses on provenance, baseline omission, model/data deviations, checker limitations, and reproducibility.
+- Cross-check every displayed number and claim against the final report after it is updated. This brief records intended corrections; the report PDF currently in the folder may not yet contain them.

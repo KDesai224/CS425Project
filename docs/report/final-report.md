@@ -1,6 +1,6 @@
 # Report revision instructions
 
-Use this as the detailed edit brief for the report draft. Keep the final report within **15 A4 pages, 11 pt minimum**, counting figures, references and appendices as required by the course guideline. The current PDF is 12 pages; revise tightly and render the final document before submission. The editable source file was not present in the project at review time, so these are specific edits to apply to the source document rather than direct edits to the PDF.
+Use this as the detailed edit brief for the report draft. Keep the final report within **15 A4 pages, 11 pt minimum**, counting figures, references and appendices as required by the course guideline. The latest PDF reviewed is 11 pages; render the revised document before submission. The editable source file was not present in the project at review time, so these are specific edits to apply to the source document rather than direct edits to the PDF.
 
 ## Page 1: title, abstract and contribution
 
@@ -32,7 +32,7 @@ Use this as the detailed edit brief for the report draft. Keep the final report 
 - Fill verified extractor details from the notebook: base `deepset/deberta-v3-large-squad2`; 3 epochs; learning rate 1e-5; max sequence 512; stride 128; train batch 8 with accumulation 4 (effective 32); inference batch 16; seed 42; weight decay 0.01; 10% warmup; 3 hard negatives; synthetic question augmentation disabled. Confirm the actual checkpoint/config files before claiming the deployed weights match each setting.
 - Include Gemma settings only after checking the Run 6 training config/log: rank 16 and learning rate 2e-4 are in the run name; the selected checkpoint is epoch 1 from an e2 run. Add actual alpha/dropout/target modules/max length/batch/hardware when verified. Do not infer missing values.
 - Give exact setup and rerun commands for preprocessing, training, model export, application, evaluation and output paths. Name all required external mounts. This checkout does not contain trained weights, shared CUAD/BM25 data, Gemma training code/sets, or the required Hugging Face cache; explain the reproduction dependency and version/checksum sources. The existing Docker setup is offline mode and cannot fetch missing assets.
-- The current root README is stale. Update it separately so its setup description agrees with the report and actual tree.
+- Keep the root README's project map and reproduction note aligned with the report and actual tree.
 
 ## Pages 5–8: evaluation results and metrics
 
@@ -60,7 +60,32 @@ Use this as the detailed edit brief for the report draft. Keep the final report 
 
 ## Layout edits observed
 
-- The report is currently 12 pages and appears to meet the page/11-pt requirements. Keep within 15 pages after edits.
+- The latest report PDF is 11 pages and appears to meet the page/11-pt requirements. Keep within 15 pages after edits.
 - Page 7 table 7 wraps decimals into separate lines (e.g. 37.19 becomes 37.1 and 9). Widen the metric columns or reduce wrapping without reducing text below 11 pt.
 - Table 8 caption is stranded at the bottom of page 7, with its body on page 8. Keep caption and table together.
 - Check the reliability table headers on page 6 and all references after content changes.
+
+## Corrections identified in the newest report draft
+
+Apply these against the latest PDF currently in `docs/report/Report Draft.pdf`; they supplement the page-oriented guidance above.
+
+- **Pages 1–2, dialogue:** reconcile the abstract's Gemma router/clarification claim with the statement that the dialogue manager was not implemented. The code supports topic clarification, active-topic tracking, and an “anything else?” request for another accepted passage. Describe this limited behavior; do not call it unrestricted dialogue.
+- **Page 1, safety:** replace “checks keep reversed meanings from reaching the user.” The documented reversal was flagged and the original is the default after a failed check. This is an observed example, not a guarantee; failed rewrites can be inspected.
+- **Page 4, DeBERTa settings:** the latest draft says batch 16 and learning rate 2e-5. The supplied notebook specifies per-device train batch 8, accumulation 4 (effective 32), inference batch 16, and learning rate 1e-5. Verify the actual deployed run config/log before correcting; do not conflate inference batch with training batch.
+- **Page 4, commands:** remove unverified `src/...` and Streamlit commands. They do not match the repository tree reviewed; the app uses FastAPI. Use commands from `deberta-docker/README.md`, `gemma-eval-docker/README.md`, and `jargonaut-app/README.md`, and state the external model/data/cache dependencies and offline loading requirement.
+- **Pages 1, 5, 8, precision:** qualify 97.4% as answerability precision (370/380); separately give accepted-span overlap precision 95.5% (363/380). Keep answerability recall 83.5% (370/443) distinct from span-hit recall 81.9% (363/443). Apply this to tables and the abstract.
+- **Page 2, annotation:** “generated and cross-verified automatically” does not identify annotators/tools. Confirm provenance with the team. Prior evaluation notes identify two Claude agents; state actual tools accurately and do not imply human or independent human validation. Agreement is not proof of correctness.
+- **Page 7, readability:** 8.3 is the mean generated-rewrite FKGL before the gate, including outputs later withheld. Do not present it as the reading grade of the displayed answers.
+- **Page 7, manual review:** reconcile “40 answers fully read” with “10 shown rewrites read in full.” State actual sample, method, and reviewer, or remove the unverified broad conclusion.
+- **Page 8, miss count:** correct “Governing Law accounts for 8 of 10 misses” to “8 of 9 total misses” or “8 of 10 Governing Law cases.”
+- **Page 8, routing:** 39/40 includes one expected-topic choice after clarification; direct routing is 38/40. State which denominator/definition is used and keep this separate from the 110-item router benchmark.
+- **Page 9, cap example:** it cannot simultaneously preserve every condition and omit “Subject to Section 4.” Acknowledge that the dropped cross-reference may point to exceptions.
+- **Pages 9–10, references/contributions:** remove duplicate Platt citation; add/verify the Gemma 4 E4B and NLI model references; retain ContractNLI only if actually used; remove the blanket claim that all references are verified unless confirmed. Confirm individual contributions with the team.
+
+## RoBERTa baseline feasibility and reporting
+
+- A proposed baseline is a useful same-task comparison: it shows whether CUAD-finetuned DeBERTa-v3-large improves on a smaller RoBERTa-base extractor. It does not compare the whole chatbot or the Gemma simplifier.
+- The DeBERTa notebook already has a `MODEL` switch for `roberta-base`, and its run name is generated from that value. This suggests the baseline is a modest code change, but running it still requires the external shared dataset/BM25 files, GPU environment, training time, and careful verification. Those data/run folders were not present in the reviewed checkout, so a baseline cannot be run or results claimed from this folder alone.
+- If the team runs it, hold the category set, train/validation/test split, chunking, examples/negatives, epoch count and evaluation procedure fixed; train RoBERTa on training only; tune its abstention threshold on validation; then evaluate the selected checkpoint once on untouched test. Report answerability precision/recall and span metrics separately, alongside EM/F1 and retrieval coverage. Label this as a baseline experiment and record the actual run/config/log.
+- Do not simply swap the model name and reuse the DeBERTa threshold: thresholds are model-specific and must be tuned on validation. Confirm tokenizer/sequence handling and that both runs use comparable training data.
+- With a 1–2 day deadline, first establish that the data and GPU are available and estimate the full run time. If those prerequisites are not ready, state the baseline was proposed but not completed and keep it as future work. Never fabricate a baseline result or select settings based on test scores.
