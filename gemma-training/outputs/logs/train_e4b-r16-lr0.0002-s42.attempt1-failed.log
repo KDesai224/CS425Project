@@ -1,0 +1,162 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/2076 [00:00<?, ?it/s]Loading weights:   0%|          | 3/2076 [00:00<07:53,  4.38it/s]Loading weights:   1%|          | 20/2076 [00:00<01:02, 32.71it/s]Loading weights:   3%|▎         | 65/2076 [00:00<00:18, 111.72it/s]Loading weights:   4%|▍         | 91/2076 [00:01<00:14, 141.53it/s]Loading weights:   6%|▋         | 132/2076 [00:01<00:09, 196.30it/s]Loading weights:   8%|▊         | 173/2076 [00:01<00:07, 247.30it/s]Loading weights:  10%|▉         | 206/2076 [00:01<00:07, 245.95it/s]Loading weights:  12%|█▏        | 256/2076 [00:01<00:06, 299.65it/s]Loading weights:  15%|█▍        | 302/2076 [00:01<00:05, 340.15it/s]Loading weights:  16%|█▋        | 340/2076 [00:01<00:06, 282.44it/s]Loading weights:  18%|█▊        | 380/2076 [00:01<00:05, 309.08it/s]Loading weights:  21%|██        | 427/2076 [00:01<00:04, 349.43it/s]Loading weights:  22%|██▏       | 466/2076 [00:02<00:04, 332.51it/s]Loading weights:  24%|██▍       | 504/2076 [00:02<00:04, 331.02it/s]Loading weights:  26%|██▋       | 545/2076 [00:02<00:04, 347.90it/s]Loading weights:  28%|██▊       | 582/2076 [00:02<00:04, 303.77it/s]Loading weights:  30%|███       | 623/2076 [00:02<00:04, 327.03it/s]Loading weights:  32%|███▏      | 658/2076 [00:02<00:04, 318.96it/s]Loading weights:  34%|███▎      | 697/2076 [00:02<00:04, 320.44it/s]Loading weights:  36%|███▌      | 746/2076 [00:02<00:03, 363.88it/s]Loading weights:  36%|███▌      | 746/2076 [00:15<00:03, 363.88it/s]Loading weights:  36%|███▋      | 755/2076 [00:27<05:10,  4.25it/s] Loading weights:  37%|███▋      | 758/2076 [00:27<05:00,  4.38it/s]Loading weights:  38%|███▊      | 785/2076 [00:28<03:32,  6.07it/s]Loading weights:  39%|███▉      | 805/2076 [00:29<02:47,  7.60it/s]Loading weights:  39%|███▉      | 820/2076 [00:30<02:20,  8.95it/s]Loading weights:  40%|████      | 831/2076 [00:30<02:07,  9.73it/s]Loading weights:  40%|████      | 840/2076 [00:30<01:47, 11.55it/s]Loading weights:  41%|████      | 849/2076 [00:31<01:41, 12.06it/s]Loading weights:  41%|████      | 856/2076 [00:31<01:28, 13.77it/s]Loading weights:  42%|████▏     | 862/2076 [00:32<01:32, 13.11it/s]Loading weights:  42%|████▏     | 874/2076 [00:32<01:03, 18.82it/s]Loading weights:  42%|████▏     | 881/2076 [00:33<01:10, 16.87it/s]Loading weights:  43%|████▎     | 894/2076 [00:33<00:53, 21.89it/s]Loading weights:  43%|████▎     | 899/2076 [00:33<01:03, 18.66it/s]Loading weights:  44%|████▎     | 907/2076 [00:33<00:49, 23.60it/s]Loading weights:  44%|████▍     | 912/2076 [00:34<01:00, 19.20it/s]Loading weights:  44%|████▍     | 916/2076 [00:34<01:00, 19.21it/s]Loading weights:  45%|████▍     | 925/2076 [00:34<00:42, 26.92it/s]Loading weights:  45%|████▍     | 930/2076 [00:35<01:01, 18.75it/s]Loading weights:  45%|████▌     | 941/2076 [00:35<00:39, 28.65it/s]Loading weights:  46%|████▌     | 947/2076 [00:35<00:56, 19.86it/s]Loading weights:  46%|████▌     | 956/2076 [00:36<00:41, 26.76it/s]Loading weights:  46%|████▋     | 962/2076 [00:36<00:43, 25.36it/s]Loading weights:  47%|████▋     | 967/2076 [00:36<00:53, 20.58it/s]Loading weights:  47%|████▋     | 975/2076 [00:36<00:41, 26.69it/s]Loading weights:  47%|████▋     | 980/2076 [00:37<00:53, 20.63it/s]Loading weights:  47%|████▋     | 984/2076 [00:37<00:53, 20.58it/s]Loading weights:  48%|████▊     | 996/2076 [00:37<00:39, 27.28it/s]Loading weights:  48%|████▊     | 1000/2076 [00:38<00:52, 20.60it/s]Loading weights:  49%|████▊     | 1010/2076 [00:38<00:35, 30.01it/s]Loading weights:  49%|████▉     | 1015/2076 [00:38<00:56, 18.78it/s]Loading weights:  49%|████▉     | 1026/2076 [00:38<00:36, 28.39it/s]Loading weights:  50%|████▉     | 1032/2076 [00:39<00:53, 19.40it/s]Loading weights:  50%|█████     | 1044/2076 [00:39<00:35, 29.22it/s]Loading weights:  51%|█████     | 1051/2076 [00:40<00:51, 19.96it/s]Loading weights:  51%|█████     | 1058/2076 [00:40<00:44, 22.98it/s]Loading weights:  51%|█████     | 1063/2076 [00:40<00:39, 25.59it/s]Loading weights:  51%|█████▏    | 1068/2076 [00:41<01:02, 16.18it/s]Loading weights:  52%|█████▏    | 1077/2076 [00:41<00:43, 23.18it/s]Loading weights:  52%|█████▏    | 1082/2076 [00:41<00:52, 18.81it/s]Loading weights:  52%|█████▏    | 1086/2076 [00:42<00:55, 17.77it/s]Loading weights:  53%|█████▎    | 1094/2076 [00:42<00:39, 25.01it/s]Loading weights:  53%|█████▎    | 1099/2076 [00:42<00:48, 20.10it/s]Loading weights:  53%|█████▎    | 1103/2076 [00:42<00:48, 20.21it/s]Loading weights:  54%|█████▎    | 1115/2076 [00:43<00:34, 27.73it/s]Loading weights:  54%|█████▍    | 1119/2076 [00:43<00:44, 21.42it/s]Loading weights:  54%|█████▍    | 1129/2076 [00:43<00:30, 31.07it/s]Loading weights:  55%|█████▍    | 1134/2076 [00:44<00:49, 18.98it/s]Loading weights:  55%|█████▌    | 1146/2076 [00:44<00:31, 29.62it/s]Loading weights:  55%|█████▌    | 1152/2076 [00:44<00:44, 20.85it/s]Loading weights:  56%|█████▌    | 1160/2076 [00:44<00:34, 26.69it/s]Loading weights:  56%|█████▌    | 1166/2076 [00:45<00:35, 25.30it/s]Loading weights:  56%|█████▋    | 1171/2076 [00:45<00:41, 21.56it/s]Loading weights:  57%|█████▋    | 1180/2076 [00:45<00:36, 24.62it/s]Loading weights:  57%|█████▋    | 1184/2076 [00:46<00:44, 20.10it/s]Loading weights:  58%|█████▊    | 1194/2076 [00:46<00:35, 25.14it/s]Loading weights:  58%|█████▊    | 1198/2076 [00:46<00:44, 19.89it/s]Loading weights:  58%|█████▊    | 1208/2076 [00:47<00:37, 23.34it/s]Loading weights:  58%|█████▊    | 1211/2076 [00:47<00:47, 18.37it/s]Loading weights:  59%|█████▉    | 1222/2076 [00:47<00:34, 24.63it/s]Loading weights:  59%|█████▉    | 1225/2076 [00:48<00:48, 17.56it/s]Loading weights:  59%|█████▉    | 1233/2076 [00:48<00:35, 24.02it/s]Loading weights:  60%|█████▉    | 1237/2076 [00:48<00:45, 18.64it/s]Loading weights:  60%|█████▉    | 1240/2076 [00:48<00:46, 18.06it/s]Loading weights:  60%|██████    | 1247/2076 [00:49<00:36, 22.57it/s]Loading weights:  60%|██████    | 1250/2076 [00:49<00:39, 21.09it/s]Loading weights:  60%|██████    | 1253/2076 [00:49<00:51, 15.93it/s]Loading weights:  61%|██████    | 1264/2076 [00:49<00:34, 23.34it/s]Loading weights:  61%|██████    | 1267/2076 [00:50<00:46, 17.36it/s]Loading weights:  61%|██████▏   | 1275/2076 [00:50<00:33, 23.84it/s]Loading weights:  62%|██████▏   | 1279/2076 [00:50<00:41, 19.15it/s]Loading weights:  62%|██████▏   | 1282/2076 [00:51<00:43, 18.40it/s]Loading weights:  62%|██████▏   | 1292/2076 [00:51<00:32, 24.45it/s]Loading weights:  62%|██████▏   | 1295/2076 [00:51<00:43, 17.89it/s]Loading weights:  63%|██████▎   | 1306/2076 [00:51<00:31, 24.58it/s]Loading weights:  63%|██████▎   | 1309/2076 [00:52<00:40, 19.00it/s]Loading weights:  64%|██████▎   | 1320/2076 [00:52<00:30, 25.06it/s]Loading weights:  64%|██████▎   | 1323/2076 [00:52<00:39, 19.25it/s]Loading weights:  64%|██████▍   | 1331/2076 [00:53<00:29, 24.93it/s]Loading weights:  64%|██████▍   | 1335/2076 [00:53<00:37, 19.89it/s]Loading weights:  64%|██████▍   | 1338/2076 [00:53<00:38, 19.10it/s]Loading weights:  65%|██████▍   | 1348/2076 [00:53<00:30, 23.87it/s]Loading weights:  65%|██████▌   | 1351/2076 [00:54<00:41, 17.46it/s]Loading weights:  66%|██████▌   | 1362/2076 [00:54<00:29, 23.82it/s]Loading weights:  66%|██████▌   | 1365/2076 [00:54<00:38, 18.39it/s]Loading weights:  66%|██████▋   | 1376/2076 [00:55<00:28, 24.15it/s]Loading weights:  66%|██████▋   | 1379/2076 [00:55<00:36, 18.90it/s]Loading weights:  67%|██████▋   | 1390/2076 [00:55<00:27, 24.92it/s]Loading weights:  67%|██████▋   | 1393/2076 [00:56<00:35, 19.23it/s]Loading weights:  68%|██████▊   | 1404/2076 [00:56<00:26, 25.28it/s]Loading weights:  68%|██████▊   | 1407/2076 [00:56<00:35, 18.80it/s]Loading weights:  68%|██████▊   | 1415/2076 [00:57<00:27, 24.38it/s]Loading weights:  68%|██████▊   | 1419/2076 [00:57<00:27, 23.73it/s]Loading weights:  70%|███████   | 1463/2076 [00:57<00:07, 84.19it/s]Loading weights:  73%|███████▎  | 1509/2076 [00:57<00:03, 147.69it/s]Loading weights:  75%|███████▍  | 1555/2076 [00:57<00:02, 206.92it/s]Loading weights:  77%|███████▋  | 1607/2076 [00:57<00:01, 274.88it/s]Loading weights:  80%|████████  | 1662/2076 [00:57<00:01, 336.52it/s]Loading weights:  83%|████████▎ | 1714/2076 [00:57<00:00, 368.12it/s]Loading weights:  85%|████████▍ | 1760/2076 [00:57<00:00, 389.95it/s]Loading weights:  88%|████████▊ | 1821/2076 [00:58<00:00, 447.85it/s]Loading weights:  90%|█████████ | 1873/2076 [00:58<00:00, 462.72it/s]Loading weights:  93%|█████████▎| 1922/2076 [00:58<00:00, 467.29it/s]Loading weights:  95%|█████████▍| 1971/2076 [00:58<00:00, 467.64it/s]Loading weights:  98%|█████████▊| 2027/2076 [00:58<00:00, 493.46it/s]Loading weights: 100%|██████████| 2076/2076 [00:58<00:00, 35.41it/s] 
+train: 139 examples (0 dropped as longer than max_seq_len)
+val: 20 examples (0 dropped as longer than max_seq_len)
+trainable params: 34,881,536 || all params: 7,975,982,368 || trainable%: 0.4373
+  0%|          | 0/72 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/workspace/scripts/03_train.py", line 169, in <module>
+    main()
+  File "/workspace/scripts/03_train.py", line 156, in main
+    trainer.train()
+  File "/usr/local/lib/python3.12/site-packages/transformers/trainer.py", line 1549, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/trainer.py", line 1631, in _inner_training_loop
+    self._run_epoch(
+  File "/usr/local/lib/python3.12/site-packages/transformers/trainer.py", line 1871, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/trainer.py", line 2043, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/trainer.py", line 2117, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/accelerate/utils/operations.py", line 943, in forward
+    return model_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/accelerate/utils/operations.py", line 931, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/peft/peft_model.py", line 2120, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/peft/tuners/tuners_utils.py", line 359, in forward
+    return self.model(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 2574, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 2421, in forward
+    outputs = self.language_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/output_capturing.py", line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 1681, in forward
+    position_embeddings[layer_type] = self.rotary_emb(hidden_states, position_ids, layer_type)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/modeling_rope_utils.py", line 128, in wrapper
+    return rope_forward(self, x, position_ids, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 1154, in forward
+    freqs = (inv_freq_expanded @ position_ids_expanded).transpose(1, 2)
+             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/usr/local/lib/python3.12/site-packages/torch/_native/registry.py", line 956, in eager_router
+    result = _dispatch(args, kwargs, swallow_cond_exceptions=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_native/registry.py", line 935, in _dispatch
+    return getattr(torch.ops._native, impl_name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_ops.py", line 1350, in __call__
+    return self._op(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_native/ops/bmm_outer_product/triton_impl.py", line 27, in _bmm_outer_product_impl
+    return bmm_outer_product(a, b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_native/ops/bmm_outer_product/triton_kernels.py", line 87, in bmm_outer_product
+    _bmm_outer_product_kernel[(B * triton.cdiv(M, BLOCK_M) * triton.cdiv(N, BLOCK_N),)](
+  File "/usr/local/lib/python3.12/site-packages/torch/_native/instrumentation.py", line 208, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/jit.py", line 374, in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/jit.py", line 731, in run
+    device = driver.active.get_current_device()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/driver.py", line 39, in active
+    self._active = self.default
+                   ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/driver.py", line 33, in default
+    self._default = _create_driver()
+                    ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/driver.py", line 21, in _create_driver
+    return active_drivers[0]()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/backends/nvidia/driver.py", line 342, in __init__
+    self.utils = CudaUtils()  # TODO: make static
+                 ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/backends/nvidia/driver.py", line 101, in __init__
+    mod = compile_module_from_file(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/build.py", line 196, in compile_module_from_file
+    return _compile_so_from_file(src_path, name, library_dirs, include_dirs, libraries, ccflags, load_module=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/build.py", line 165, in _compile_so_from_file
+    return _compile_so(src=src, src_path=src_path, name=name, library_dirs=library_dirs, include_dirs=include_dirs,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/build.py", line 149, in _compile_so
+    so = _build(name, src_path, tmpdir, library_dirs or [], include_dirs or [], libraries or [], ccflags or [],
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/build.py", line 66, in _build
+    cc = _find_compiler(language)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/triton/runtime/build.py", line 32, in _find_compiler
+    raise RuntimeError(
+RuntimeError: Failed to find C compiler. Please specify via CC environment variable or set triton.knobs.build.impl.
+  0%|          | 0/72 [00:01<?, ?it/s]

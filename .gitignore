@@ -1,5 +1,7 @@
-# Model weights and checkpoints stay local (GitHub rejects files over 100 MB)
-outputs/
+# Model weights and checkpoints stay local (GitHub rejects files over 100 MB).
+# /outputs/ is the Run 6 adapter used by the apps; outputs/ folders deeper down
+# (gemma-training/) hold committed logs and metrics, with their weights ignored below.
+/outputs/
 checkpoint-*/
 *.safetensors
 *.bin

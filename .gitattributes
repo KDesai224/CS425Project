@@ -1,0 +1,2 @@
+# Shell scripts run inside Linux containers from a Windows bind mount, so keep LF
+*.sh text eol=lf

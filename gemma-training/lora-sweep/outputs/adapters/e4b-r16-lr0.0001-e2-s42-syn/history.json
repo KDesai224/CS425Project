@@ -1,0 +1,109 @@
+{
+  "config": {
+    "model_id": "google/gemma-4-E4B-it",
+    "name": "e4b",
+    "load_in_4bit": true,
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05
+    },
+    "train": {
+      "epochs": 2,
+      "lr": 0.0001,
+      "batch_size": 2,
+      "grad_accum": 4,
+      "warmup_ratio": 0.1,
+      "max_seq_len": 2048,
+      "seed": 42
+    },
+    "generate": {
+      "batch_size": 4,
+      "max_new_tokens": 512,
+      "few_shot_k": 3
+    }
+  },
+  "train_file": "simplegal_train_syn.jsonl",
+  "zero_shot": {
+    "sari": 46.9475922883113,
+    "fkgl": 7.956920284303597,
+    "compression": 0.75490936887273,
+    "number_recall": 0.7363636363636363,
+    "nli_coverage": 0.7341288693745931
+  },
+  "best_epoch": 0.5,
+  "epochs": [
+    {
+      "epoch": 0.25,
+      "sari": 40.17136280206488,
+      "fkgl": 18.0759719128985,
+      "compression": 0.8676371208221736,
+      "number_recall": 0.7545454545454546,
+      "nli_coverage": 0.8022113800048828,
+      "eval_loss": 1.5874048471450806
+    },
+    {
+      "epoch": 0.5,
+      "sari": 41.76746522664807,
+      "fkgl": 8.456836047979962,
+      "compression": 0.8013658405703037,
+      "number_recall": 0.7545454545454546,
+      "nli_coverage": 0.725909051100413,
+      "eval_loss": 1.8702764511108398
+    },
+    {
+      "epoch": 0.75,
+      "sari": 41.06494517295141,
+      "fkgl": 8.035882258187993,
+      "compression": 0.8247986053862603,
+      "number_recall": 0.7545454545454546,
+      "nli_coverage": 0.7514370536804199,
+      "eval_loss": 1.9664280414581299
+    },
+    {
+      "epoch": 1.0,
+      "sari": 41.26848696811753,
+      "fkgl": 8.528679371666332,
+      "compression": 0.855511409033382,
+      "number_recall": 0.7545454545454546,
+      "nli_coverage": 0.7944090652465821,
+      "eval_loss": 2.016977548599243
+    },
+    {
+      "epoch": 1.25,
+      "sari": 40.574819971306894,
+      "fkgl": 8.375230355558902,
+      "compression": 0.8296041638850239,
+      "number_recall": 0.7545454545454546,
+      "nli_coverage": 0.7788209724426269,
+      "eval_loss": 2.285022735595703
+    },
+    {
+      "epoch": 1.5,
+      "sari": 40.45362218660104,
+      "fkgl": 8.231529970953554,
+      "compression": 0.8255321570942431,
+      "number_recall": 0.7545454545454546,
+      "nli_coverage": 0.8064010492960613,
+      "eval_loss": 2.2011477947235107
+    },
+    {
+      "epoch": 1.75,
+      "sari": 40.637054449439965,
+      "fkgl": 8.747955708410995,
+      "compression": 0.8307790660413568,
+      "number_recall": 0.7545454545454546,
+      "nli_coverage": 0.8031404304504395,
+      "eval_loss": 2.2358832359313965
+    },
+    {
+      "epoch": 2.0,
+      "sari": 40.56868411276915,
+      "fkgl": 8.792726340876369,
+      "compression": 0.8188442637113338,
+      "number_recall": 0.7545454545454546,
+      "nli_coverage": 0.8084312375386556,
+      "eval_loss": 2.2509050369262695
+    }
+  ]
+}

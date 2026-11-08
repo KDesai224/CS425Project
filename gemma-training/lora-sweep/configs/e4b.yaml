@@ -1,0 +1,25 @@
+# Gemma 4 E4B: the model to get the whole loop working on first.
+model_id: google/gemma-4-E4B-it
+name: e4b
+# 4-bit keeps VRAM use low. The full-precision weights are 16 GB, so plain LoRA
+# (load_in_4bit: false) should also fit on a 24 GB card with batch_size 1.
+load_in_4bit: true
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+
+train:
+  epochs: 4
+  lr: 2.0e-4
+  batch_size: 2
+  grad_accum: 4          # effective batch size = batch_size * grad_accum
+  warmup_ratio: 0.1
+  max_seq_len: 2048      # prompt + rewrite, in tokens; longer examples are dropped
+  seed: 42
+
+generate:
+  batch_size: 4
+  max_new_tokens: 512
+  few_shot_k: 3

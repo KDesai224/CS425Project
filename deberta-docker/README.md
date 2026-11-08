@@ -65,6 +65,10 @@ The first run downloads DeBERTa-v3-large (1.7 GB) into `.cache/`.
 
 `<run>` is named from the settings, e.g. `deberta-v3-large-squad2_all0_syn0_neg3`.
 
+For that local run, git holds `runs/train_log.txt`, `test_preds.jsonl`,
+`threshold.json` and `final/config.json`. The weights and tokenizer files in
+`final/` (1.7 GB) stay local.
+
 ## Changes from the original notebook
 
 | Change | Why |

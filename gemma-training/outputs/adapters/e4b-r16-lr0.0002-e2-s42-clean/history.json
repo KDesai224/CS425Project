@@ -1,0 +1,73 @@
+{
+  "config": {
+    "model_id": "google/gemma-4-E4B-it",
+    "name": "e4b",
+    "load_in_4bit": true,
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05
+    },
+    "train": {
+      "epochs": 2,
+      "lr": 0.0002,
+      "batch_size": 2,
+      "grad_accum": 4,
+      "warmup_ratio": 0.1,
+      "max_seq_len": 2048,
+      "seed": 42
+    },
+    "generate": {
+      "batch_size": 4,
+      "max_new_tokens": 512,
+      "few_shot_k": 3
+    }
+  },
+  "train_file": "simplegal_train_clean.jsonl",
+  "zero_shot": {
+    "sari": 46.9475922883113,
+    "fkgl": 7.956920284303597,
+    "compression": 0.75490936887273,
+    "number_recall": 0.7363636363636363,
+    "nli_coverage": 0.7341288693745931
+  },
+  "best_epoch": 1.0,
+  "epochs": [
+    {
+      "epoch": 0.5,
+      "sari": 52.491266252226026,
+      "fkgl": 7.501200362426653,
+      "compression": 0.2831542568805763,
+      "number_recall": 0.2818181818181818,
+      "nli_coverage": 0.0921767857670784,
+      "eval_loss": 1.0931663513183594
+    },
+    {
+      "epoch": 1.0,
+      "sari": 53.544308473315006,
+      "fkgl": 10.314744485875325,
+      "compression": 0.6101068380390199,
+      "number_recall": 0.3242424242424242,
+      "nli_coverage": 0.3817794484893481,
+      "eval_loss": 0.9083751440048218
+    },
+    {
+      "epoch": 1.5,
+      "sari": 55.5779255376411,
+      "fkgl": 8.877011514655905,
+      "compression": 0.5824856059296983,
+      "number_recall": 0.43333333333333335,
+      "nli_coverage": 0.32710552295049033,
+      "eval_loss": 0.8699173927307129
+    },
+    {
+      "epoch": 2.0,
+      "sari": 57.40373377459233,
+      "fkgl": 8.551803456813417,
+      "compression": 0.4948838906527345,
+      "number_recall": 0.43333333333333335,
+      "nli_coverage": 0.3073576621214549,
+      "eval_loss": 0.8626353144645691
+    }
+  ]
+}

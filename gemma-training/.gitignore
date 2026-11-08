@@ -1,0 +1,13 @@
+# Model weights (.cache/) and datasets (data/) stay local: scripts 01 and 02
+# download the datasets, and the first Gemma run downloads the model.
+.cache/
+data/
+# outputs/: the logs, metrics, predictions, each run's history.json and its
+# best/adapter_config.json are committed. The adapter weights (140 MB each,
+# *.safetensors at the repo root), per-epoch checkpoints and PEFT model cards stay local.
+**/outputs/adapters/*/epoch-*/
+**/outputs/adapters/**/README.md
+**/outputs/human_eval/
+__pycache__/
+*.pyc
+.env

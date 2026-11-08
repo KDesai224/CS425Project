@@ -1,0 +1,28 @@
+# LoRA learning-rate experiment: Run 6's setup with lr 1e-4 instead of 2e-4.
+# Reuses the image built by the Gemma training project in .. (jargonaut:latest),
+# so nothing is rebuilt or downloaded. Run from this folder:
+#   docker compose run --rm lora bash scripts/run_lr_experiment.sh
+# The data and model cache are not in git. They are read from .. unless GRPPROJ
+# points to the folder that holds them.
+services:
+  lora:
+    image: jargonaut:latest
+    working_dir: /workspace
+    volumes:
+      # This folder: code, configs, logs and outputs
+      - .:/workspace
+      # Training and validation pairs from the Gemma project, read-only
+      - ${GRPPROJ:-..}/data/processed:/workspace/data/processed:ro
+      # Gemma 4 E4B and the NLI model, already downloaded by the Gemma project
+      - ${GRPPROJ:-..}/.cache:/workspace/.cache
+    environment:
+      - HF_HUB_OFFLINE=1
+      - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+    shm_size: "8gb"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

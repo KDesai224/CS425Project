@@ -1,0 +1,8 @@
+{
+  "threshold": 6.25,
+  "beta": 0.5,
+  "model": "deepset/deberta-v3-large-squad2",
+  "run": "deberta-v3-large-squad2_all0_syn0_neg3",
+  "max_answer_tokens": 256,
+  "seed": 42
+}

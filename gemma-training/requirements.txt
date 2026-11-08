@@ -1,0 +1,13 @@
+# Pinned to the versions current on PyPI when this project was set up (Oct 2026).
+# torch is installed separately in the Dockerfile so the layer is cached.
+transformers==5.18.0
+peft==0.21.2
+bitsandbytes==0.50.2
+accelerate==1.15.0
+sacrebleu
+textstat==0.7.13
+krippendorff
+openpyxl==3.1.5
+pandas
+numpy
+pyyaml

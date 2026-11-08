@@ -1,4 +1,7 @@
 # Shared-Drive data, model weights and the Hugging Face cache stay local
 data/
-runs/
 .cache/
+# Training runs: train_log.txt, threshold.json, test_preds.jsonl and the model's
+# config.json are committed. The weights and tokenizer files in final/ stay local.
+runs/**/final/*
+!runs/**/final/config.json

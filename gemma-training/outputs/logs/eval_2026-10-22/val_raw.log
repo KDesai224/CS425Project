@@ -1,0 +1,4 @@
+time="2026-10-22T07:03:42+08:00" level=warning msg="Found orphan containers ([jargonaut-train-e4b]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container grpproj-jargonaut-run-c466e4ab171c Creating 
+ Container grpproj-jargonaut-run-c466e4ab171c Created 
+Wrote 20 predictions to /workspace/outputs/predictions/simplegal_val/raw.jsonl

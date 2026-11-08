@@ -1,0 +1,25 @@
+# Gemma 4 31B with 4-bit QLoRA: the stretch run. The quantised weights are about
+# 19 GB, which leaves only a few GB of a 24 GB card for activations, so everything
+# here is set for minimum memory. Close other GPU apps before running.
+model_id: google/gemma-4-31B-it
+name: 31b
+load_in_4bit: true
+
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+
+train:
+  epochs: 4
+  lr: 1.0e-4
+  batch_size: 1
+  grad_accum: 8
+  warmup_ratio: 0.1
+  max_seq_len: 1024      # examples longer than this are dropped (the script reports how many)
+  seed: 42
+
+generate:
+  batch_size: 1
+  max_new_tokens: 512
+  few_shot_k: 2

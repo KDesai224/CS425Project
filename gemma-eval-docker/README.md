@@ -54,6 +54,11 @@ Everything goes to `results/<split>/`:
 | `gemma_eval_summary.png` | the three plots |
 | `manual_review_sheet.csv` | 20 random clauses to rate by hand |
 
+The validation run's files are committed in `results/val/`, with the executed
+notebook as `executed.ipynb`. Because `predictions.csv` is reused, running the
+notebook from a fresh clone re-scores those saved rewrites. Delete it first to
+generate new ones.
+
 ## Changes from the original notebook
 
 | Change | Why |

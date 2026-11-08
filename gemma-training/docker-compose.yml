@@ -1,0 +1,21 @@
+services:
+  jargonaut:
+    build: .
+    image: jargonaut:latest
+    working_dir: /workspace
+    # The project folder is mounted as-is. Model weights (.cache/), datasets (data/)
+    # and results (outputs/) therefore live on the E: drive, not inside Docker's
+    # WSL disk on C:.
+    volumes:
+      - .:/workspace
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-}
+      - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+    shm_size: "8gb"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

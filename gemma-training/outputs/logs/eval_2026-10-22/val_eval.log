@@ -1,0 +1,27 @@
+time="2026-10-22T07:11:14+08:00" level=warning msg="Found orphan containers ([jargonaut-train-e4b]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container grpproj-jargonaut-run-b71bb128baa7 Creating 
+ Container grpproj-jargonaut-run-b71bb128baa7 Created 
+/usr/local/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/394 [00:00<?, ?it/s]Loading weights:  28%|██▊       | 109/394 [00:00<00:00, 1089.50it/s]Loading weights:  55%|█████▌    | 218/394 [00:00<00:00, 1072.73it/s]Loading weights: 100%|██████████| 394/394 [00:00<00:00, 1858.28it/s]
+scored ft-e4b-r16-lr0.0002-s42-epoch-2
+scored ft-e4b-r16-lr0.0002-s42-epoch-4
+scored raw
+scored zeroshot-e4b
+
+| system | sari | fkgl | compression | number_recall | number_precision | negation_kept | nli_supported | nli_contradicted | nli_coverage |
+|---|---|---|---|---|---|---|---|---|---|
+| ft-e4b-r16-lr0.0002-s42-epoch-2 | 60.01 [55.15, 65.14] | 8.35 [7.06, 9.86] | 0.49 [0.43, 0.55] | 0.39 [0.18, 0.62] | 1.00 [1.00, 1.00] | 0.73 [0.47, 0.93] | 0.87 [0.78, 0.94] | 0.04 [0.00, 0.10] | 0.24 [0.16, 0.33] |
+| ft-e4b-r16-lr0.0002-s42-epoch-4 | 61.34 [56.99, 66.04] | 7.87 [6.63, 9.22] | 0.50 [0.44, 0.57] | 0.39 [0.18, 0.62] | 1.00 [1.00, 1.00] | 0.73 [0.47, 0.93] | 0.88 [0.79, 0.95] | 0.01 [0.00, 0.03] | 0.32 [0.23, 0.42] |
+| raw | 37.19 [36.57, 37.84] | 28.75 [21.84, 36.99] | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 0.95 [0.91, 0.98] | 0.00 [0.00, 0.00] | 0.95 [0.91, 0.98] |
+| zeroshot-e4b | 46.95 [44.38, 49.78] | 7.96 [7.12, 8.89] | 0.75 [0.69, 0.81] | 0.74 [0.50, 0.95] | 0.88 [0.75, 1.00] | 0.80 [0.60, 1.00] | 0.92 [0.88, 0.95] | 0.03 [0.00, 0.06] | 0.73 [0.63, 0.84] |
+
+Difference from `raw` (paired bootstrap, * = 95% interval excludes zero)
+
+| system | sari | fkgl | compression | number_recall | number_precision | negation_kept | nli_supported | nli_contradicted | nli_coverage |
+|---|---|---|---|---|---|---|---|---|---|
+| ft-e4b-r16-lr0.0002-s42-epoch-2 | +22.82* | -20.39* | -0.51* | -0.61* | +0.00 | -0.27* | -0.08 | +0.04 | -0.71* |
+| ft-e4b-r16-lr0.0002-s42-epoch-4 | +24.15* | -20.87* | -0.50* | -0.61* | +0.00 | -0.27* | -0.07* | +0.01 | -0.63* |
+| zeroshot-e4b | +9.75* | -20.79* | -0.25* | -0.26* | -0.12 | -0.20 | -0.03 | +0.03* | -0.21* |
+
+Saved to /workspace/outputs/metrics/simplegal_val
